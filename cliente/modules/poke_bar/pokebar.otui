@@ -1,0 +1,355 @@
+ListBarHp < ProgressBar
+  size: 88 14
+  background-color: #ff4444
+  focusable: false
+  draggable: false
+
+UIWindow
+  id: pokeBar
+  size: 190 272
+  anchors.top: janela.top
+  anchors.left: janela.left
+  anchors.right: janela.right
+  margin-top: 15
+  &save: true
+  focusable: false
+  opacity: 1.8
+
+  ProgressBar
+    id: HP1
+    background-color: green
+    anchors.top: parent.top
+    anchors.left: parent.left
+    size: 118 14
+    margin-top: 18
+    margin-left: 40
+    image-source: progressbar
+    opacity: 0.98
+  UIItem
+    id: slot1
+    item-id: 3283
+    width: 38
+    height: 31
+    focusable: false
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 8
+    margin-left: 3
+    draggable: false
+  UIImageViewBar
+    id:bar1
+    anchors.top: parent.top
+    anchors.right: parent.right
+    size: 183 43
+    margin-top: 2
+    margin-right: 5
+    image-source: bar
+    opacity: 10.0
+  ProgressBar
+    id: HP2
+    background-color: green
+    anchors.top: bar1.bottom
+    anchors.left: parent.left
+    size: 118 14
+    margin-top: 18
+    margin-left: 40
+    image-source: progressbar
+    opacity: 0.98
+  UIItem
+    id: slot2
+    item-id: 3283
+    width: 38
+    height: 31
+    focusable: false
+    anchors.top: bar1.bottom
+    anchors.left: parent.left
+    margin-top: 8
+    margin-left: 3
+    draggable: false
+  UIImageViewBar
+    id:bar2
+    anchors.top: bar1.bottom
+    anchors.right: parent.right
+    size: 183 43
+    margin-top: 2
+    margin-right: 5
+    image-source: bar
+  ProgressBar
+    id: HP3
+    background-color: green
+    anchors.top: bar2.bottom
+    anchors.left: parent.left
+    size: 118 14
+    margin-top: 18
+    margin-left: 40
+    image-source: progressbar
+    opacity: 0.98
+  UIItem
+    id: slot3
+    item-id: 3283
+    width: 38
+    height: 31
+    focusable: false
+    anchors.top: bar2.bottom
+    anchors.left: parent.left
+    margin-top: 8
+    margin-left: 3
+    draggable: false
+  UIImageViewBar
+    id:bar3
+    anchors.top: bar2.bottom
+    anchors.right: parent.right
+    size: 183 43
+    margin-top: 2
+    margin-right: 5
+    image-source: bar
+  ProgressBar
+    id: HP4
+    background-color: green
+    anchors.top: bar3.bottom
+    anchors.left: parent.left
+    size: 118 14
+    margin-top: 18
+    margin-left: 40
+    image-source: progressbar
+    opacity: 0.98
+  UIItem
+    id: slot4
+    item-id: 3283
+    width: 38
+    height: 31
+    focusable: false
+    anchors.top: bar3.bottom
+    anchors.left: parent.left
+    margin-top: 8
+    margin-left: 3
+    draggable: false
+  UIImageViewBar
+    id:bar4
+    anchors.top: bar3.bottom
+    anchors.right: parent.right
+    size: 183 43
+    margin-top: 2
+    margin-right: 5
+    image-source: bar
+  ProgressBar
+    id: HP5
+    background-color: green
+    anchors.top: bar4.bottom
+    anchors.left: parent.left
+    size: 118 14
+    margin-top: 18
+    margin-left: 40
+    image-source: progressbar
+    opacity: 0.98
+  UIItem
+    id: slot5
+    item-id: 3283
+    width: 38
+    height: 31
+    focusable: false
+    anchors.top: bar4.bottom
+    anchors.left: parent.left
+    margin-top: 8
+    margin-left: 3
+    draggable: false
+  UIImageViewBar
+    id:bar5
+    anchors.top: bar4.bottom
+    anchors.right: parent.right
+    size: 183 43
+    margin-top: 2
+    margin-right: 5
+    image-source: bar
+  ProgressBar
+    id: HP6
+    background-color: green
+    anchors.top: bar5.bottom
+    anchors.left: parent.left
+    size: 118 14
+    margin-top: 18
+    margin-left: 40
+    image-source: progressbar
+    opacity: 0.98
+  UIItem
+    id: slot6
+    item-id: 3283
+    width: 38
+    height: 31
+    focusable: false
+    anchors.top: bar5.bottom
+    anchors.left: parent.left
+    margin-top: 8
+    margin-left: 3
+    draggable: false
+  UIImageViewBar
+    id:bar6
+    anchors.top: bar5.bottom
+    anchors.right: parent.right
+    size: 183 43
+    margin-top: 2
+    margin-right: 5
+    image-source: bar
+
+  Label
+    id: L1
+    text: aaaaaaaaaaaaaa
+    color: green
+    anchors.top: slot1.top
+    anchors.left: slot1.right
+    margin-left: 7
+    margin-top: -4
+    opacity: 1
+  Label
+    id: L2
+    text: aaaaaaaaaaaaaa
+    color: red
+    anchors.top: slot2.top
+    anchors.left: slot2.right
+    margin-left: 7
+    margin-top: -4
+    opacity: 1
+  Label
+    id: L3
+    text: aaaaaaaaaaaaaa
+    color: red
+    anchors.top: slot3.top
+    anchors.left: slot3.right
+    margin-left: 7
+    margin-top: -4
+    opacity: 1
+  Label
+    id: L4
+    text: aaaaaaaaaaaaaa
+    color: red
+    anchors.top: slot4.top
+    anchors.left: slot4.right
+    margin-left: 7
+    margin-top: -4
+    opacity: 1
+  Label
+    id: L5
+    text: aaaaaaaaaaaaaa
+    color: red
+    anchors.top: slot5.top
+    anchors.left: slot5.right
+    margin-left: 7
+    margin-top: -4
+    opacity: 1
+  Label
+    id: L6
+    text: aaaaaaaaaaaaaa
+    color: red
+    anchors.top: slot6.top
+    anchors.left: slot6.right
+    margin-left: 7
+    margin-top: -4
+    opacity: 1
+  Label
+    id: B1
+    text: Boost: +12
+    color: white
+    anchors.bottom: bar1.bottom
+    anchors.left: bar1.left
+    margin-left: 120
+    opacity: 1
+  Label
+    id: B2
+    text: Boost: +12
+    color: white
+    anchors.bottom: bar2.bottom
+    anchors.left: bar2.left
+    margin-left: 120
+    opacity: 1
+  Label
+    id: B3
+    text: Boost: +12
+    color: white
+    anchors.bottom: bar3.bottom
+    anchors.left: bar3.left
+    margin-left: 120
+    opacity: 1
+  Label
+    id: B4
+    text: Boost: +12
+    color: white
+    anchors.bottom: bar4.bottom
+    anchors.left: bar4.left
+    margin-left: 120
+    opacity: 1
+  Label
+    id: B5
+    text: Boost: +12
+    color: white
+    anchors.bottom: bar5.bottom
+    anchors.left: bar5.left
+    margin-left: 120
+    opacity: 1
+  Label
+    id: B6
+    text: Boost: +12
+    color: white
+    anchors.bottom: bar6.bottom
+    anchors.left: bar6.left
+    margin-left: 120
+    opacity: 1
+
+  UIButton
+    id: reviveButton1
+    !tooltip: tr('Reviver')
+    anchors.top: bar1.top
+    anchors.left: HP1.right
+    margin-left: 25
+    size: 15 15
+    image-source: revivepbar
+    @onClick: function(self) g_game.getProtocolGame():sendExtendedOpcode(44, "revive="..self:getParent():getChildById('L1'):getText()) end
+
+  UIButton
+    id: reviveButton2
+    !tooltip: tr('Reviver')
+    anchors.top: bar2.top
+    anchors.left: HP2.right
+    margin-left: 25
+    size: 15 15
+    image-source: revivepbar
+    @onClick: function(self) g_game.getProtocolGame():sendExtendedOpcode(44, "revive="..self:getParent():getChildById('L2'):getText()) end
+
+  UIButton
+    id: reviveButton3
+    !tooltip: tr('Reviver')
+    anchors.top: bar3.top
+    anchors.left: HP3.right
+    margin-left: 25
+    size: 15 15
+    image-source: revivepbar
+    @onClick: function(self) g_game.getProtocolGame():sendExtendedOpcode(44, "revive="..self:getParent():getChildById('L3'):getText()) end
+
+  UIButton
+    id: reviveButton4
+    !tooltip: tr('Reviver')
+    anchors.top: bar4.top
+    anchors.left: HP4.right
+    margin-left: 25
+    size: 15 15
+    image-source: revivepbar
+    @onClick: function(self) g_game.getProtocolGame():sendExtendedOpcode(44, "revive="..self:getParent():getChildById('L4'):getText()) end
+
+  UIButton
+    id: reviveButton5
+    !tooltip: tr('Reviver')
+    anchors.top: bar5.top
+    anchors.left: HP5.right
+    margin-left: 25
+    size: 15 15
+    image-source: revivepbar
+    @onClick: function(self) g_game.getProtocolGame():sendExtendedOpcode(44, "revive="..self:getParent():getChildById('L5'):getText()) end
+
+  UIButton
+    id: reviveButton6
+    !tooltip: tr('Reviver')
+    anchors.top: bar6.top
+    anchors.left: HP6.right
+    margin-left: 25
+    size: 15 15
+    image-source: revivepbar
+    @onClick: function(self) g_game.getProtocolGame():sendExtendedOpcode(44, "revive="..self:getParent():getChildById('L6'):getText()) end

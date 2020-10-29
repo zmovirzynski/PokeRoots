@@ -1,0 +1,257 @@
+UIWindow
+  id: shopWindow
+  image-source: /images//heldsmachine/heldsfusionmachine/heldsfusionmachine
+  size: 277 364
+  anchors.verticalCenter: parent.verticalCenter
+  anchors.horizontalCenter: parent.horizontalCenter
+  &save: true
+  @onEscape: modules.game_heldfusion.hide()
+
+  ScrollablePanel
+    size: 155 228
+    id: itemsPanel
+    vertical-scrollbar: scrollBar
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-left: 55
+    margin-top: 57
+
+    UIButton
+      id: 20devoted
+      image-source: /images/heldsmachine/heldsfusionmachine/FusionHeldTier1
+      size: 149 28
+      anchors.top: parent.top
+      opacity: 0.8
+      anchors.left: parent.left
+      margin-top: 2
+      margin-left: 3
+      !tooltip: tr("Ao fundir 3x Held Points Tier 1, você receberá 1x Held (Tier: 1) aleatoriamente.\n\*O X-Lucky está disponível nessa fusão.")
+      @onClick:  g_game.talk("HELDFUSION_3TIER1#")
+      $hover:
+        opacity: 1.0
+      $pressed:
+        opacity: 0.6
+
+    UIButton
+      image-source: /images/heldsmachine/heldsfusionmachine/FusionHeldTier2
+      size: 149 28
+      anchors.top: prev.bottom
+      opacity: 0.8
+      anchors.left: 20devoted.left
+      margin-top: 2
+      !tooltip: tr("Ao fundir 3x Held Points Tier 2, você receberá 1x Held (Tier: 2) aleatoriamente.\n\*O X-Lucky está disponível nessa fusão.")
+      @onClick:  g_game.talk("HELDFUSION_3TIER2#")
+      $hover:
+        opacity: 1.0
+      $pressed:
+        opacity: 0.6
+
+    UIButton
+      image-source: /images/heldsmachine/heldsfusionmachine/FusionHeldTier3
+      size: 149 28
+      anchors.top: prev.bottom
+      opacity: 0.8
+      anchors.left: 20devoted.left
+      margin-top: 2
+      !tooltip: tr("Ao fundir 3x Held Points Tier 3, você receberá 1x Held (Tier: 3) aleatoriamente.\n\*O X-Lucky está disponível nessa fusão.")
+      @onClick:  g_game.talk("HELDFUSION_3TIER3#")
+      $hover:
+        opacity: 1.0
+      $pressed:
+        opacity: 0.6
+
+    UIButton
+      image-source: /images/heldsmachine/heldsfusionmachine/FusionHeldTier4
+      size: 149 28
+      anchors.top: prev.bottom
+      opacity: 0.8
+      anchors.left: 20devoted.left
+      margin-top: 2
+      !tooltip: tr("Ao fundir 3x Held Points Tier 4, você receberá 1x Held (Tier: 4) aleatoriamente.\n\*O X-Lucky está disponível nessa fusão.")
+      @onClick:  g_game.talk("HELDFUSION_3TIER4#")
+      $hover:
+        opacity: 1.0
+      $pressed:
+        opacity: 0.6
+
+    UIButton
+      image-source: /images/heldsmachine/heldsfusionmachine/FusionHeldTier5
+      size: 149 28
+      anchors.top: prev.bottom
+      opacity: 0.8
+      anchors.left: 20devoted.left
+      margin-top: 2
+      !tooltip: tr("Ao fundir 3x Held Points Tier 5, você receberá 1x Held (Tier: 5) aleatoriamente.\n\*O X-Lucky está disponível nessa fusão.")
+      @onClick:  g_game.talk("HELDFUSION_3TIER5#")
+      $hover:
+        opacity: 1.0
+      $pressed:
+        opacity: 0.6
+
+    UIButton
+      image-source: /images/heldsmachine/heldsfusionmachine/FusionHeldTier6
+      size: 149 28
+      anchors.top: prev.bottom
+      opacity: 0.8
+      anchors.left: 20devoted.left
+      margin-top: 2
+      !tooltip: tr("Ao fundir 3x Held Points Tier 6, você receberá 1x Held (Tier: 6) aleatoriamente.\n\*O X-Lucky está disponível nessa fusão.")
+      @onClick:  g_game.talk("HELDFUSION_3TIER6#")
+      $hover:
+        opacity: 1.0
+      $pressed:
+        opacity: 0.6
+
+    UIButton
+      image-source: /images/heldsmachine/heldsfusionmachine/FusionHeldTier7
+      size: 149 28
+      anchors.top: prev.bottom
+      opacity: 0.8
+      anchors.left: 20devoted.left
+      margin-top: 2
+      !tooltip: tr("Ao fundir 3x Held Points Tier 7, você receberá 1x Held (Tier: 7) aleatoriamente.\n\*O X-Lucky está disponível nessa fusão.")
+      @onClick:  g_game.talk("HELDFUSION_3TIER7#")
+      $hover:
+        opacity: 1.0
+      $pressed:
+        opacity: 0.6
+
+    UIButton
+      image-source: /images/heldsmachine/heldsfusionmachine/FusionHeldTierRandom
+      size: 149 28
+      anchors.top: prev.bottom
+      opacity: 0.8
+      anchors.left: 20devoted.left
+      margin-top: 2
+      !tooltip: tr("Ao fundir 5x Held Points Tier 5, você receberá 1x Held (Tier: 1-7).\n\*O X-Lucky está disponível nessa fusão.")
+      @onClick:  g_game.talk("HELDFUSION_5TIERRANDOM#")
+      $hover:
+        opacity: 1.0
+      $pressed:
+        opacity: 0.6
+
+  VerticalScrollBar
+    id: scrollBar
+    step: 50
+    pixels-scroll: true
+    anchors.top: itemsPanel.top
+    anchors.left: itemsPanel.right
+    anchors.bottom: itemsPanel.bottom
+    margin-left: 11
+    opacity: 0.8
+
+  Item
+    id: devoted
+    size: 16 18
+    image-source: /images/heldsmachine/heldsfusionmachine/HELD FUSION_POINT TIER 1
+    anchors.top: itemsPanel.bottom
+    anchors.left: itemsPanel.left
+    margin-left: 25
+    margin-top: 24
+    !tooltip: tr("Held Fusion Point (Tier: 1)")
+    opacity: 0.9
+
+  Item
+    id: light
+    size: 16 18
+    image-source: /images/heldsmachine/heldsfusionmachine/HELD FUSION_POINT TIER 3
+    anchors.top: devoted.top
+    anchors.left: devoted.right
+    margin-left: 37
+    !tooltip: tr("Held Fusion Point (Tier: 3)")
+    opacity: 0.9
+
+  Item
+    id: dark
+    size: 16 18
+    image-source: /images/heldsmachine/heldsfusionmachine/HELD FUSION_POINT TIER 5
+    anchors.top: devoted.top
+    anchors.left: light.right
+    margin-left: 37
+    !tooltip: tr("Held Fusion Point (Tier: 5)")
+    opacity: 0.9
+
+  Item
+    id: fun
+    size: 16 18
+    image-source: /images/heldsmachine/heldsfusionmachine/HELD FUSION_POINT TIER 7
+    anchors.top: devoted.top
+    anchors.left: dark.right
+    margin-left: 37
+    !tooltip: tr("Held Fusion Point (Tier: 7)")
+    opacity: 0.9
+
+  Item
+    id: mighty
+    size: 16 18
+    image-source: /images/heldsmachine/heldsfusionmachine/HELD FUSION_POINT TIER 4
+    anchors.top: devoted.bottom
+    anchors.left: devoted.right
+    margin-left: 15
+    margin-top: 4
+    !tooltip: tr("Held Fusion Point (Tier: 4)")
+    opacity: 0.9
+
+  Item
+    id: honored
+    size: 16 18
+    image-source: /images/heldsmachine/heldsfusionmachine/HELD FUSION_POINT TIER 6
+    anchors.top: mighty.top
+    anchors.left: mighty.right
+    margin-left: 44
+    !tooltip: tr("Held Fusion Point (Tier: 6)")
+    opacity: 0.9
+
+  Item
+    id: boss
+    size: 16 18
+    image-source: /images/heldsmachine/heldsfusionmachine/HELD FUSION_POINT TIER 2
+    anchors.top: mighty.top
+    anchors.left: mighty.left
+    margin-left: -54
+    !tooltip: tr("Held Fusion Point (Tier: 2)")
+    opacity: 0.9
+
+  Item
+    id: conqueror
+    size: 16 18
+    image-source: /images/heldsmachine/heldsfusionmachine/HELD FUSION_POINTS ONFUSER
+    anchors.top: mighty.top
+    anchors.left: honored.right
+    margin-left: 44
+    !tooltip: tr("Held Fusion Point")
+    opacity: 0.9
+
+  UIButton
+    image-source: /images/heldsmachine/closebutton
+    size: 28 20
+    image-clip: 0 0 28 20
+    anchors.top: parent.top
+    anchors.right: parent.right
+    opacity: 0.9
+    margin-top: 20
+    margin-right: 13
+    @onClick: modules.game_heldfusion.hide()
+
+    $hover:
+      image-clip: 0 20 28 20
+      opacity: 1.0
+
+    $pressed:
+      image-clip: 0 40 28 20
+      opacity: 1.0
+
+  UIButton
+    image-source: /images/heldsmachine/heldhelpbutton
+    size: 17 17
+    anchors.top: parent.top
+    anchors.right: parent.right
+    image-clip: 0 0 17 17
+    margin-top: 17
+    margin-right: 243
+    @onClick:  g_game.talk("#HELD_POINTS_CONTAGEM#")
+    $hover:
+      image-clip: 0 17 17 17
+
+    $pressed:
+      image-clip: 0 34 17 17

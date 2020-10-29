@@ -1,0 +1,6 @@
+Label
+  id: facebookWindow
+  !text: tr('')
+  size: 115 34
+
+  @onClick: CharacterList.facebook()

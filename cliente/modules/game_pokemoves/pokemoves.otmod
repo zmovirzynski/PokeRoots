@@ -1,0 +1,10 @@
+Module
+  name: game_pokewindow
+  description: Game Poke Moves
+  author: --
+  sandboxed: true
+  scripts: [ pokemoves ]
+  autoload: true
+  autoload-priority: 1001
+  @onLoad: init()
+  @onUnload: terminate()

@@ -1,0 +1,35 @@
+MainWindow
+  id: drop
+  !text: tr('[HELD CONVERTER]')
+  focusable: true
+  size: 480 130
+  @onEscape: hide()
+
+  Label
+    id: dropText
+    color: white
+    !text: tr('Tem certeza de que deseja converter seu Held para Fusion Point?\n\n\- Held: X-Return (Tier: 1)\n\- Conversão: Held Fusion Point (Tier: 1)')
+    text-align: center
+    anchors.top: parent.top
+    text-auto-resize: true
+    text-offset: 0 1
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-top: -3
+
+  Button
+    id: noButton
+    !text: tr('No')
+    color: red
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.bottom: parent.bottom
+    margin-left: 70
+    @onClick: modules.game_addons.hide() g_game.talk("JSLearnTutorialGoToStepFour4")
+
+  Button
+    id: yeButton
+    !text: tr('Yes')
+    color: green
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.bottom: parent.bottom
+    margin-right: 70
+    @onClick: modules.game_addons.hide() g_game.talk("JSLearnTutorialGoToStepFour4")

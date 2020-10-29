@@ -1,0 +1,40 @@
+SpellIcon < UIButton
+  width: 32
+  height: 32
+  image-size: 32 32
+  image-clip: 0 0 0 0
+  color: green
+  focusable: false
+  anchors.top: parent.top
+  anchors.left: parent.left
+
+SpellProgress < UIProgressRect
+  background: #585858AA
+  percent: 100
+  focusable: false
+  font: verdana-11px-rounded
+  color: #FFFFFF
+
+UIWindow
+  image-source: bar
+  focusable: false
+  size: 38 43
+  &save: true
+  opacity: 0.95
+  margin-bottom: 190
+  anchors.horizontalCenter: parent.horizontalCenter
+  anchors.bottom: parent.bottom
+
+  UIWidget
+    id: pokeLeft
+    image-source: left
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-left: -20
+
+  UIWidget
+    id: pokeLeft
+    image-source: right
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-right: -20

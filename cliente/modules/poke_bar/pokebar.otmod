@@ -1,0 +1,11 @@
+Module  
+  name: poke_bar
+  description: pokebar
+  author: Viktor
+  website: http://potsystems.blogspot.com
+  sandboxed: true
+  autoload: true
+  autoload-priority: 1000
+  scripts: [ pokebar ]
+  @onLoad: init()
+  @onUnload: terminate()

@@ -1,0 +1,251 @@
+UIWindow
+  id: memory
+  image-source: Images/MAIN.png
+  size: 721 619
+  anchors.verticalCenter: parent.verticalCenter
+  anchors.horizontalCenter: parent.horizontalCenter
+  &save: true
+  @onEnter: hide()
+  @onEscape: hide()
+
+  UIButton
+    id: closebutton
+    size: 36 36
+    image-source: Images/BUTTONS/CLOSE
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 13
+    margin-left: 677
+    @onClick: hide()
+
+    $hover:
+      opacity: 1.0
+
+    $pressed:
+      opacity: 1.0
+
+  UIWidget
+    id: quadradocidade
+    size: 273 102
+    image-clip: 0 0 273 102
+    image-source: Images/Return Tier 5
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 134
+    margin-left: 30
+    @onClick:  g_game.talk("HELDCONVERTER_return5#")
+
+    $hover:
+      image-clip: 0 102 273 102
+      opacity: 1.0
+
+    $pressed:
+      image-clip: 0 204 273 102
+      opacity: 1.0
+
+  UIWidget
+    id: quadradocidade
+    size: 273 102
+    image-clip: 0 0 273 102
+    image-source: Images/Attack Tier 5
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 135
+    margin-left: 340
+    @onClick:  g_game.talk("HELDCONVERTER_attack5#")
+
+    $hover:
+      image-clip: 0 102 273 102
+      opacity: 1.0
+
+    $pressed:
+      image-clip: 0 204 273 102
+      opacity: 1.0
+
+  UIWidget
+    id: quadradocidade
+    size: 273 102
+    image-clip: 0 0 273 102
+    image-source: Images/Cure Tier 5
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 242
+    margin-left: 30
+    @onClick:  g_game.talk("HELDCONVERTER_cure5#")
+
+    $hover:
+      image-clip: 0 102 273 102
+      opacity: 1.0
+
+    $pressed:
+      image-clip: 0 204 273 102
+      opacity: 1.0
+
+  UIWidget
+    id: quadradocidade
+    size: 273 102
+    image-source: Images/none
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 243
+    margin-left: 340
+    @onClick: saffron()
+
+  UIWidget
+    id: quadradocidade
+    size: 273 102
+    image-clip: 0 0 273 102
+    image-source: Images/none
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 350
+    margin-left: 30
+    @onClick: celadon()
+
+  UIWidget
+    id: quadradocidade
+    size: 273 102
+    image-source: Images/none
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 351
+    margin-left: 340
+    @onClick: lavender()
+
+  UIWidget
+    id: quadradocidade
+    size: 273 102
+    image-source: Images/none
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 458
+    margin-left: 30
+    @onClick: vermilion()
+
+  UIWidget
+    id: quadradocidade
+    size: 273 102
+    image-source: Images/none
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 459
+    margin-left: 340
+    @onClick: fuchsia()
+
+  UIButton
+    id: bolinhapag1
+    size: 26 27
+    image-source: Images/balls/off/1
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 151
+    margin-left: 652
+    !tooltip: tr("Tier 1")
+    @onClick: modules.game_addons.hide() g_game.talk("#HeldConverter_P1#")
+
+    $hover:
+      opacity: 1.0
+
+    $pressed:
+      opacity: 1.0
+
+  UIButton
+    id: bolinhapag2
+    size: 26 27
+    image-source: Images/balls/off/2
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 212
+    margin-left: 652
+    !tooltip: tr("Tier 2")
+    @onClick: modules.game_addons.hide() g_game.talk("#HeldConverter_P2#")
+
+    $hover:
+      opacity: 1.0
+
+    $pressed:
+      opacity: 1.0
+
+  UIButton
+    id: bolinhapag3
+    size: 26 27
+    image-source: Images/balls/off/3
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 273
+    margin-left: 652
+    !tooltip: tr("Tier 3")
+    @onClick: modules.game_addons.hide() g_game.talk("#HeldConverter_P3#")
+
+    $hover:
+      opacity: 1.0
+
+    $pressed:
+      opacity: 1.0
+
+  UIButton
+    id: bolinhapag4
+    size: 26 27
+    image-source: Images/balls/off/4
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 335
+    margin-left: 652
+    !tooltip: tr("Tier 4")
+    @onClick: modules.game_addons.hide() g_game.talk("#HeldConverter_P4#")
+
+    $hover:
+      opacity: 1.0
+
+    $pressed:
+      opacity: 1.0
+
+  UIButton
+    id: bolinhapag5
+    size: 26 27
+    image-source: Images/balls/on/5_ON
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 397
+    margin-left: 652
+    !tooltip: tr("Tier 5")
+
+    $hover:
+      opacity: 1.0
+
+    $pressed:
+      opacity: 1.0
+
+  UIButton
+    id: bolinhapag6
+    size: 26 27
+    image-source: Images/balls/off/6
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 459
+    margin-left: 652
+    !tooltip: tr("Tier 6")
+    @onClick: modules.game_addons.hide() g_game.talk("#HeldConverter_P6#")
+
+    $hover:
+      opacity: 1.0
+
+    $pressed:
+      opacity: 1.0
+
+  UIButton
+    id: bolinhapag7
+    size: 26 27
+    image-source: Images/balls/off/7
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 514
+    margin-left: 652
+    !tooltip: tr("Tier 7")
+    @onClick: modules.game_addons.hide() g_game.talk("#HeldConverter_P7#")
+
+    $hover:
+      opacity: 1.0
+
+    $pressed:
+      opacity: 1.0

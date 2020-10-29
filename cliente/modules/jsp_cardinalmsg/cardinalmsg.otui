@@ -1,0 +1,6 @@
+MainWindow
+  id: cardinalmsgWindow
+  focusable: true
+  @onEnter: modules.jsp_cardinalmsg.hide()
+  @onEscape: modules.jsp_cardinalmsg.hide()
+  @onClick: modules.jsp_cardinalmsg.hide()

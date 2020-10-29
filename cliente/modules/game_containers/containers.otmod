@@ -1,0 +1,9 @@
+Module
+  name: game_containers
+  description: Manage containers 2.0 com window custom
+  author: edubart, baxnie, WALOX
+  website: www.otclient.info
+  sandboxed: true
+  scripts: [containers]
+  @onLoad: init()
+  @onUnload: terminate()

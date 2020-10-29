@@ -1,0 +1,9 @@
+Module
+  name: game_addons
+  description: Profieeds
+  author: Noninhouh
+  website: none
+  sandboxed: true
+  scripts: [ addons ]
+  @onLoad: init()
+  @onUnload: terminate()

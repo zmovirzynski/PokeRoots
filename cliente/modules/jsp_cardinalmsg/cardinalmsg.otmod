@@ -1,0 +1,9 @@
+Module
+  name: jsp_cardinalmsg
+  description: Cardinal Messenger
+  author: Dzru, Kttallan and GOD Vitor
+  website: none
+  sandboxed: true
+  scripts: [ cardinalmsg ]
+  @onLoad: init()
+  @onUnload: terminate()

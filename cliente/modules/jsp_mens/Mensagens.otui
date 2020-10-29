@@ -1,0 +1,26 @@
+MainWindow
+  id: placa
+  size:1250 40
+  &save: true
+  image-source: img/msg
+  opacity: 40
+  focusable: true
+  draggable: false
+
+  Label
+    id:nome
+    size:1250 40
+    text-align: center
+    font: terminus-14px-bold
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top:-31
+    margin-left:-5
+
+  UIImageView
+    id: img
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-left: -4
+    margin-top: -35
+    size: 50 48

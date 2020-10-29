@@ -1,0 +1,9 @@
+Module
+  name: game_heldfusion
+  description: Held Fusion Machine on Opcode
+  author: Ton
+  website: none
+  sandboxed: true
+  scripts: [ heldfusion ]
+  @onLoad: init()
+  @onUnload: terminate()

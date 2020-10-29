@@ -1,0 +1,10 @@
+Module
+  name: game_auto_loot
+  description: Adicione e configure seu auto-loot.
+  author: Ryukiimaru
+  website: www.facebook.com/ElderTaleOnline
+  sandboxed: true
+  autoload: true
+  scripts: [ auto_loot ]
+  @onLoad: init()
+  @onUnload: terminate()

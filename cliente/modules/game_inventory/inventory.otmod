@@ -1,0 +1,9 @@
+Module
+  name: game_inventory
+  description: Displays health, mana points, soul points, and conditions
+  author: edubart, BeniS
+  website: www.otclient.info
+  sandboxed: true
+  scripts: [ inventory ]
+  @onLoad: init()
+  @onUnload: terminate()

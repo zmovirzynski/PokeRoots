@@ -1,0 +1,154 @@
+HealthBar < ProgressBar
+  background-color: #008B8B
+  size: 100 8
+  image-color: alpha
+  icon: img/hp
+  icon-align: right
+  icon-offset: 1 0
+  border-width: 0
+  margin: 3 0 0 47
+
+ExperienceBar < ProgressBar
+  background-color: #00FF7F
+  size: 100 8
+  image-color: alpha
+  icon: img/exp
+  icon-align: right
+  icon-offset: 1 0
+  border-width: 0
+  margin: 8 0 0 55
+
+FishBar < ProgressBar
+  background-color: #FFFF00
+  size: 90 8
+  image-color: alpha
+  icon: img/fish
+  icon-align: right
+  icon-offset: 1 0
+  border-width: 0
+  margin: 13 0 0 55
+
+
+Slot < UIWidget
+  image-source: img/slot
+  font: terminus-10px
+  color: #e8c05e
+  margin-left: 8
+  icon-align: left
+
+SoulLabel < GameLabel
+  id: soulLabel
+  text-align: right
+  color: white
+  font: verdana-11px-rounded
+  anchors.bottom: parent.bottom
+  anchors.right: parent.right
+  anchors.left: parent.horizontalCenter
+  margin-top: 5
+  margin-right: 3
+  on: true
+
+  $!on:
+    visible: false
+    margin-top: 0
+    height: 0
+
+ConditionWidget < UIWidget
+  size: 18 18
+
+  $!first:
+    margin-left: 2
+
+UIWindow
+  id: healthInfoWindow
+  image-source: img/healthinfo
+  size: 253 103
+  anchors.top: parent.top
+  anchors.left: parent.left
+  margin-top: 45
+  draggable: true
+
+  Label
+    id: nameLabel
+    anchors.top: parent.top
+    anchors.left: parent.left
+    text-auto-resize: true
+    color: #000000
+    margin: 16 0 0 100
+
+  UICreature
+    id: outfitBox
+    size: 50 50
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin: 9 0 0 10
+
+  Slot
+    id: levelLabel
+    anchors.bottom: parent.bottom
+    anchors.left: parent.left
+    image-color: #FFFAFA
+    margin: 0 0 10 18
+
+  HealthBar
+    id: healthBar
+    anchors.top: nameLabel.bottom
+    anchors.left: outfitBox.right
+
+  Label
+    id: healthLabel
+    font: terminus-10px
+    anchors.top: prev.top
+    anchors.left: prev.right
+    margin: -2 0 0 8
+
+  ExperienceBar
+    id: experienceBar
+    anchors.top: healthBar.bottom
+    anchors.left: outfitBox.right
+
+  Label
+    id: experienceLabel
+    font: terminus-10px
+    anchors.top: prev.top
+    anchors.left: prev.right
+    margin: -3 0 0 7
+
+  FishBar
+    id: fishBar
+    anchors.top: experienceBar.bottom
+    anchors.left: outfitBox.right
+
+  Label
+    id: fishLabel
+    font: terminus-10px
+    anchors.top: prev.top
+    anchors.left: prev.right
+    margin: -3 0 0 5
+
+  
+    id: winnerLabel
+    anchors.top: prev.bottom
+    anchors.left: prev.left
+    margin: 2 0 0 -10
+    icon-align: left
+
+
+    id: catch
+    anchors.top: prev.top
+    anchors.left: prev.right
+    icon-align: left
+
+  
+    
+
+  Panel
+    id: panelCondition
+    layout:
+      type: horizontalBox
+    height: 22
+    padding: 2
+    margin-top: 2
+    anchors.top: prev.bottom
+    anchors.left: winnerLabel.left
+    anchors.right: parent.right

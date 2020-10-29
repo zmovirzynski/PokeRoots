@@ -1,0 +1,9 @@
+Module
+  name: game_topslot
+  description: Here is the Pokedex and the Fishing Rod.
+  author: Slicer (xTibia)
+  website: none
+  scripts: [ topslot ]
+  sandboxed: true
+  @onLoad: init()
+  @onUnload: terminate()

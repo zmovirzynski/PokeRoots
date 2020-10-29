@@ -1,0 +1,6 @@
+MainWindow
+  id: cflorWindow
+  text: Change Floor Type
+  size: 200 172
+  visible: false
+  @onEscape: MainWindow.destroy()

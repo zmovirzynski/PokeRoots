@@ -1,0 +1,38 @@
+EnterGameButton < UIButton
+ParticiparDaComunidade < UIButton
+MainWindow
+  image-source: /images/game/Module/login/windowDiscord
+  size: 480 382
+  margin-top: 50
+  margin-left: 50
+  draggable: false
+
+  EnterGameButton
+    image-source: /images/game/Module/login/DiscordFechar
+    size: 60 15
+    anchors.top: parent.top
+    anchors.left: parent.left
+    image-clip: 0 0 60 15
+    margin-top: -5
+    margin-left: 392
+    @onClick: hide()
+    $hover:
+      image-clip: 0 15 60 15
+
+    $pressed:
+      image-clip: 0 30 60 15
+
+  ParticiparDaComunidade
+    image-source: /images/game/Module/login/participar
+    size: 400 45
+    anchors.top: parent.top
+    anchors.left: parent.left
+    image-clip: 0 0 400 45
+    margin-top: 268
+    margin-left: 24
+    @onClick: discordsite()
+    $hover:
+      image-clip: 0 45 400 45
+
+    $pressed:
+      image-clip: 0 90 400 45

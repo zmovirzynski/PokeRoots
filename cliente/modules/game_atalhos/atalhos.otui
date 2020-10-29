@@ -1,0 +1,49 @@
+flyUp < UIButton
+  width: 32
+  height: 32
+  image-size: 32 32
+  image-clip: 0 0 0 0
+  image-color: white
+  focusable: false
+  anchors.top: parent.top
+  anchors.left: parent.left
+  margin-top:-5
+  margin-left:-10
+  image-source: /images/icons/fly_up_icon
+  @onClick: flyUp()
+  !tooltip: tr('Fly UP')
+  
+flyDown < UIButton
+  width: 32
+  height: 32
+  image-size: 32 32
+  image-clip: 0 0 0 0
+  image-color: white
+  focusable: false
+  anchors.top: parent.top
+  anchors.left: parent.left
+  margin-left:25
+  margin-top:-5
+  image-source: /images/icons/fly_down_icon
+  @onClick: flyDown()
+  !tooltip: tr('Fly Down')
+
+
+MainWindow
+  id: atalhos
+  size: 80  70
+  draggable: true
+  margin-top: 185
+  margin-left: 405
+  focusable: false
+  &save: true
+  image-source: /images/icons/bg_tool
+  @onEscape: self:hide()
+  
+  flyUp
+    id:flyUp
+  
+  flyDown
+    id:flyDown
+
+  

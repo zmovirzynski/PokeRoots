@@ -1,0 +1,9 @@
+Module
+  name: game_nursey
+  description: nursey joy
+  author: Walox
+  website: none
+  sandboxed: true
+  scripts: [ nursey ]
+  @onLoad: init()
+  @onUnload: terminate()

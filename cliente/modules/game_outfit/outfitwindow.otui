@@ -1,0 +1,184 @@
+NextOutfitButton < NextButton
+PrevOutfitButton < PreviousButton
+NextMountButton < NextButton
+PrevMountButton < PreviousButton
+botaobolado < UIButton
+
+MainWindow
+  size: 437 428
+  image-source: /images/game/Module/outfit/window
+
+  @onEnter: modules.game_outfit.accept()
+  @onEscape: modules.game_outfit.destroy()
+
+  // Creature Boxes
+  Creature
+    image-source: /images/game/Module/outfit/box
+    id: outfitCreatureBox
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 50
+    margin-left: 150
+    padding: 4 4 4 4
+    fixed-creature-size: true
+
+  Label
+    id: outfitName
+    !text: tr('No Outfit')
+    width: 115
+    anchors.bottom: prev.top
+    anchors.left: prev.left
+    margin-bottom: -5000
+
+  NextOutfitButton
+    id: outfitNextButton
+    anchors.left: outfitCreatureBox.right
+    anchors.verticalCenter: outfitCreatureBox.verticalCenter
+    margin-left: 5
+    enabled: true
+    @onClick: modules.game_outfit.nextOutfitType()
+
+  PrevOutfitButton
+    id: outfitPrevButton
+    anchors.right: outfitCreatureBox.left
+    anchors.verticalCenter: outfitCreatureBox.verticalCenter
+    margin-right: -5
+    enabled: true
+    @onClick: modules.game_outfit.previousOutfitType()
+
+  Creature
+    id: mountCreatureBox
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-top: 15
+    margin-right: 35
+    padding: 4 4 4 4
+    fixed-creature-size: true
+
+  Label
+    id: mountName
+    !text: tr('No Mount')
+    width: 115
+    anchors.bottom: prev.top
+    anchors.left: prev.left
+    margin-bottom: 2
+
+  NextMountButton
+    id: mountNextButton
+    anchors.left: mountCreatureBox.right
+    anchors.verticalCenter: mountCreatureBox.verticalCenter
+    margin-left: 3
+    enabled: true
+    @onClick: modules.game_outfit.nextMountType()
+
+  PrevMountButton
+    id: mountPrevButton
+    anchors.right: mountCreatureBox.left
+    anchors.verticalCenter: mountCreatureBox.verticalCenter
+    margin-right: 3
+    enabled: true
+    @onClick: modules.game_outfit.previousMountType()
+
+  // Body Selection Buttons
+
+  ButtonBox
+    id: head
+    !text: tr('Head')
+    color: #ffffff
+    anchors.top: outfitCreatureBox.bottom
+    anchors.left: parent.left
+    margin-top: 21
+    margin-left: 58
+    checked: true
+    width: 76
+
+  ButtonBox
+    id: primary
+    color: #ffffff
+    !text: tr('Primary')
+    anchors.top: prev.top
+    anchors.left: prev.right
+    width: 76
+
+  ButtonBox
+    id: secondary
+    color: #ffffff
+    !text: tr('Secondary')
+    anchors.top: prev.top
+    anchors.left: prev.right
+    width: 76
+
+  ButtonBox
+    id: detail
+    color: #ffffff
+    !text: tr('Detail')
+    anchors.top: prev.top
+    anchors.left: prev.right
+    width: 76
+
+  // Color Panel
+
+  Panel
+    id: colorBoxPanel
+    anchors.top: head.bottom
+    anchors.left: head.left
+    margin-top: 15
+    margin-left: 1
+    width: 302
+    height: 119
+    layout:
+      type: grid
+      cell-size: 14 14
+      cell-spacing: 2
+      num-columns: 19
+      num-lines: 7
+
+  // Action Button Section
+  
+  botaobolado
+    id: randomizeButton
+    image-source: /images/game/Module/outfit/embaralhar
+    size: 112 38
+    anchors.top: parent.top
+    anchors.left: parent.left
+    image-clip: 0 0 112 38
+    margin-top: 334
+    margin-left: 15
+    @onClick: modules.game_outfit.randomize()
+    $hover:
+      image-clip: 0 38 112 38
+
+    $pressed:
+      image-clip: 0 76 112 38
+
+  botaobolado
+    id: outfitOkButton
+    image-source: /images/game/Module/outfit/escolher
+    size: 112 38
+    anchors.top: parent.top
+    anchors.left: parent.left
+    image-clip: 0 0 112 38
+    margin-top: 334
+    margin-left: 280
+    @onClick: modules.game_outfit.accept()
+    $hover:
+      image-clip: 0 38 112 38
+
+    $pressed:
+      image-clip: 0 76 112 38
+
+  botaobolado
+    id: outfitCancelButton
+    image-source: /images/game/Module/outfit/fechar
+    size: 34 34
+    anchors.top: parent.top
+    anchors.left: parent.left
+    image-clip: 0 0 34 34
+    margin-top: -7
+    margin-left: 368
+    @onClick: modules.game_outfit.destroy()
+    $hover:
+      image-clip: 0 34 34 34
+
+    $pressed:
+      image-clip: 0 68 34 34

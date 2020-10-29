@@ -1,0 +1,34 @@
+MainWindow
+  id: drop
+  !text: tr('Attention')
+  focusable: true
+  size: 420 85
+  @onEscape: modules.game_interface.hideDropWindow()
+
+  Label
+    id: dropText
+    color: white
+    !text: tr('You are throwing a pokemon or a bag on the ground, are you sure?')
+    text-align: center
+    anchors.top: parent.top
+    text-auto-resize: true
+    text-offset: 0 1
+    anchors.horizontalCenter: parent.horizontalCenter
+    margin-top: -11
+
+  Button
+    id: yesButton
+    !text: tr('Yes')
+    color: green
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.bottom: parent.bottom
+    margin-right: 35
+
+  Button
+    id: noButton
+    !text: tr('No')
+    color: red
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.bottom: parent.bottom
+    @onClick: modules.game_interface.hideDropWindow()
+    margin-left: 35

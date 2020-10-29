@@ -1,0 +1,9 @@
+Module
+  name: game_tplistwindow2
+  description: Janela
+  author: GOD Vitor
+  website: none
+  sandboxed: true
+  scripts: [ tplistwindow2 ]
+  @onLoad: init()
+  @onUnload: terminate()

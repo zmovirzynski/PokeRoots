@@ -1,0 +1,11 @@
+Module
+  name: iconWindow
+  description: Emoticon
+  author: Kryo Shiee (Vietnamese)
+  website: fb.com/shiko.erye
+  sandboxed: true
+  autoload: true
+  autoload-priority: 1000
+  scripts: [iconwindow]
+  @onLoad: init()
+  @onUnload: terminate()

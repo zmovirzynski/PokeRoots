@@ -1,0 +1,9 @@
+Module
+  name: jsp_mens
+  description: Mensagens Personalizadas via Opcodes
+  author: X ZERO
+  website: none
+  sandboxed: true
+  scripts: [ MENSAGENS ]
+  @onLoad: init()
+  @onUnload: terminate()

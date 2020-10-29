@@ -1,0 +1,9 @@
+Module
+  name: game_held
+  description: Held Machine on Opcode
+  author: Ton
+  website: none
+  sandboxed: true
+  scripts: [ held ]
+  @onLoad: init()
+  @onUnload: terminate()

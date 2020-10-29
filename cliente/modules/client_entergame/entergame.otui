@@ -1,0 +1,285 @@
+EnterGameWindow < MainWindow
+  image-source: /images/game/Module/login/window
+  
+
+CriarAccount < UIButton
+Youtube < UIButton
+Facebook < UIButton
+Discord < UIButton
+Twitch < UIButton
+RecuperarAccount < UIButton
+EnterGameButton < Button
+
+ServerListButton < UIButton
+  size: 17 17
+  image-source: /images/topbuttons/minimap
+  image-color: #ffffffff
+
+  $hover !disabled:
+    image-color: #ffffff99
+
+  $pressed:
+    image-color: #ffffff44
+
+  $disabled:
+    image-color: #ffffff55
+
+EnterGameWindow
+  id: enterGame
+  margin-top: 50
+  margin-left: 0
+  &authenticatorEnabled: false
+  &authenticatorHeight: 44
+  &stayLoggedBoxEnabled: false
+  &stayLoggedBoxHeight: 24
+  @onEnter: EnterGame.doLogin()
+
+  MenuLabel
+    anchors.left: parent.left
+    anchors.top: parent.top
+    text-auto-resize: true
+
+  PasswordTextEdit
+    id: accountNameTextEdit
+    image-source: /images/game/Module/login/text
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.top: prev.bottom
+    margin-top: 27
+
+  MenuLabel
+    anchors.left: prev.left
+    anchors.top: prev.bottom
+    margin-top: 1
+    text-auto-resize: true
+
+  PasswordTextEdit
+    image-source: /images/game/Module/login/text
+    id: accountPasswordTextEdit
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.top: prev.bottom
+    margin-top: -4
+
+  MenuLabel
+    id: authenticatorTokenLabel
+    !text: tr('Authenticator Token')
+    anchors.left: prev.left
+    anchors.top: prev.bottom
+    text-auto-resize: true
+    margin-top: -12
+    visible: false
+
+    $on:
+      visible: true
+      margin-top: 8
+
+  TextEdit
+    id: authenticatorTokenTextEdit
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.top: prev.bottom
+    margin-top: -22
+    visible: false
+    max-length: 8
+
+    $on:
+      visible: true
+      margin-top: 2
+
+  CheckBox
+    id: stayLoggedBox
+    !text: tr('Stay logged during session')
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.top: prev.bottom
+    margin-top: 6
+    margin-top: -16
+    visible: false
+
+    $on:
+      visible: true
+      margin-top: 8
+
+  MenuLabel
+    id: serverLabel
+    !text: tr('Server')
+    anchors.left: prev.left
+    anchors.top: prev.bottom
+    margin-top: 8
+    text-auto-resize: true
+
+  ServerListButton
+    id: serverListButton
+    !tooltip: tr('Server list')
+    anchors.right: parent.right
+    anchors.top: serverLabel.bottom
+    margin-top: 3
+    @onClick: ServerList.show()
+
+  TextEdit
+    id: serverHostTextEdit
+    !tooltip: tr('Make sure that your client uses\nthe correct game client version')
+    anchors.left: parent.left
+    anchors.right: serverListButton.left
+    anchors.top: serverLabel.bottom
+    margin-top: 2
+    margin-right: 4
+
+  MenuLabel
+    id: clientLabel
+    !text: tr('Client Version')
+    anchors.left: parent.left
+    anchors.top: serverHostTextEdit.bottom
+    text-auto-resize: true
+    margin-right: 10
+    margin-top: 8
+
+  ComboBox
+    id: clientComboBox
+    anchors.left: parent.left
+    anchors.right: parent.horizontalCenter
+    anchors.top: clientLabel.bottom
+    margin-top: 2
+    margin-right: 3
+    width: 90
+    menu-scroll: true
+    menu-height: 125
+    menu-scroll-step: 25
+
+  MenuLabel
+    id: portLabel
+    !text: tr('Port')
+    anchors.left: serverPortTextEdit.left
+    anchors.top: serverHostTextEdit.bottom
+    margin-top: 8
+    text-auto-resize: true
+
+  TextEdit
+    id: serverPortTextEdit
+    text: 7171
+    anchors.right: parent.right
+    anchors.left: parent.horizontalCenter
+    anchors.top: clientComboBox.top
+    margin-left: 3
+
+  CheckBox
+    id: rememberPasswordBox
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.top: prev.bottom
+    margin-top: -10
+    margin-lef: 1
+    @onCheckChange: self:getParent():getChildById('autoLoginBox'):setEnabled(self:isChecked())
+
+  CheckBox
+    id: autoLoginBox
+    enabled: false
+    anchors.left: parent.left
+    anchors.right: parent.right
+    anchors.top: prev.bottom
+    margin-top: 10000000
+    opacity: 0
+
+  EnterGameButton
+    @onClick: EnterGame.doLogin()
+    !text: tr('Login')
+    anchors.left: parent.left
+    anchors.top: parent.top
+    margin-top: 100
+    margin-left: 100
+
+  RecuperarAccount
+    !tooltip: tr('Recupera Account')
+    image-source: /images/game/Module/login/recuperar
+    size: 101 13
+    anchors.top: parent.top
+    anchors.left: parent.left
+    image-clip: 0 0 101 13
+    margin-top: 245
+    margin-left: -2
+    @onClick: os.execute("start http://pokemon.servegame.com:8090//index.php/account/lost")
+    $hover:
+      image-clip: 0 13 101 13
+
+    $pressed:
+      image-clip: 0 26 101 13
+
+  CriarAccount
+    !tooltip: tr('Criar account')
+    image-source: /images/game/Module/login/criar
+    size: 206 24
+    anchors.top: parent.top
+    anchors.left: parent.left
+    image-clip: 0 0 206 24
+    margin-top: 260
+    margin-right: 3
+    @onClick: os.execute("start http://pokemon.servegame.com:8090//index.php/account/create/")
+    $hover:
+      image-clip: 0 24 206 24
+
+    $pressed:
+      image-clip: 0 48 206 24
+
+  Youtube
+    !tooltip: tr('Site')
+    image-source: /images/game/Module/login/site
+    size: 44 31
+    anchors.top: parent.top
+    anchors.left: parent.left
+    image-clip: 0 0 44 31
+    margin-top: 156
+    margin-left: 4
+    @onClick: os.execute("start http://pokemon.servegame.com:8090/")
+    $hover:
+
+  Facebook
+    !tooltip: tr('Pagina no facebook')
+    image-source: /images/game/Module/login/facebook
+    size: 31 31
+    anchors.top: parent.top
+    anchors.left: parent.left
+    image-clip: 0 0 31 31
+    margin-top: 156
+    margin-left: 67
+    @onClick: os.execute("start https://www.facebook.com/")
+    $hover:
+      
+
+  Discord
+    !tooltip: tr('Grupo do Facebook')
+    image-source: /images/game/Module/login/facebook2
+    size: 31 31
+    anchors.top: parent.top
+    anchors.left: parent.left
+    image-clip: 0 0 31 31
+    margin-top: 156
+    margin-left: 119
+    @onClick: os.execute("start https://www.facebook.com/groups/1788135964749165/")
+    $hover:
+      
+
+  Twitch
+    !tooltip: tr('PandaLaw')
+    image-source: /images/game/Module/login/twitch
+    size: 34 34
+    anchors.top: parent.top
+    anchors.left: parent.left
+    image-clip: 0 0 34 34
+    margin-top: 156
+    margin-left: 172
+    @onClick: os.execute("start https://www.twitch.tv/0siqueira")
+    $hover:
+      image-clip: 0 34 34 34
+
+    $pressed:
+      image-clip: 0 68 34 34
+
+  Label
+    id: serverInfoLabel
+    font: verdana-11px-rounded
+    anchors.top: prev.top
+    anchors.left: parent.left
+    margin-top: 5
+    color: green
+    text-auto-resize: true

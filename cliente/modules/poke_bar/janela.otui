@@ -1,0 +1,11 @@
+UIWindow
+  id: janela
+  size: 190 12
+  anchors.left: parent.left
+  anchors.top: parent.top
+  margin-top: 200
+  margin-left: 2
+  @onHoverChange: modules.poke_bar.onMoveBottomPanelHoverChange(self)
+  focusable: false
+  opacity: 0
+  background-color: #FFFFFF75

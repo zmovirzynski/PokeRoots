@@ -1,0 +1,13 @@
+Module
+  name: Atalhos
+  description: Atalhos para comandos
+  author: Jeffs
+  website: pokedub.zapto.org:8080/
+
+  autoload: true
+  autoload-priority: 1000
+
+  scripts: [ atalhos ]
+  sandboxed: false
+  @onLoad: init()
+  @onUnload: terminate()

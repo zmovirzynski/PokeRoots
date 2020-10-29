@@ -1,0 +1,255 @@
+UIWindow
+  id: shopWindow
+  image-source: /images//heldsmachine/heldsmachine
+  size: 277 364
+  anchors.verticalCenter: parent.verticalCenter
+  anchors.horizontalCenter: parent.horizontalCenter
+  &save: true
+  @onEscape: modules.game_held.hide()
+
+  ScrollablePanel
+    size: 155 228
+    id: itemsPanel
+    vertical-scrollbar: scrollBar
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-left: 55
+    margin-top: 57
+
+    UIButton
+      id: 20devoted
+      image-source: /images/heldsmachine/OPTIONS FULL/DEVOTED/DEVOTED20
+      size: 149 28
+      anchors.top: parent.top
+      opacity: 0.8
+      anchors.left: parent.left
+      margin-top: 2
+      margin-left: 3
+      !tooltip: tr("Ao trocar, você recebe 1x held de tier aleatório que varia entre tier 1 e 2.\n\*O X-Lucky não está disponível na lista de aleatórios.")
+      @onClick:  g_game.talk("HELDMACHINE_20DEVOTED#")
+      $hover:
+        opacity: 1.0
+      $pressed:
+        opacity: 0.6
+
+    UIButton
+      image-source: /images/heldsmachine/OPTIONS FULL/MIGHTY/MIGHTY70
+      size: 149 28
+      anchors.top: prev.bottom
+      opacity: 0.8
+      anchors.left: 20devoted.left
+      margin-top: 2
+      !tooltip: tr("Ao trocar, você recebe 1x held de tier aleatório que varia entre tier 1, 2 e 3.\n\*O X-Lucky não está disponível na lista de aleatórios.")
+      @onClick:  g_game.talk("HELDMACHINE_70MIGHTY#")
+      $hover:
+        opacity: 1.0
+      $pressed:
+        opacity: 0.6
+
+    UIButton
+      image-source: /images/heldsmachine/OPTIONS FULL/MIGHTY/MIGHTY150
+      size: 149 28
+      anchors.top: prev.bottom
+      opacity: 0.8
+      anchors.left: 20devoted.left
+      margin-top: 2
+      !tooltip: tr("Ao trocar, você recebe 1x held de tier aleatório que varia entre tier 2, 3 e 4.\n\*O X-Lucky não está disponível na lista de aleatórios.")
+      @onClick:  g_game.talk("HELDMACHINE_150MIGHTY#")
+      $hover:
+        opacity: 1.0
+      $pressed:
+        opacity: 0.6
+
+    UIButton
+      image-source: /images/heldsmachine/OPTIONS FULL/MIGHTY/MIGHTY300
+      size: 149 28
+      anchors.top: prev.bottom
+      opacity: 0.8
+      anchors.left: 20devoted.left
+      margin-top: 2
+      !tooltip: tr("Ao trocar, você recebe 1x held de tier aleatório que varia entre tier 2, 4, 5 e 6.\n\*O X-Lucky não está disponível na lista de aleatórios.")
+      @onClick:  g_game.talk("HELDMACHINE_300MIGHTY#")
+      $hover:
+        opacity: 1.0
+      $pressed:
+        opacity: 0.6
+
+    UIButton
+      image-source: /images/heldsmachine/OPTIONS FULL/HONORED/HONORED30
+      size: 149 28
+      anchors.top: prev.bottom
+      opacity: 0.8
+      anchors.left: 20devoted.left
+      margin-top: 2
+      !tooltip: tr("Ao trocar, você recebe 1x held de tier aleatório que varia entre tier 1, 2 e 3.\n\*O X-Lucky não está disponível na lista de aleatórios.")
+      @onClick:  g_game.talk("HELDMACHINE_30HONORED#")
+      $hover:
+        opacity: 1.0
+      $pressed:
+        opacity: 0.6
+
+    UIButton
+      image-source: /images/heldsmachine/OPTIONS FULL/HONORED/HONORED75
+      size: 149 28
+      anchors.top: prev.bottom
+      opacity: 0.8
+      anchors.left: 20devoted.left
+      margin-top: 2
+      !tooltip: tr("Ao trocar, você recebe 1x held de tier aleatório que varia entre tier 2, 3 e 4.\n\*O X-Lucky não está disponível na lista de aleatórios.")
+      @onClick:  g_game.talk("HELDMACHINE_75HONORED#")
+      $hover:
+        opacity: 1.0
+      $pressed:
+        opacity: 0.6
+
+    UIButton
+      image-source: /images/heldsmachine/OPTIONS FULL/HONORED/HONORED150
+      size: 149 28
+      anchors.top: prev.bottom
+      opacity: 0.8
+      anchors.left: 20devoted.left
+      margin-top: 2
+      !tooltip: tr("Ao trocar, você recebe 1x held de tier aleatório que varia entre tier 2, 4, 5 e 6.\n\*O X-Lucky não está disponível na lista de aleatórios.")
+      @onClick:  g_game.talk("HELDMACHINE_150HONORED#")
+      $hover:
+        opacity: 1.0
+      $pressed:
+        opacity: 0.6
+
+  VerticalScrollBar
+    id: scrollBar
+    step: 50
+    pixels-scroll: true
+    anchors.top: itemsPanel.top
+    anchors.left: itemsPanel.right
+    anchors.bottom: itemsPanel.bottom
+    margin-left: 11
+    opacity: 0.8
+
+  Item
+    id: devoted
+    size: 16 18
+    image-source: /images/heldsmachine/devotedtoken
+    anchors.top: itemsPanel.bottom
+    anchors.left: itemsPanel.left
+    margin-left: 25
+    margin-top: 24
+    !tooltip: tr("Devoted Token")
+    opacity: 0.9
+
+  Item
+    id: light
+    size: 16 18
+    image-source: /images/heldsmachine/lighttoken
+    anchors.top: devoted.top
+    anchors.left: devoted.right
+    margin-left: 37
+    !tooltip: tr("Light Token")
+    opacity: 0.9
+
+  Item
+    id: dark
+    size: 16 18
+    image-source: /images/heldsmachine/darktoken
+    anchors.top: devoted.top
+    anchors.left: light.right
+    margin-left: 37
+    !tooltip: tr("Dark Token")
+    opacity: 0.9
+
+  Item
+    id: fun
+    size: 16 18
+    image-source: /images/heldsmachine/funtoken
+    anchors.top: devoted.top
+    anchors.left: dark.right
+    margin-left: 37
+    !tooltip: tr("Fun Token")
+    opacity: 0.9
+
+  Item
+    id: dimensional
+    size: 16 18
+    image-source: /images/heldsmachine/dimensionaltoken
+    anchors.top: fun.top
+    anchors.left: devoted.left
+    margin-left: -50
+    !tooltip: tr("Dimensional Token")
+    opacity: 0.9
+
+  Item
+    id: mighty
+    size: 16 18
+    image-source: /images/heldsmachine/mightytoken
+    anchors.top: devoted.bottom
+    anchors.left: devoted.right
+    margin-left: 15
+    margin-top: 4
+    !tooltip: tr("Mighty Token")
+    opacity: 0.9
+
+  Item
+    id: honored
+    size: 16 18
+    image-source: /images/heldsmachine/honoredtoken
+    anchors.top: mighty.top
+    anchors.left: mighty.right
+    margin-left: 44
+    !tooltip: tr("Honored Token")
+    opacity: 0.9
+
+  Item
+    id: boss
+    size: 16 18
+    image-source: /images/heldsmachine/bosstoken
+    anchors.top: mighty.top
+    anchors.left: mighty.left
+    margin-left: -54
+    !tooltip: tr("Boss Token")
+    opacity: 0.9
+      @onClick:  g_game.talk("OPCAO INDISPONIVEL")
+
+  Item
+    id: conqueror
+    size: 16 18
+    image-source: /images/heldsmachine/conquerortoken
+    anchors.top: mighty.top
+    anchors.left: honored.right
+    margin-left: 44
+    !tooltip: tr("Conqueror Token")
+    opacity: 0.9
+      @onClick:  g_game.talk("OPCAO INDISPONIVEL")
+
+  UIButton
+    image-source: /images/heldsmachine/closebutton
+    size: 28 20
+    image-clip: 0 0 28 20
+    anchors.top: parent.top
+    anchors.right: parent.right
+    opacity: 0.9
+    margin-top: 20
+    margin-right: 13
+    @onClick: modules.game_held.hide()
+
+    $hover:
+      image-clip: 0 20 28 20
+      opacity: 1.0
+
+    $pressed:
+      image-clip: 0 40 28 20
+      opacity: 1.0
+
+  UIButton
+    image-source: /images/heldsmachine/heldhelpbutton
+    size: 17 17
+    anchors.top: parent.top
+    anchors.right: parent.right
+    image-clip: 0 0 17 17
+    margin-top: 17
+    margin-right: 243
+    @onClick:  g_game.talk("#HELD_TOKENS_CONTAGEM#")
+    $hover:
+      image-clip: 0 17 17 17
+
+    $pressed:
+      image-clip: 0 34 17 17

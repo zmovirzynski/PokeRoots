@@ -1,0 +1,247 @@
+UIWindow
+  id: memory
+  image-source: Images/MAIN.png
+  size: 721 619
+  anchors.verticalCenter: parent.verticalCenter
+  anchors.horizontalCenter: parent.horizontalCenter
+  &save: true
+  @onEnter: hide()
+  @onEscape: hide()
+
+  UIWidget
+    id: iconDitto
+    size: 16 16
+    image-source: /images/game/skulls/skull_white1
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 24
+    margin-left: 201
+
+  UIWidget
+    id: iconDitto
+    size: 16 16
+    image-source: /images/game/skulls/skull_white1
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 24
+    margin-left: 468
+
+  UIWidget
+    id: quadradocidade
+    size: 273 102
+    image-source: Images/SEMINFO
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 134
+    margin-left: 30
+
+  UIWidget
+    id: quadradocidade
+    size: 273 102
+    image-source: Images/SEMINFO
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 135
+    margin-left: 340
+
+  UIWidget
+    id: quadradocidade
+    size: 273 102
+    image-source: Images/SEMINFO
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 242
+    margin-left: 30
+
+  UIWidget
+    id: quadradocidade
+    size: 273 102
+    image-source: Images/SEMINFO
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 243
+    margin-left: 340
+
+  UIWidget
+    id: quadradocidade
+    size: 273 102
+    image-source: Images/SEMINFO
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 350
+    margin-left: 30
+
+  UIWidget
+    id: quadradocidade
+    size: 273 102
+    image-source: Images/SEMINFO
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 351
+    margin-left: 340
+
+  UIWidget
+    id: quadradocidade
+    size: 273 102
+    image-source: Images/SEMINFO
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 458
+    margin-left: 30
+
+  UIWidget
+    id: quadradocidade
+    size: 273 102
+    image-source: Images/SEMINFO
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 459
+    margin-left: 340
+
+  UIButton
+    id: bolinhapag1
+    size: 26 27
+    image-source: Images/balls/off/1
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 164
+    margin-left: 652
+    !tooltip: tr("Página 1/5")
+    @onClick: modules.game_tplistwindow5.hide() g_game.talk("#PAG_ONE1#")
+
+    $hover:
+      opacity: 1.0
+
+    $pressed:
+      opacity: 1.0
+
+  UIButton
+    id: bolinhapag2
+    size: 26 27
+    image-source: Images/balls/off/2
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 246
+    margin-left: 652
+    !tooltip: tr("Página 2/5")
+    @onClick: modules.game_tplistwindow5.hide() g_game.talk("#PAG_TWO2#")
+
+    $hover:
+      opacity: 1.0
+
+    $pressed:
+      opacity: 1.0
+
+  UIButton
+    id: bolinhapag3
+    size: 26 27
+    image-source: Images/balls/off/3
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 331
+    margin-left: 652
+    !tooltip: tr("Página 3/5")
+    @onClick: modules.game_tplistwindow5.hide() g_game.talk("#PAG_THREE3#")
+
+    $hover:
+      opacity: 1.0
+
+    $pressed:
+      opacity: 1.0
+
+  UIButton
+    id: bolinhapag4
+    size: 26 27
+    image-source: Images/balls/off/4
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 414
+    margin-left: 652
+    !tooltip: tr("Página 4/5")
+    @onClick: modules.game_tplistwindow5.hide() g_game.talk("#PAG_FOUR4#")
+
+    $hover:
+      opacity: 1.0
+
+    $pressed:
+      opacity: 1.0
+
+  UIButton
+    id: bolinhapag5
+    size: 26 27
+    image-source: Images/balls/on/5_ON
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 501
+    margin-left: 652
+    !tooltip: tr("Página 5/5")
+
+    $hover:
+      opacity: 1.0
+
+    $pressed:
+      opacity: 1.0
+
+  UIButton
+    id: back
+    size: 89 31
+    image-source: Images/BUTTONS/ANTERIOR_ON
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 575
+    margin-left: 596
+    @onClick: modules.game_tplistwindow5.hide() g_game.talk("#PAG_FOUR4#")
+
+    $hover:
+      opacity: 1.0
+
+    $pressed:
+      opacity: 1.0
+
+  UIButton
+    id: closebutton
+    size: 36 36
+    image-source: Images/BUTTONS/CLOSE
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 13
+    margin-left: 677
+    @onClick: modules.game_tplistwindow5.hide()
+
+    $hover:
+      opacity: 1.0
+
+    $pressed:
+      opacity: 1.0
+
+  UIButton
+    id: helpbutton
+    size: 36 36
+    image-source: Images/BUTTONS/HELP
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 13
+    margin-left: 8
+    !tooltip: tr("Através desse recurso você pode teleportar-se para as cidades de todos os continentes com apenas dois cliques.\n\n\*Você Sabia?\n\- Existem held itens que fazem o tempo de espera do teleport de seu pokémon ser reduzido!")
+
+    $hover:
+      opacity: 1.0
+
+    $pressed:
+      opacity: 1.0
+
+  UIButton
+    id: pokemontplist
+    size: 200 31
+    image-source: Images/BUTTONS/TP_POKEMON_LIST
+    anchors.top: parent.top
+    anchors.left: parent.left
+    margin-top: 575
+    margin-left: 32
+    @onClick: g_game.talk("#SONEKZ_TPWINDOW_POKEMONTPLIST#")
+
+    $hover:
+      opacity: 1.0
+
+    $pressed:
+      opacity: 1.0

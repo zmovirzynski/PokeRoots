@@ -1,0 +1,10 @@
+MainWindow
+  image-source: /images/game/Module/nursey/window
+  size: 358 200
+  margin-top: 135
+  margin-left: -280
+  &save: true
+  draggable: false
+  @onEnter: hide()
+  @onEscape: hide()
+  @onClick: hide()
