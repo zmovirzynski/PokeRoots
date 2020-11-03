@@ -1,0 +1,6618 @@
+# depslib dependency file v1.0
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\actions.cpp
+	"otpch.h"
+	"const.h"
+	"actions.h"
+	"tools.h"
+	"player.h"
+	"monster.h"
+	"npc.h"
+	"item.h"
+	"container.h"
+	"game.h"
+	"configmanager.h"
+	"combat.h"
+	"spells.h"
+	"house.h"
+	"beds.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\otpch.h
+	<winerror.h>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<libxml/threads.h>
+	<boost/config.hpp>
+	<boost/function.hpp>
+	<boost/bind.hpp>
+	<boost/regex.hpp>
+	<boost/tokenizer.hpp>
+	"thing.h"
+
+1507360706 c:\users\home\desktop\serviço\source pda by kevick\thing.h
+	"position.h"
+
+1260655112 c:\users\home\desktop\serviço\source pda by kevick\position.h
+	<stdlib.h>
+	<cmath>
+	<iostream>
+	<vector>
+
+1518311089 c:\users\home\desktop\serviço\source pda by kevick\const.h
+	"definitions.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\definitions.h
+	"exception.h"
+	<cstring>
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\exception.h
+	"otsystem.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\otsystem.h
+	"definitions.h"
+	<string>
+	<algorithm>
+	<bitset>
+	<queue>
+	<set>
+	<vector>
+	<list>
+	<map>
+	<limits>
+	<boost/utility.hpp>
+	<boost/asio.hpp>
+	<boost/thread.hpp>
+	<boost/foreach.hpp>
+	<boost/shared_ptr.hpp>
+	<stddef.h>
+	<stdlib.h>
+	<stdint.h>
+	<time.h>
+	<assert.h>
+	<windows.h>
+	<sys/timeb.h>
+	<sys/timeb.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<unistd.h>
+	<time.h>
+	<netdb.h>
+	<errno.h>
+	<arpa/inet.h>
+	<netinet/in.h>
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\actions.h
+	"baseevents.h"
+	"luascript.h"
+	"thing.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\baseevents.h
+	"otsystem.h"
+	"luascript.h"
+	<libxml/parser.h>
+
+1518312402 c:\users\home\desktop\serviço\source pda by kevick\luascript.h
+	"otsystem.h"
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+	"database.h"
+	"position.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\database.h
+	"otsystem.h"
+	"enums.h"
+	<sstream>
+	"databasemysql.h"
+	"databasesqlite.h"
+	"databaseodbc.h"
+	"databasepgsql.h"
+
+1518312339 c:\users\home\desktop\serviço\source pda by kevick\enums.h
+	<string>
+	<list>
+
+1507360706 c:\users\home\desktop\serviço\source pda by kevick\databasemysql.h
+	<winsock2.h>
+	<mysql.h>
+	<mysql/mysql.h>
+	<sstream>
+	<map>
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\databasesqlite.h
+	<sqlite3.h>
+	<sstream>
+	<map>
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\databaseodbc.h
+	<windows.h>
+	<sqltypes.h>
+	<sql.h>
+	<sqlext.h>
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\databasepgsql.h
+	<postgresql/libpq-fe.h>
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\tools.h
+	"otsystem.h"
+	"enums.h"
+	"const.h"
+	<libxml/parser.h>
+	<boost/tokenizer.hpp>
+	"position.h"
+
+1518312356 c:\users\home\desktop\serviço\source pda by kevick\player.h
+	"otsystem.h"
+	"enums.h"
+	"creature.h"
+	"cylinder.h"
+	"container.h"
+	"depot.h"
+	"outfit.h"
+	"vocation.h"
+	"group.h"
+	"protocolgame.h"
+	"ioguild.h"
+	"party.h"
+	"npc.h"
+
+1513288490 c:\users\home\desktop\serviço\source pda by kevick\creature.h
+	"otsystem.h"
+	"templates.h"
+	<boost/any.hpp>
+	"const.h"
+	"enums.h"
+	"map.h"
+	"condition.h"
+	"creatureevent.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\templates.h
+	"otsystem.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\map.h
+	"tools.h"
+	"fileloader.h"
+	"position.h"
+	"waypoints.h"
+	"tile.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\fileloader.h
+	"otsystem.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\waypoints.h
+	"otsystem.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\tile.h
+	<boost/shared_ptr.hpp>
+	"cylinder.h"
+	"item.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\cylinder.h
+	"otsystem.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\item.h
+	"otsystem.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"thing.h"
+	"itemattributes.h"
+	"items.h"
+	"raids.h"
+
+1507360706 c:\users\home\desktop\serviço\source pda by kevick\itemattributes.h
+	"otsystem.h"
+	<boost/any.hpp>
+
+1508371280 c:\users\home\desktop\serviço\source pda by kevick\items.h
+	"otsystem.h"
+	"itemloader.h"
+	"const.h"
+	"enums.h"
+	"position.h"
+	<libxml/parser.h>
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\itemloader.h
+	"fileloader.h"
+
+1507360706 c:\users\home\desktop\serviço\source pda by kevick\raids.h
+	"otsystem.h"
+	"const.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"baseevents.h"
+	"position.h"
+	"tools.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\condition.h
+	"otsystem.h"
+	"const.h"
+	"enums.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"fileloader.h"
+
+1518312430 c:\users\home\desktop\serviço\source pda by kevick\creatureevent.h
+	"enums.h"
+	"baseevents.h"
+	"tile.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\container.h
+	"otsystem.h"
+	"cylinder.h"
+	"item.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\depot.h
+	"container.h"
+
+1260655112 c:\users\home\desktop\serviço\source pda by kevick\outfit.h
+	"otsystem.h"
+	"enums.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\vocation.h
+	"otsystem.h"
+	"enums.h"
+
+1507360706 c:\users\home\desktop\serviço\source pda by kevick\group.h
+	"otsystem.h"
+
+1518312248 c:\users\home\desktop\serviço\source pda by kevick\protocolgame.h
+	"otsystem.h"
+	"enums.h"
+	"protocol.h"
+	"creature.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\protocol.h
+	"otsystem.h"
+	"rsa.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\rsa.h
+	"otsystem.h"
+	"gmp.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\ioguild.h
+	"otsystem.h"
+	"player.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\party.h
+	"player.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\globalevent.h
+	"baseevents.h"
+	"const.h"
+	"scheduler.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\scheduler.h
+	"otsystem.h"
+	"tasks.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\tasks.h
+	"otsystem.h"
+	<boost/function.hpp>
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\npc.h
+	"templates.h"
+	"const.h"
+	"creature.h"
+	"luascript.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\monster.h
+	"monsters.h"
+	"raids.h"
+	"tile.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\monsters.h
+	"otsystem.h"
+	"creature.h"
+
+1518312519 c:\users\home\desktop\serviço\source pda by kevick\game.h
+	"otsystem.h"
+	"enums.h"
+	"templates.h"
+	"scheduler.h"
+	"map.h"
+	"spawn.h"
+	"item.h"
+	"player.h"
+	"npc.h"
+	"monster.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\spawn.h
+	"otsystem.h"
+	"templates.h"
+	"position.h"
+	"tile.h"
+	"monster.h"
+
+1507360706 c:\users\home\desktop\serviço\source pda by kevick\configmanager.h
+	"luascript.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\combat.h
+	"otsystem.h"
+	"baseevents.h"
+	"condition.h"
+	"map.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\spells.h
+	"otsystem.h"
+	"enums.h"
+	"player.h"
+	"luascript.h"
+	"baseevents.h"
+	"actions.h"
+	"talkaction.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\talkaction.h
+	"otsystem.h"
+	"enums.h"
+	"player.h"
+	"tools.h"
+	"luascript.h"
+	"baseevents.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\house.h
+	"otsystem.h"
+	<boost/regex.hpp>
+	<boost/tr1/unordered_set.hpp>
+	"position.h"
+	"housetile.h"
+	"player.h"
+
+1507360706 c:\users\home\desktop\serviço\source pda by kevick\housetile.h
+	"tile.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\beds.h
+	"item.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\admin.cpp
+	"otpch.h"
+	<iostream>
+	"admin.h"
+	"rsa.h"
+	"tools.h"
+	"configmanager.h"
+	"game.h"
+	"connection.h"
+	"outputmessage.h"
+	"networkmessage.h"
+	"house.h"
+	"town.h"
+	"iologindata.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\admin.h
+	"otsystem.h"
+	"textlogger.h"
+	"player.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\textlogger.h
+	"otsystem.h"
+	<ostream>
+	<fstream>
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\connection.h
+	"otsystem.h"
+	"networkmessage.h"
+	<boost/utility.hpp>
+	<boost/enable_shared_from_this.hpp>
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\networkmessage.h
+	"otsystem.h"
+	"const.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\outputmessage.h
+	"otsystem.h"
+	"tools.h"
+	"connection.h"
+	"networkmessage.h"
+	<iostream>
+	<sstream>
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\town.h
+	"otsystem.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\iologindata.h
+	"otsystem.h"
+	"database.h"
+	"creature.h"
+	"player.h"
+	"account.h"
+	"group.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\account.h
+	"otsystem.h"
+	"gameservers.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\gameservers.h
+	"otsystem.h"
+	"resources.h"
+	"const.h"
+
+1518311150 c:\users\home\desktop\serviço\source pda by kevick\resources.h
+	"definitions.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\allocator.cpp
+	"otpch.h"
+	"allocator.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\allocator.h
+	"otsystem.h"
+	<boost/pool/pool.hpp>
+	<memory>
+	<cstdlib>
+	<fstream>
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\baseevents.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	"baseevents.h"
+	"tools.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\beds.cpp
+	"otpch.h"
+	"beds.h"
+	"house.h"
+	"player.h"
+	"iologindata.h"
+	"game.h"
+	"configmanager.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\chat.cpp
+	"otpch.h"
+	"chat.h"
+	"player.h"
+	"iologindata.h"
+	"configmanager.h"
+	"game.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\chat.h
+	"otsystem.h"
+	<fstream>
+	"const.h"
+	"party.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\combat.cpp
+	"otpch.h"
+	"const.h"
+	"combat.h"
+	"tools.h"
+	"game.h"
+	"configmanager.h"
+	"creature.h"
+	"player.h"
+	"weapons.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\weapons.h
+	"otsystem.h"
+	"const.h"
+	"combat.h"
+	"baseevents.h"
+	"luascript.h"
+	"player.h"
+	"item.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\condition.cpp
+	"otpch.h"
+	"condition.h"
+	"tools.h"
+	"game.h"
+	"creature.h"
+	"combat.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\configmanager.cpp
+	"otpch.h"
+	<iostream>
+	"configmanager.h"
+	"tools.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\connection.cpp
+	"otpch.h"
+	"connection.h"
+	"protocol.h"
+	"protocolgame.h"
+	"protocolold.h"
+	"admin.h"
+	"status.h"
+	"outputmessage.h"
+	"scheduler.h"
+	"server.h"
+	"configmanager.h"
+	"tools.h"
+	"textlogger.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\protocolold.h
+	"protocol.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\status.h
+	"otsystem.h"
+	"protocol.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\server.h
+	"otsystem.h"
+	<boost/enable_shared_from_this.hpp>
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\container.cpp
+	"otpch.h"
+	"container.h"
+	"game.h"
+	"iomap.h"
+	"player.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\iomap.h
+	"status.h"
+	"map.h"
+	"house.h"
+	"spawn.h"
+	"item.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\creature.cpp
+	"otpch.h"
+	"creature.h"
+	"player.h"
+	"npc.h"
+	"monster.h"
+	"condition.h"
+	"combat.h"
+	"container.h"
+	"exception.h"
+	"configmanager.h"
+	"game.h"
+
+1518312485 source:c:\users\home\desktop\serviço\source pda by kevick\creatureevent.cpp
+	"otpch.h"
+	<sstream>
+	"creatureevent.h"
+	"player.h"
+	"tools.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\cylinder.cpp
+	"otpch.h"
+	"cylinder.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\database.cpp
+	"otpch.h"
+	<string>
+	"database.h"
+	"databasemysql.h"
+	"databasesqlite.h"
+	"databaseodbc.h"
+	"databasepgsql.h"
+	"configmanager.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\databasemanager.cpp
+	"otpch.h"
+	"enums.h"
+	<iostream>
+	"databasemanager.h"
+	"tools.h"
+	"configmanager.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\databasemanager.h
+	"database.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\databasemysql.cpp
+	"otpch.h"
+	"scheduler.h"
+	"database.h"
+	"databasemysql.h"
+	"errmsg.h"
+	<mysql/errmsg.h>
+	<iostream>
+	"configmanager.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\databasesqlite.cpp
+	"otpch.h"
+	<iostream>
+	<boost/regex.hpp>
+	"database.h"
+	"databasesqlite.h"
+	"tools.h"
+	"configmanager.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\depot.cpp
+	"otpch.h"
+	"depot.h"
+	"tools.h"
+
+1507360706 source:c:\users\home\desktop\serviço\source pda by kevick\exception.cpp
+	"otpch.h"
+	"exception.h"
+	<iostream>
+	<iomanip>
+	<fstream>
+	<excpt.h>
+	<tlhelp32.h>
+	<boost/config.hpp>
+	"tools.h"
+	"configmanager.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\fileloader.cpp
+	"otpch.h"
+	"fileloader.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\gameservers.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"gameservers.h"
+	"tools.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\globalevent.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"globalevent.h"
+	"tools.h"
+	"player.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\group.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"group.h"
+	"tools.h"
+
+1507360706 source:c:\users\home\desktop\serviço\source pda by kevick\gui.cpp
+	"gui.h"
+	<tchar.h>
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\gui.h
+	"definitions.h"
+	"resources.h"
+	"playerbox.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\playerbox.h
+	"otsystem.h"
+
+1260655112 source:c:\users\home\desktop\serviço\source pda by kevick\gui_resources.rc
+	"resources.h"
+	<windows.h>
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\house.cpp
+	"otpch.h"
+	"house.h"
+	"tools.h"
+	"database.h"
+	"beds.h"
+	"town.h"
+	"iologindata.h"
+	"ioguild.h"
+	"iomapserialize.h"
+	"configmanager.h"
+	"game.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\iomapserialize.h
+	"otsystem.h"
+	"database.h"
+	"map.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\housetile.cpp
+	"otpch.h"
+	"housetile.h"
+	"house.h"
+	"game.h"
+	"configmanager.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\inputbox.cpp
+	"inputbox.h"
+
+1507360706 c:\users\home\desktop\serviço\source pda by kevick\inputbox.h
+	"otsystem.h"
+	<tchar.h>
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\ioban.cpp
+	"otpch.h"
+	"ioban.h"
+	"tools.h"
+	"database.h"
+	"iologindata.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\ioban.h
+	"otsystem.h"
+	"enums.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\ioguild.cpp
+	"otpch.h"
+	"ioguild.h"
+	"database.h"
+	"configmanager.h"
+	"game.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\iologindata.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"iologindata.h"
+	"tools.h"
+	"gameservers.h"
+	"town.h"
+	"house.h"
+	"item.h"
+	"vocation.h"
+	"configmanager.h"
+	"game.h"
+
+1507360706 source:c:\users\home\desktop\serviço\source pda by kevick\iomap.cpp
+	"otpch.h"
+	"iomap.h"
+	"fileloader.h"
+	"map.h"
+	"town.h"
+	"tile.h"
+	"item.h"
+	"container.h"
+	"depot.h"
+	"teleport.h"
+	"beds.h"
+	"game.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\teleport.h
+	"tile.h"
+
+1507360706 source:c:\users\home\desktop\serviço\source pda by kevick\iomapserialize.cpp
+	"otpch.h"
+	"iomapserialize.h"
+	"house.h"
+	"iologindata.h"
+	"configmanager.h"
+	"game.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\item.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"item.h"
+	"container.h"
+	"depot.h"
+	"teleport.h"
+	"trashholder.h"
+	"mailbox.h"
+	"luascript.h"
+	"combat.h"
+	"house.h"
+	"beds.h"
+	"actions.h"
+	"configmanager.h"
+	"game.h"
+	"movement.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\trashholder.h
+	"tile.h"
+	"const.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\mailbox.h
+	"const.h"
+	"cylinder.h"
+	"item.h"
+
+1507360706 c:\users\home\desktop\serviço\source pda by kevick\movement.h
+	"baseevents.h"
+	"creature.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\itemattributes.cpp
+	"otpch.h"
+	"itemattributes.h"
+	"fileloader.h"
+
+1508371264 source:c:\users\home\desktop\serviço\source pda by kevick\items.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	"items.h"
+	"condition.h"
+	"weapons.h"
+	"configmanager.h"
+	"spells.h"
+
+1518312391 source:c:\users\home\desktop\serviço\source pda by kevick\luascript.cpp
+	"otpch.h"
+	"luascript.h"
+	"scriptmanager.h"
+	<boost/filesystem.hpp>
+	<boost/any.hpp>
+	<iostream>
+	<iomanip>
+	"player.h"
+	"item.h"
+	"teleport.h"
+	"town.h"
+	"house.h"
+	"housetile.h"
+	"database.h"
+	"iologindata.h"
+	"ioban.h"
+	"iomapserialize.h"
+	"talkaction.h"
+	"spells.h"
+	"combat.h"
+	"condition.h"
+	"baseevents.h"
+	"monsters.h"
+	"raids.h"
+	"configmanager.h"
+	"vocation.h"
+	"status.h"
+	"game.h"
+	"chat.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\scriptmanager.h
+	"otsystem.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\mailbox.cpp
+	"otpch.h"
+	"mailbox.h"
+	"player.h"
+	"iologindata.h"
+	"depot.h"
+	"town.h"
+	"configmanager.h"
+	"game.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\map.cpp
+	"otpch.h"
+	<iomanip>
+	<boost/config.hpp>
+	<boost/bind.hpp>
+	"iomap.h"
+	"map.h"
+	"tile.h"
+	"creature.h"
+	"player.h"
+	"combat.h"
+	"iomapserialize.h"
+	"items.h"
+	"game.h"
+
+1507360706 source:c:\users\home\desktop\serviço\source pda by kevick\md5.cpp
+	"otpch.h"
+	"md5.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\md5.h
+	"definitions.h"
+
+1507360706 source:c:\users\home\desktop\serviço\source pda by kevick\movement.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"movement.h"
+	"tools.h"
+	"creature.h"
+	"player.h"
+	"tile.h"
+	"vocation.h"
+	"combat.h"
+	"game.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\networkmessage.cpp
+	"otpch.h"
+	<iostream>
+	"networkmessage.h"
+	"position.h"
+	"rsa.h"
+	"container.h"
+	"creature.h"
+	"player.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\npc.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<functional>
+	<iostream>
+	<fstream>
+	"npc.h"
+	"tools.h"
+	"luascript.h"
+	"position.h"
+	"spells.h"
+	"vocation.h"
+	"configmanager.h"
+	"game.h"
+
+1518301051 source:c:\users\home\desktop\serviço\source pda by kevick\otserv.cpp
+	"otpch.h"
+	"otsystem.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+	<unistd.h>
+	<boost/config.hpp>
+	"server.h"
+	"gameservers.h"
+	"networkmessage.h"
+	"game.h"
+	"chat.h"
+	"tools.h"
+	"rsa.h"
+	"textlogger.h"
+	"protocollogin.h"
+	"protocolgame.h"
+	"protocolold.h"
+	"status.h"
+	"admin.h"
+	"configmanager.h"
+	"scriptmanager.h"
+	"databasemanager.h"
+	"iologindata.h"
+	"ioban.h"
+	"outfit.h"
+	"vocation.h"
+	"group.h"
+	"monsters.h"
+	"allocator.h"
+	"exception.h"
+	"shellapi.h"
+	"gui.h"
+	"inputbox.h"
+	"commctrl.h"
+	"resources.h"
+	<exception>
+
+1507360706 c:\users\home\desktop\serviço\source pda by kevick\protocollogin.h
+	"protocol.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\outfit.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"outfit.h"
+	"tools.h"
+	"player.h"
+	"condition.h"
+	"game.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\outputmessage.cpp
+	"otpch.h"
+	"scheduler.h"
+	"outputmessage.h"
+	"protocol.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\party.cpp
+	"otpch.h"
+	"party.h"
+	"player.h"
+	"chat.h"
+	"game.h"
+	"configmanager.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\player.cpp
+	"otpch.h"
+	<iostream>
+	"player.h"
+	"iologindata.h"
+	"ioban.h"
+	"town.h"
+	"house.h"
+	"beds.h"
+	"combat.h"
+	"gui.h"
+	"movement.h"
+	"weapons.h"
+	"creatureevent.h"
+	"configmanager.h"
+	"game.h"
+	"chat.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\playerbox.cpp
+	"otpch.h"
+	"playerbox.h"
+	"gui.h"
+	"player.h"
+	"ioban.h"
+	"game.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\position.cpp
+	"otpch.h"
+	<iomanip>
+	"position.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\protocol.cpp
+	"otpch.h"
+	<winerror.h>
+	"protocol.h"
+	"scheduler.h"
+	"connection.h"
+	"outputmessage.h"
+	"tools.h"
+	"rsa.h"
+
+1518300941 source:c:\users\home\desktop\serviço\source pda by kevick\protocolgame.cpp
+	"otpch.h"
+	"resources.h"
+	<boost/function.hpp>
+	<iostream>
+	"protocolgame.h"
+	"textlogger.h"
+	"waitlist.h"
+	"player.h"
+	"connection.h"
+	"networkmessage.h"
+	"outputmessage.h"
+	"iologindata.h"
+	"ioban.h"
+	"items.h"
+	"tile.h"
+	"house.h"
+	"actions.h"
+	"creatureevent.h"
+	"quests.h"
+	"chat.h"
+	"configmanager.h"
+	"game.h"
+	"gui.h"
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\waitlist.h
+
+1507360708 c:\users\home\desktop\serviço\source pda by kevick\quests.h
+	"otsystem.h"
+	"networkmessage.h"
+	"player.h"
+
+1507360706 source:c:\users\home\desktop\serviço\source pda by kevick\protocollogin.cpp
+	"otpch.h"
+	"resources.h"
+	<iomanip>
+	"protocollogin.h"
+	"tools.h"
+	"rsa.h"
+	"iologindata.h"
+	"ioban.h"
+	"gui.h"
+	"outputmessage.h"
+	"connection.h"
+	"configmanager.h"
+	"game.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\protocolold.cpp
+	"otpch.h"
+	"resources.h"
+	"protocolold.h"
+	"rsa.h"
+	"outputmessage.h"
+	"connection.h"
+	"gui.h"
+	"game.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\quests.cpp
+	"otpch.h"
+	"quests.h"
+	"tools.h"
+
+1507360706 source:c:\users\home\desktop\serviço\source pda by kevick\raids.cpp
+	"otpch.h"
+	"raids.h"
+	"player.h"
+	"game.h"
+	"configmanager.h"
+
+1507360706 source:c:\users\home\desktop\serviço\source pda by kevick\rsa.cpp
+	"otpch.h"
+	"rsa.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\scheduler.cpp
+	"otpch.h"
+	"scheduler.h"
+	"exception.h"
+
+1518311485 source:c:\users\home\desktop\serviço\source pda by kevick\scriptmanager.cpp
+	"otpch.h"
+	"scriptmanager.h"
+	<boost/filesystem.hpp>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"actions.h"
+	"movement.h"
+	"spells.h"
+	"talkaction.h"
+	"creatureevent.h"
+	"globalevent.h"
+	"weapons.h"
+	"monsters.h"
+	"spawn.h"
+	"raids.h"
+	"group.h"
+	"vocation.h"
+	"outfit.h"
+	"quests.h"
+	"items.h"
+	"chat.h"
+	"configmanager.h"
+	"luascript.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\server.cpp
+	"otpch.h"
+	"server.h"
+	"connection.h"
+	"outputmessage.h"
+	"textlogger.h"
+	"game.h"
+	"configmanager.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\sha1.cpp
+	"otpch.h"
+	"sha1.h"
+
+1507360706 c:\users\home\desktop\serviço\source pda by kevick\sha1.h
+
+1507360706 source:c:\users\home\desktop\serviço\source pda by kevick\spawn.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"spawn.h"
+	"tools.h"
+	"player.h"
+	"npc.h"
+	"configmanager.h"
+	"game.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\spells.cpp
+	"otpch.h"
+	"const.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"spells.h"
+	"tools.h"
+	"house.h"
+	"housetile.h"
+	"combat.h"
+	"monsters.h"
+	"configmanager.h"
+	"game.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\status.cpp
+	"otpch.h"
+	"resources.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"status.h"
+	"tools.h"
+	"connection.h"
+	"networkmessage.h"
+	"outputmessage.h"
+	"configmanager.h"
+	"game.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\talkaction.cpp
+	"otpch.h"
+	"talkaction.h"
+	<boost/config.hpp>
+	<boost/version.hpp>
+	"iologindata.h"
+	"ioban.h"
+	"player.h"
+	"npc.h"
+	"house.h"
+	"town.h"
+	"teleport.h"
+	"status.h"
+	"textlogger.h"
+	"outputmessage.h"
+	"connection.h"
+	"admin.h"
+	"protocollogin.h"
+	"protocolold.h"
+	"configmanager.h"
+	"game.h"
+	"chat.h"
+	"tools.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\tasks.cpp
+	"otpch.h"
+	"tasks.h"
+	"outputmessage.h"
+	"exception.h"
+	"game.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\teleport.cpp
+	"otpch.h"
+	"teleport.h"
+	"game.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\textlogger.cpp
+	"otpch.h"
+	"textlogger.h"
+	"tools.h"
+	"gui.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\thing.cpp
+	"otpch.h"
+	"thing.h"
+	"cylinder.h"
+	"tile.h"
+	"item.h"
+	"creature.h"
+	"player.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\tile.cpp
+	"otpch.h"
+	<iostream>
+	"tile.h"
+	"housetile.h"
+	"player.h"
+	"creature.h"
+	"teleport.h"
+	"trashholder.h"
+	"mailbox.h"
+	"combat.h"
+	"movement.h"
+	"game.h"
+	"configmanager.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\tools.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"tools.h"
+	"md5.h"
+	"sha1.h"
+	"vocation.h"
+	"configmanager.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\trashholder.cpp
+	"otpch.h"
+	"trashholder.h"
+	"game.h"
+	"spells.h"
+
+1507360706 source:c:\users\home\desktop\serviço\source pda by kevick\vocation.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"vocation.h"
+	"tools.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\waitlist.cpp
+	"otpch.h"
+	"waitlist.h"
+	"player.h"
+	"configmanager.h"
+	"game.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\weapons.cpp
+	"otpch.h"
+	"weapons.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"game.h"
+	"configmanager.h"
+	"tools.h"
+
+1513288337 source:c:\users\home\desktop\serviço\source pda by kevick\monster.cpp
+	"otpch.h"
+	"monster.h"
+	"spawn.h"
+	"monsters.h"
+	"spells.h"
+	"combat.h"
+	"configmanager.h"
+	"game.h"
+
+1507360708 source:c:\users\home\desktop\serviço\source pda by kevick\monsters.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"monsters.h"
+	"tools.h"
+	"monster.h"
+	"luascript.h"
+	"container.h"
+	"weapons.h"
+	"spells.h"
+	"combat.h"
+	"configmanager.h"
+	"game.h"
+
+1518312514 source:c:\users\home\desktop\serviço\source pda by kevick\game.cpp
+	"otpch.h"
+	"game.h"
+	"configmanager.h"
+	"gameservers.h"
+	"server.h"
+	"chat.h"
+	"luascript.h"
+	"creature.h"
+	"combat.h"
+	"tile.h"
+	"database.h"
+	"iologindata.h"
+	"ioban.h"
+	"ioguild.h"
+	"items.h"
+	"container.h"
+	"monsters.h"
+	"house.h"
+	"quests.h"
+	"actions.h"
+	"globalevent.h"
+	"movement.h"
+	"raids.h"
+	"scriptmanager.h"
+	"spells.h"
+	"talkaction.h"
+	"weapons.h"
+	"vocation.h"
+	"group.h"
+	"textlogger.h"
+	"exception.h"
+
+1345402012 source:c:\users\home\desktop\serviço\sources pda\actions.cpp
+	"otpch.h"
+	"const.h"
+	"actions.h"
+	"tools.h"
+	"player.h"
+	"monster.h"
+	"npc.h"
+	"item.h"
+	"container.h"
+	"game.h"
+	"configmanager.h"
+	"combat.h"
+	"spells.h"
+	"house.h"
+	"beds.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+
+1260655112 c:\users\home\desktop\serviço\sources pda\otpch.h
+	<winerror.h>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<libxml/threads.h>
+	<boost/config.hpp>
+	<boost/function.hpp>
+	<boost/bind.hpp>
+	<boost/regex.hpp>
+	<boost/tokenizer.hpp>
+	"thing.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\thing.h
+	"position.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\position.h
+	<stdlib.h>
+	<cmath>
+	<iostream>
+	<vector>
+
+1430938969 c:\users\home\desktop\serviço\sources pda\const.h
+	"definitions.h"
+
+1288737306 c:\users\home\desktop\serviço\sources pda\definitions.h
+	"exception.h"
+	<cstring>
+
+1260655112 c:\users\home\desktop\serviço\sources pda\exception.h
+	"otsystem.h"
+
+1261686680 c:\users\home\desktop\serviço\sources pda\otsystem.h
+	"definitions.h"
+	<string>
+	<algorithm>
+	<bitset>
+	<queue>
+	<set>
+	<vector>
+	<list>
+	<map>
+	<limits>
+	<boost/utility.hpp>
+	<boost/asio.hpp>
+	<boost/thread.hpp>
+	<boost/foreach.hpp>
+	<boost/shared_ptr.hpp>
+	<stddef.h>
+	<stdlib.h>
+	<stdint.h>
+	<time.h>
+	<assert.h>
+	<windows.h>
+	<sys/timeb.h>
+	<sys/timeb.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<unistd.h>
+	<time.h>
+	<netdb.h>
+	<errno.h>
+	<arpa/inet.h>
+	<netinet/in.h>
+
+1345402014 c:\users\home\desktop\serviço\sources pda\actions.h
+	"baseevents.h"
+	"luascript.h"
+	"thing.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\baseevents.h
+	"otsystem.h"
+	"luascript.h"
+	<libxml/parser.h>
+
+1518315066 c:\users\home\desktop\serviço\sources pda\luascript.h
+	"otsystem.h"
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+	"database.h"
+	"position.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\database.h
+	"otsystem.h"
+	"enums.h"
+	<sstream>
+	"databasemysql.h"
+	"databasesqlite.h"
+	"databaseodbc.h"
+	"databasepgsql.h"
+
+1430939048 c:\users\home\desktop\serviço\sources pda\enums.h
+	<string>
+	<list>
+
+1260655112 c:\users\home\desktop\serviço\sources pda\databasemysql.h
+	<winsock2.h>
+	<mysql.h>
+	<mysql/mysql.h>
+	<sstream>
+	<map>
+
+1260655112 c:\users\home\desktop\serviço\sources pda\databasesqlite.h
+	<sqlite3.h>
+	<sstream>
+	<map>
+
+1260655112 c:\users\home\desktop\serviço\sources pda\databaseodbc.h
+	<windows.h>
+	<sqltypes.h>
+	<sql.h>
+	<sqlext.h>
+
+1260655112 c:\users\home\desktop\serviço\sources pda\databasepgsql.h
+	<postgresql/libpq-fe.h>
+
+1346006042 c:\users\home\desktop\serviço\sources pda\tools.h
+	"otsystem.h"
+	"enums.h"
+	"const.h"
+	<libxml/parser.h>
+	<boost/tokenizer.hpp>
+	"position.h"
+
+1518314834 c:\users\home\desktop\serviço\sources pda\player.h
+	"otsystem.h"
+	"enums.h"
+	"creature.h"
+	"cylinder.h"
+	"container.h"
+	"depot.h"
+	"outfit.h"
+	"vocation.h"
+	"group.h"
+	"protocolgame.h"
+	"ioguild.h"
+	"party.h"
+	"npc.h"
+
+1518314922 c:\users\home\desktop\serviço\sources pda\creature.h
+	"otsystem.h"
+	"templates.h"
+	<boost/any.hpp>
+	"const.h"
+	"enums.h"
+	"map.h"
+	"condition.h"
+	"creatureevent.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\templates.h
+	"otsystem.h"
+
+1249596076 c:\users\home\desktop\serviço\sources pda\map.h
+	"tools.h"
+	"fileloader.h"
+	"position.h"
+	"waypoints.h"
+	"tile.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\fileloader.h
+	"otsystem.h"
+
+1249596076 c:\users\home\desktop\serviço\sources pda\waypoints.h
+	"otsystem.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\tile.h
+	<boost/shared_ptr.hpp>
+	"cylinder.h"
+	"item.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\cylinder.h
+	"otsystem.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\item.h
+	"otsystem.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"thing.h"
+	"itemattributes.h"
+	"items.h"
+	"raids.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\itemattributes.h
+	"otsystem.h"
+	<boost/any.hpp>
+
+1518316340 c:\users\home\desktop\serviço\sources pda\items.h
+	"otsystem.h"
+	"itemloader.h"
+	"const.h"
+	"enums.h"
+	"position.h"
+	<libxml/parser.h>
+
+1260655112 c:\users\home\desktop\serviço\sources pda\itemloader.h
+	"fileloader.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\raids.h
+	"otsystem.h"
+	"const.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"baseevents.h"
+	"position.h"
+	"tools.h"
+
+1346005546 c:\users\home\desktop\serviço\sources pda\condition.h
+	"otsystem.h"
+	"const.h"
+	"enums.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"fileloader.h"
+
+1344992792 c:\users\home\desktop\serviço\sources pda\creatureevent.h
+	"enums.h"
+	"baseevents.h"
+	"tile.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\container.h
+	"otsystem.h"
+	"cylinder.h"
+	"item.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\depot.h
+	"container.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\outfit.h
+	"otsystem.h"
+	"enums.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\vocation.h
+	"otsystem.h"
+	"enums.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\group.h
+	"otsystem.h"
+
+1518314802 c:\users\home\desktop\serviço\sources pda\protocolgame.h
+	"otsystem.h"
+	"enums.h"
+	"protocol.h"
+	"creature.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\protocol.h
+	"otsystem.h"
+	"rsa.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\rsa.h
+	"otsystem.h"
+	"gmp.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\ioguild.h
+	"otsystem.h"
+	"player.h"
+
+1331766522 c:\users\home\desktop\serviço\sources pda\party.h
+	"player.h"
+	"globalevent.h"
+
+1331776700 c:\users\home\desktop\serviço\sources pda\globalevent.h
+	"baseevents.h"
+	"const.h"
+	"scheduler.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\scheduler.h
+	"otsystem.h"
+	"tasks.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\tasks.h
+	"otsystem.h"
+	<boost/function.hpp>
+
+1345402602 c:\users\home\desktop\serviço\sources pda\npc.h
+	"templates.h"
+	"const.h"
+	"creature.h"
+	"luascript.h"
+
+1345568282 c:\users\home\desktop\serviço\sources pda\monster.h
+	"monsters.h"
+	"raids.h"
+	"tile.h"
+
+1345402026 c:\users\home\desktop\serviço\sources pda\monsters.h
+	"otsystem.h"
+	"creature.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\game.h
+	"otsystem.h"
+	"enums.h"
+	"templates.h"
+	"scheduler.h"
+	"map.h"
+	"spawn.h"
+	"item.h"
+	"player.h"
+	"npc.h"
+	"monster.h"
+
+1249596076 c:\users\home\desktop\serviço\sources pda\spawn.h
+	"otsystem.h"
+	"templates.h"
+	"position.h"
+	"tile.h"
+	"monster.h"
+
+1261686680 c:\users\home\desktop\serviço\sources pda\configmanager.h
+	"luascript.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\combat.h
+	"otsystem.h"
+	"baseevents.h"
+	"condition.h"
+	"map.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\spells.h
+	"otsystem.h"
+	"enums.h"
+	"player.h"
+	"luascript.h"
+	"baseevents.h"
+	"actions.h"
+	"talkaction.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\talkaction.h
+	"otsystem.h"
+	"enums.h"
+	"player.h"
+	"tools.h"
+	"luascript.h"
+	"baseevents.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\house.h
+	"otsystem.h"
+	<boost/regex.hpp>
+	<boost/tr1/unordered_set.hpp>
+	"position.h"
+	"housetile.h"
+	"player.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\housetile.h
+	"tile.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\beds.h
+	"item.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\admin.cpp
+	"otpch.h"
+	<iostream>
+	"admin.h"
+	"rsa.h"
+	"tools.h"
+	"configmanager.h"
+	"game.h"
+	"connection.h"
+	"outputmessage.h"
+	"networkmessage.h"
+	"house.h"
+	"town.h"
+	"iologindata.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\admin.h
+	"otsystem.h"
+	"textlogger.h"
+	"player.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\textlogger.h
+	"otsystem.h"
+	<ostream>
+	<fstream>
+
+1326034046 c:\users\home\desktop\serviço\sources pda\connection.h
+	"otsystem.h"
+	"networkmessage.h"
+	<boost/utility.hpp>
+	<boost/enable_shared_from_this.hpp>
+
+1260655112 c:\users\home\desktop\serviço\sources pda\networkmessage.h
+	"otsystem.h"
+	"const.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\outputmessage.h
+	"otsystem.h"
+	"tools.h"
+	"connection.h"
+	"networkmessage.h"
+	<iostream>
+	<sstream>
+
+1260655112 c:\users\home\desktop\serviço\sources pda\town.h
+	"otsystem.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\iologindata.h
+	"otsystem.h"
+	"database.h"
+	"creature.h"
+	"player.h"
+	"account.h"
+	"group.h"
+
+1249596076 c:\users\home\desktop\serviço\sources pda\account.h
+	"otsystem.h"
+	"gameservers.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\gameservers.h
+	"otsystem.h"
+	"resources.h"
+	"const.h"
+
+1518315554 c:\users\home\desktop\serviço\sources pda\resources.h
+	"definitions.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\allocator.cpp
+	"otpch.h"
+	"allocator.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\allocator.h
+	"otsystem.h"
+	<boost/pool/pool.hpp>
+	<memory>
+	<cstdlib>
+	<fstream>
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\baseevents.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	"baseevents.h"
+	"tools.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\beds.cpp
+	"otpch.h"
+	"beds.h"
+	"house.h"
+	"player.h"
+	"iologindata.h"
+	"game.h"
+	"configmanager.h"
+
+1431271643 source:c:\users\home\desktop\serviço\sources pda\chat.cpp
+	"otpch.h"
+	"chat.h"
+	"player.h"
+	"iologindata.h"
+	"configmanager.h"
+	"game.h"
+
+1331194224 c:\users\home\desktop\serviço\sources pda\chat.h
+	"otsystem.h"
+	<fstream>
+	"const.h"
+	"party.h"
+
+1345596844 source:c:\users\home\desktop\serviço\sources pda\combat.cpp
+	"otpch.h"
+	"const.h"
+	"combat.h"
+	"tools.h"
+	"game.h"
+	"configmanager.h"
+	"creature.h"
+	"player.h"
+	"weapons.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\weapons.h
+	"otsystem.h"
+	"const.h"
+	"combat.h"
+	"baseevents.h"
+	"luascript.h"
+	"player.h"
+	"item.h"
+
+1295885688 source:c:\users\home\desktop\serviço\sources pda\condition.cpp
+	"otpch.h"
+	"condition.h"
+	"tools.h"
+	"game.h"
+	"creature.h"
+	"combat.h"
+
+1324906974 source:c:\users\home\desktop\serviço\sources pda\configmanager.cpp
+	"otpch.h"
+	<iostream>
+	"configmanager.h"
+	"tools.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\connection.cpp
+	"otpch.h"
+	"connection.h"
+	"protocol.h"
+	"protocolgame.h"
+	"protocolold.h"
+	"admin.h"
+	"status.h"
+	"outputmessage.h"
+	"scheduler.h"
+	"server.h"
+	"configmanager.h"
+	"tools.h"
+	"textlogger.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\protocolold.h
+	"protocol.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\status.h
+	"otsystem.h"
+	"protocol.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\server.h
+	"otsystem.h"
+	<boost/enable_shared_from_this.hpp>
+
+1432327576 source:c:\users\home\desktop\serviço\sources pda\container.cpp
+	"otpch.h"
+	"container.h"
+	"game.h"
+	"iomap.h"
+	"player.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\iomap.h
+	"status.h"
+	"map.h"
+	"house.h"
+	"spawn.h"
+	"item.h"
+
+1518314868 source:c:\users\home\desktop\serviço\sources pda\creature.cpp
+	"otpch.h"
+	"creature.h"
+	"player.h"
+	"npc.h"
+	"monster.h"
+	"condition.h"
+	"combat.h"
+	"container.h"
+	"exception.h"
+	"configmanager.h"
+	"game.h"
+
+1349556066 source:c:\users\home\desktop\serviço\sources pda\creatureevent.cpp
+	"otpch.h"
+	<sstream>
+	"creatureevent.h"
+	"player.h"
+	"tools.h"
+
+1249596076 source:c:\users\home\desktop\serviço\sources pda\cylinder.cpp
+	"otpch.h"
+	"cylinder.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\database.cpp
+	"otpch.h"
+	<string>
+	"database.h"
+	"databasemysql.h"
+	"databasesqlite.h"
+	"databaseodbc.h"
+	"databasepgsql.h"
+	"configmanager.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\databasemanager.cpp
+	"otpch.h"
+	"enums.h"
+	<iostream>
+	"databasemanager.h"
+	"tools.h"
+	"configmanager.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\databasemanager.h
+	"database.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\databasemysql.cpp
+	"otpch.h"
+	"scheduler.h"
+	"database.h"
+	"databasemysql.h"
+	"errmsg.h"
+	<mysql/errmsg.h>
+	<iostream>
+	"configmanager.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\databasesqlite.cpp
+	"otpch.h"
+	<iostream>
+	<boost/regex.hpp>
+	"database.h"
+	"databasesqlite.h"
+	"tools.h"
+	"configmanager.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\depot.cpp
+	"otpch.h"
+	"depot.h"
+	"tools.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\exception.cpp
+	"otpch.h"
+	"exception.h"
+	<iostream>
+	<iomanip>
+	<fstream>
+	<excpt.h>
+	<tlhelp32.h>
+	<boost/config.hpp>
+	"tools.h"
+	"configmanager.h"
+
+1249596076 source:c:\users\home\desktop\serviço\sources pda\fileloader.cpp
+	"otpch.h"
+	"fileloader.h"
+
+1431776986 source:c:\users\home\desktop\serviço\sources pda\game.cpp
+	"otpch.h"
+	"game.h"
+	"configmanager.h"
+	"gameservers.h"
+	"server.h"
+	"chat.h"
+	"luascript.h"
+	"creature.h"
+	"combat.h"
+	"tile.h"
+	"database.h"
+	"iologindata.h"
+	"ioban.h"
+	"ioguild.h"
+	"items.h"
+	"container.h"
+	"monsters.h"
+	"house.h"
+	"quests.h"
+	"actions.h"
+	"globalevent.h"
+	"movement.h"
+	"raids.h"
+	"scriptmanager.h"
+	"spells.h"
+	"talkaction.h"
+	"weapons.h"
+	"vocation.h"
+	"group.h"
+	"exception.h"
+
+1249596076 c:\users\home\desktop\serviço\sources pda\ioban.h
+	"otsystem.h"
+	"enums.h"
+
+1261686680 c:\users\home\desktop\serviço\sources pda\quests.h
+	"otsystem.h"
+	"networkmessage.h"
+	"player.h"
+
+1261686680 c:\users\home\desktop\serviço\sources pda\movement.h
+	"baseevents.h"
+	"creature.h"
+
+1249596076 c:\users\home\desktop\serviço\sources pda\scriptmanager.h
+	"otsystem.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\gameservers.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"gameservers.h"
+	"tools.h"
+
+1331777104 source:c:\users\home\desktop\serviço\sources pda\globalevent.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"globalevent.h"
+	"tools.h"
+	"player.h"
+
+1249596076 source:c:\users\home\desktop\serviço\sources pda\group.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"group.h"
+	"tools.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\gui.cpp
+	"gui.h"
+	<tchar.h>
+
+1260655112 c:\users\home\desktop\serviço\sources pda\gui.h
+	"definitions.h"
+	"resources.h"
+	"playerbox.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\playerbox.h
+	"otsystem.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\gui_resources.rc
+	"resources.h"
+	<windows.h>
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\house.cpp
+	"otpch.h"
+	"house.h"
+	"tools.h"
+	"database.h"
+	"beds.h"
+	"town.h"
+	"iologindata.h"
+	"ioguild.h"
+	"iomapserialize.h"
+	"configmanager.h"
+	"game.h"
+
+1249596076 c:\users\home\desktop\serviço\sources pda\iomapserialize.h
+	"otsystem.h"
+	"database.h"
+	"map.h"
+
+1295922574 source:c:\users\home\desktop\serviço\sources pda\housetile.cpp
+	"otpch.h"
+	"housetile.h"
+	"house.h"
+	"game.h"
+	"configmanager.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\inputbox.cpp
+	"inputbox.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\inputbox.h
+	"otsystem.h"
+	<tchar.h>
+
+1249596076 source:c:\users\home\desktop\serviço\sources pda\ioban.cpp
+	"otpch.h"
+	"ioban.h"
+	"tools.h"
+	"database.h"
+	"iologindata.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\ioguild.cpp
+	"otpch.h"
+	"ioguild.h"
+	"database.h"
+	"configmanager.h"
+	"game.h"
+
+1326220276 source:c:\users\home\desktop\serviço\sources pda\iologindata.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"iologindata.h"
+	"tools.h"
+	"gameservers.h"
+	"town.h"
+	"house.h"
+	"item.h"
+	"vocation.h"
+	"configmanager.h"
+	"game.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\iomap.cpp
+	"otpch.h"
+	"iomap.h"
+	"fileloader.h"
+	"map.h"
+	"town.h"
+	"tile.h"
+	"item.h"
+	"container.h"
+	"depot.h"
+	"teleport.h"
+	"beds.h"
+	"game.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\teleport.h
+	"tile.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\iomapserialize.cpp
+	"otpch.h"
+	"iomapserialize.h"
+	"house.h"
+	"iologindata.h"
+	"configmanager.h"
+	"game.h"
+
+1295918998 source:c:\users\home\desktop\serviço\sources pda\item.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"item.h"
+	"container.h"
+	"depot.h"
+	"teleport.h"
+	"trashholder.h"
+	"mailbox.h"
+	"luascript.h"
+	"combat.h"
+	"house.h"
+	"beds.h"
+	"actions.h"
+	"configmanager.h"
+	"game.h"
+	"movement.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\trashholder.h
+	"tile.h"
+	"const.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\mailbox.h
+	"const.h"
+	"cylinder.h"
+	"item.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\itemattributes.cpp
+	"otpch.h"
+	"itemattributes.h"
+	"fileloader.h"
+
+1518315274 source:c:\users\home\desktop\serviço\sources pda\luascript.cpp
+	"otpch.h"
+	"luascript.h"
+	"scriptmanager.h"
+	<boost/filesystem.hpp>
+	<boost/any.hpp>
+	<iostream>
+	<iomanip>
+	"player.h"
+	"item.h"
+	"teleport.h"
+	"town.h"
+	"house.h"
+	"housetile.h"
+	"database.h"
+	"iologindata.h"
+	"ioban.h"
+	"iomapserialize.h"
+	"talkaction.h"
+	"spells.h"
+	"combat.h"
+	"condition.h"
+	"baseevents.h"
+	"monsters.h"
+	"raids.h"
+	"configmanager.h"
+	"vocation.h"
+	"status.h"
+	"game.h"
+	"chat.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\mailbox.cpp
+	"otpch.h"
+	"mailbox.h"
+	"player.h"
+	"iologindata.h"
+	"depot.h"
+	"town.h"
+	"configmanager.h"
+	"game.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\map.cpp
+	"otpch.h"
+	<iomanip>
+	<boost/config.hpp>
+	<boost/bind.hpp>
+	"iomap.h"
+	"map.h"
+	"tile.h"
+	"creature.h"
+	"player.h"
+	"combat.h"
+	"iomapserialize.h"
+	"items.h"
+	"game.h"
+
+1241036232 source:c:\users\home\desktop\serviço\sources pda\md5.cpp
+	"otpch.h"
+	"md5.h"
+
+1249596076 c:\users\home\desktop\serviço\sources pda\md5.h
+	"definitions.h"
+
+1518314693 source:c:\users\home\desktop\serviço\sources pda\monster.cpp
+	"otpch.h"
+	"monster.h"
+	"spawn.h"
+	"monsters.h"
+	"spells.h"
+	"combat.h"
+	"configmanager.h"
+	"game.h"
+
+1430939378 source:c:\users\home\desktop\serviço\sources pda\monsters.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"monsters.h"
+	"tools.h"
+	"monster.h"
+	"luascript.h"
+	"container.h"
+	"weapons.h"
+	"spells.h"
+	"combat.h"
+	"configmanager.h"
+	"game.h"
+
+1326456448 source:c:\users\home\desktop\serviço\sources pda\movement.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"movement.h"
+	"tools.h"
+	"creature.h"
+	"player.h"
+	"tile.h"
+	"vocation.h"
+	"combat.h"
+	"game.h"
+
+1326741272 source:c:\users\home\desktop\serviço\sources pda\networkmessage.cpp
+	"otpch.h"
+	<iostream>
+	"networkmessage.h"
+	"position.h"
+	"rsa.h"
+	"container.h"
+	"creature.h"
+	"player.h"
+
+1345402614 source:c:\users\home\desktop\serviço\sources pda\npc.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<functional>
+	<iostream>
+	<fstream>
+	"npc.h"
+	"tools.h"
+	"luascript.h"
+	"position.h"
+	"spells.h"
+	"vocation.h"
+	"configmanager.h"
+	"game.h"
+
+1518315698 source:c:\users\home\desktop\serviço\sources pda\otserv.cpp
+	"otpch.h"
+	"otsystem.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+	<unistd.h>
+	<boost/config.hpp>
+	"server.h"
+	"gameservers.h"
+	"networkmessage.h"
+	"game.h"
+	"chat.h"
+	"tools.h"
+	"rsa.h"
+	"textlogger.h"
+	"protocollogin.h"
+	"protocolgame.h"
+	"protocolold.h"
+	"status.h"
+	"admin.h"
+	"configmanager.h"
+	"scriptmanager.h"
+	"databasemanager.h"
+	"iologindata.h"
+	"ioban.h"
+	"outfit.h"
+	"vocation.h"
+	"group.h"
+	"monsters.h"
+	"allocator.h"
+	"exception.h"
+	"shellapi.h"
+	"gui.h"
+	"inputbox.h"
+	"commctrl.h"
+	"resources.h"
+	<exception>
+
+1260655112 c:\users\home\desktop\serviço\sources pda\protocollogin.h
+	"protocol.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\outfit.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"outfit.h"
+	"tools.h"
+	"player.h"
+	"condition.h"
+	"game.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\outputmessage.cpp
+	"otpch.h"
+	"scheduler.h"
+	"outputmessage.h"
+	"protocol.h"
+
+1332797790 source:c:\users\home\desktop\serviço\sources pda\party.cpp
+	"otpch.h"
+	"party.h"
+	"player.h"
+	"chat.h"
+	"game.h"
+	"configmanager.h"
+	"globalevent.h"
+
+1330616878 source:c:\users\home\desktop\serviço\sources pda\player.cpp
+	"otpch.h"
+	<iostream>
+	"player.h"
+	"iologindata.h"
+	"ioban.h"
+	"town.h"
+	"house.h"
+	"beds.h"
+	"combat.h"
+	"gui.h"
+	"movement.h"
+	"weapons.h"
+	"creatureevent.h"
+	"configmanager.h"
+	"game.h"
+	"chat.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\playerbox.cpp
+	"otpch.h"
+	"playerbox.h"
+	"gui.h"
+	"player.h"
+	"ioban.h"
+	"game.h"
+
+1241036232 source:c:\users\home\desktop\serviço\sources pda\position.cpp
+	"otpch.h"
+	<iomanip>
+	"position.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\protocol.cpp
+	"otpch.h"
+	<winerror.h>
+	"protocol.h"
+	"scheduler.h"
+	"connection.h"
+	"outputmessage.h"
+	"tools.h"
+	"rsa.h"
+
+1518315186 source:c:\users\home\desktop\serviço\sources pda\protocolgame.cpp
+	"otpch.h"
+	"resources.h"
+	<boost/function.hpp>
+	<iostream>
+	"protocolgame.h"
+	"textlogger.h"
+	"waitlist.h"
+	"player.h"
+	"connection.h"
+	"networkmessage.h"
+	"outputmessage.h"
+	"iologindata.h"
+	"ioban.h"
+	"items.h"
+	"tile.h"
+	"house.h"
+	"actions.h"
+	"creatureevent.h"
+	"quests.h"
+	"chat.h"
+	"configmanager.h"
+	"game.h"
+	"gui.h"
+
+1260655112 c:\users\home\desktop\serviço\sources pda\waitlist.h
+
+1325102984 source:c:\users\home\desktop\serviço\sources pda\protocollogin.cpp
+	"otpch.h"
+	"resources.h"
+	<iomanip>
+	"protocollogin.h"
+	"tools.h"
+	"rsa.h"
+	"iologindata.h"
+	"ioban.h"
+	"gui.h"
+	"outputmessage.h"
+	"connection.h"
+	"configmanager.h"
+	"game.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\protocolold.cpp
+	"otpch.h"
+	"resources.h"
+	"protocolold.h"
+	"rsa.h"
+	"outputmessage.h"
+	"connection.h"
+	"gui.h"
+	"game.h"
+
+1261686680 source:c:\users\home\desktop\serviço\sources pda\quests.cpp
+	"otpch.h"
+	"quests.h"
+	"tools.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\raids.cpp
+	"otpch.h"
+	"raids.h"
+	"player.h"
+	"game.h"
+	"configmanager.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\rsa.cpp
+	"otpch.h"
+	"rsa.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\scheduler.cpp
+	"otpch.h"
+	"scheduler.h"
+	"exception.h"
+
+1518315278 source:c:\users\home\desktop\serviço\sources pda\scriptmanager.cpp
+	"otpch.h"
+	"scriptmanager.h"
+	<boost/filesystem.hpp>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"actions.h"
+	"movement.h"
+	"spells.h"
+	"talkaction.h"
+	"creatureevent.h"
+	"globalevent.h"
+	"weapons.h"
+	"monsters.h"
+	"spawn.h"
+	"raids.h"
+	"group.h"
+	"vocation.h"
+	"outfit.h"
+	"quests.h"
+	"items.h"
+	"chat.h"
+	"configmanager.h"
+	"luascript.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\server.cpp
+	"otpch.h"
+	"server.h"
+	"connection.h"
+	"outputmessage.h"
+	"textlogger.h"
+	"game.h"
+	"configmanager.h"
+
+1241036232 source:c:\users\home\desktop\serviço\sources pda\sha1.cpp
+	"otpch.h"
+	"sha1.h"
+
+1249596076 c:\users\home\desktop\serviço\sources pda\sha1.h
+
+1330119434 source:c:\users\home\desktop\serviço\sources pda\spawn.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"spawn.h"
+	"tools.h"
+	"player.h"
+	"npc.h"
+	"configmanager.h"
+	"game.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\spells.cpp
+	"otpch.h"
+	"const.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"spells.h"
+	"tools.h"
+	"house.h"
+	"housetile.h"
+	"combat.h"
+	"monsters.h"
+	"configmanager.h"
+	"game.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\status.cpp
+	"otpch.h"
+	"resources.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"status.h"
+	"tools.h"
+	"connection.h"
+	"networkmessage.h"
+	"outputmessage.h"
+	"configmanager.h"
+	"game.h"
+
+1326234116 source:c:\users\home\desktop\serviço\sources pda\talkaction.cpp
+	"otpch.h"
+	"talkaction.h"
+	<boost/config.hpp>
+	<boost/version.hpp>
+	"iologindata.h"
+	"ioban.h"
+	"player.h"
+	"npc.h"
+	"house.h"
+	"town.h"
+	"teleport.h"
+	"status.h"
+	"textlogger.h"
+	"outputmessage.h"
+	"connection.h"
+	"admin.h"
+	"protocollogin.h"
+	"protocolold.h"
+	"configmanager.h"
+	"game.h"
+	"chat.h"
+	"tools.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\tasks.cpp
+	"otpch.h"
+	"tasks.h"
+	"outputmessage.h"
+	"exception.h"
+	"game.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\teleport.cpp
+	"otpch.h"
+	"teleport.h"
+	"game.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\textlogger.cpp
+	"otpch.h"
+	"textlogger.h"
+	"tools.h"
+	"gui.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\thing.cpp
+	"otpch.h"
+	"thing.h"
+	"cylinder.h"
+	"tile.h"
+	"item.h"
+	"creature.h"
+	"player.h"
+
+1295401540 source:c:\users\home\desktop\serviço\sources pda\tile.cpp
+	"otpch.h"
+	<iostream>
+	"tile.h"
+	"housetile.h"
+	"player.h"
+	"creature.h"
+	"teleport.h"
+	"trashholder.h"
+	"mailbox.h"
+	"combat.h"
+	"movement.h"
+	"game.h"
+	"configmanager.h"
+
+1345596828 source:c:\users\home\desktop\serviço\sources pda\tools.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"tools.h"
+	"md5.h"
+	"sha1.h"
+	"vocation.h"
+	"configmanager.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\trashholder.cpp
+	"otpch.h"
+	"trashholder.h"
+	"game.h"
+	"spells.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\vocation.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"vocation.h"
+	"tools.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\waitlist.cpp
+	"otpch.h"
+	"waitlist.h"
+	"player.h"
+	"configmanager.h"
+	"game.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources pda\weapons.cpp
+	"otpch.h"
+	"weapons.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"game.h"
+	"configmanager.h"
+	"tools.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\actions.cpp
+	"otpch.h"
+	"const.h"
+	"actions.h"
+	"tools.h"
+	"player.h"
+	"monster.h"
+	"npc.h"
+	"item.h"
+	"container.h"
+	"game.h"
+	"configmanager.h"
+	"combat.h"
+	"spells.h"
+	"house.h"
+	"beds.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+
+1260658712 c:\users\home\desktop\serviço\source do pda\otpch.h
+	<winerror.h>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<libxml/threads.h>
+	<boost/config.hpp>
+	<boost/function.hpp>
+	<boost/bind.hpp>
+	<boost/regex.hpp>
+	<boost/tokenizer.hpp>
+	"thing.h"
+
+1477529080 c:\users\home\desktop\serviço\source do pda\thing.h
+	"position.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\position.h
+	<stdlib.h>
+	<cmath>
+	<iostream>
+	<vector>
+
+1477526395 c:\users\home\desktop\serviço\source do pda\const.h
+	"definitions.h"
+
+1288740906 c:\users\home\desktop\serviço\source do pda\definitions.h
+	"exception.h"
+	<cstring>
+
+1260658712 c:\users\home\desktop\serviço\source do pda\exception.h
+	"otsystem.h"
+
+1261690280 c:\users\home\desktop\serviço\source do pda\otsystem.h
+	"definitions.h"
+	<string>
+	<algorithm>
+	<bitset>
+	<queue>
+	<set>
+	<vector>
+	<list>
+	<map>
+	<limits>
+	<boost/utility.hpp>
+	<boost/asio.hpp>
+	<boost/thread.hpp>
+	<boost/foreach.hpp>
+	<boost/shared_ptr.hpp>
+	<stddef.h>
+	<stdlib.h>
+	<stdint.h>
+	<time.h>
+	<assert.h>
+	<windows.h>
+	<sys/timeb.h>
+	<sys/timeb.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<unistd.h>
+	<time.h>
+	<netdb.h>
+	<errno.h>
+	<arpa/inet.h>
+	<netinet/in.h>
+
+1260658712 c:\users\home\desktop\serviço\source do pda\actions.h
+	"baseevents.h"
+	"luascript.h"
+	"thing.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\baseevents.h
+	"otsystem.h"
+	"luascript.h"
+	<libxml/parser.h>
+
+1477611328 c:\users\home\desktop\serviço\source do pda\luascript.h
+	"otsystem.h"
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+	"database.h"
+	"position.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\database.h
+	"otsystem.h"
+	"enums.h"
+	<sstream>
+	"databasemysql.h"
+	"databasesqlite.h"
+	"databaseodbc.h"
+	"databasepgsql.h"
+
+1477526437 c:\users\home\desktop\serviço\source do pda\enums.h
+	<string>
+	<list>
+
+1260658712 c:\users\home\desktop\serviço\source do pda\databasemysql.h
+	<winsock2.h>
+	<mysql.h>
+	<mysql/mysql.h>
+	<sstream>
+	<map>
+
+1260658712 c:\users\home\desktop\serviço\source do pda\databasesqlite.h
+	<sqlite3.h>
+	<sstream>
+	<map>
+
+1260658712 c:\users\home\desktop\serviço\source do pda\databaseodbc.h
+	<windows.h>
+	<sqltypes.h>
+	<sql.h>
+	<sqlext.h>
+
+1260658712 c:\users\home\desktop\serviço\source do pda\databasepgsql.h
+	<postgresql/libpq-fe.h>
+
+1292956316 c:\users\home\desktop\serviço\source do pda\tools.h
+	"otsystem.h"
+	"enums.h"
+	"const.h"
+	<libxml/parser.h>
+	<boost/tokenizer.hpp>
+	"position.h"
+
+1477534457 c:\users\home\desktop\serviço\source do pda\player.h
+	"otsystem.h"
+	"enums.h"
+	"creature.h"
+	"cylinder.h"
+	"container.h"
+	"depot.h"
+	"outfit.h"
+	"vocation.h"
+	"group.h"
+	"protocolgame.h"
+	"ioguild.h"
+	"party.h"
+	"npc.h"
+
+1477611481 c:\users\home\desktop\serviço\source do pda\creature.h
+	"otsystem.h"
+	"templates.h"
+	<boost/any.hpp>
+	"const.h"
+	"enums.h"
+	"map.h"
+	"condition.h"
+	"creatureevent.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\templates.h
+	"otsystem.h"
+
+1249599676 c:\users\home\desktop\serviço\source do pda\map.h
+	"tools.h"
+	"fileloader.h"
+	"position.h"
+	"waypoints.h"
+	"tile.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\fileloader.h
+	"otsystem.h"
+
+1249599676 c:\users\home\desktop\serviço\source do pda\waypoints.h
+	"otsystem.h"
+
+1477609745 c:\users\home\desktop\serviço\source do pda\tile.h
+	<boost/shared_ptr.hpp>
+	"cylinder.h"
+	"item.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\cylinder.h
+	"otsystem.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\item.h
+	"otsystem.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"thing.h"
+	"itemattributes.h"
+	"items.h"
+	"raids.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\itemattributes.h
+	"otsystem.h"
+	<boost/any.hpp>
+
+1477527928 c:\users\home\desktop\serviço\source do pda\items.h
+	"otsystem.h"
+	"itemloader.h"
+	"const.h"
+	"enums.h"
+	"position.h"
+	<libxml/parser.h>
+
+1260658712 c:\users\home\desktop\serviço\source do pda\itemloader.h
+	"fileloader.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\raids.h
+	"otsystem.h"
+	"const.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"baseevents.h"
+	"position.h"
+	"tools.h"
+
+1293162680 c:\users\home\desktop\serviço\source do pda\condition.h
+	"otsystem.h"
+	"const.h"
+	"enums.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"fileloader.h"
+
+1477527117 c:\users\home\desktop\serviço\source do pda\creatureevent.h
+	"enums.h"
+	"baseevents.h"
+	"tile.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\container.h
+	"otsystem.h"
+	"cylinder.h"
+	"item.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\depot.h
+	"container.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\outfit.h
+	"otsystem.h"
+	"enums.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\vocation.h
+	"otsystem.h"
+	"enums.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\group.h
+	"otsystem.h"
+
+1477533782 c:\users\home\desktop\serviço\source do pda\protocolgame.h
+	"otsystem.h"
+	"enums.h"
+	"protocol.h"
+	"creature.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\protocol.h
+	"otsystem.h"
+	"rsa.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\rsa.h
+	"otsystem.h"
+	"gmp.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\ioguild.h
+	"otsystem.h"
+	"player.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\party.h
+	"player.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\npc.h
+	"templates.h"
+	"const.h"
+	"creature.h"
+	"luascript.h"
+
+1295902058 c:\users\home\desktop\serviço\source do pda\monster.h
+	"monsters.h"
+	"raids.h"
+	"tile.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\monsters.h
+	"otsystem.h"
+	"creature.h"
+
+1477608228 c:\users\home\desktop\serviço\source do pda\game.h
+	"otsystem.h"
+	"enums.h"
+	"templates.h"
+	"scheduler.h"
+	"map.h"
+	"spawn.h"
+	"item.h"
+	"player.h"
+	"npc.h"
+	"monster.h"
+
+1477771766 c:\users\home\desktop\serviço\source do pda\scheduler.h
+	"otsystem.h"
+	"tasks.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\tasks.h
+	"otsystem.h"
+	<boost/function.hpp>
+
+1249599676 c:\users\home\desktop\serviço\source do pda\spawn.h
+	"otsystem.h"
+	"templates.h"
+	"position.h"
+	"tile.h"
+	"monster.h"
+
+1477531236 c:\users\home\desktop\serviço\source do pda\configmanager.h
+	"luascript.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\combat.h
+	"otsystem.h"
+	"baseevents.h"
+	"condition.h"
+	"map.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\spells.h
+	"otsystem.h"
+	"enums.h"
+	"player.h"
+	"luascript.h"
+	"baseevents.h"
+	"actions.h"
+	"talkaction.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\talkaction.h
+	"otsystem.h"
+	"enums.h"
+	"player.h"
+	"tools.h"
+	"luascript.h"
+	"baseevents.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\house.h
+	"otsystem.h"
+	<boost/regex.hpp>
+	<boost/tr1/unordered_set.hpp>
+	"position.h"
+	"housetile.h"
+	"player.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\housetile.h
+	"tile.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\beds.h
+	"item.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\admin.cpp
+	"otpch.h"
+	<iostream>
+	"admin.h"
+	"rsa.h"
+	"tools.h"
+	"configmanager.h"
+	"game.h"
+	"connection.h"
+	"outputmessage.h"
+	"networkmessage.h"
+	"house.h"
+	"town.h"
+	"iologindata.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\admin.h
+	"otsystem.h"
+	"textlogger.h"
+	"player.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\textlogger.h
+	"otsystem.h"
+	<ostream>
+	<fstream>
+
+1260658712 c:\users\home\desktop\serviço\source do pda\connection.h
+	"otsystem.h"
+	"networkmessage.h"
+	<boost/utility.hpp>
+	<boost/enable_shared_from_this.hpp>
+
+1260658712 c:\users\home\desktop\serviço\source do pda\networkmessage.h
+	"otsystem.h"
+	"const.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\outputmessage.h
+	"otsystem.h"
+	"tools.h"
+	"connection.h"
+	"networkmessage.h"
+	<iostream>
+	<sstream>
+
+1260658712 c:\users\home\desktop\serviço\source do pda\town.h
+	"otsystem.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\iologindata.h
+	"otsystem.h"
+	"database.h"
+	"creature.h"
+	"player.h"
+	"account.h"
+	"group.h"
+
+1249599676 c:\users\home\desktop\serviço\source do pda\account.h
+	"otsystem.h"
+	"gameservers.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\gameservers.h
+	"otsystem.h"
+	"resources.h"
+	"const.h"
+
+1518349850 c:\users\home\desktop\serviço\source do pda\resources.h
+	"definitions.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\allocator.cpp
+	"otpch.h"
+	"allocator.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\allocator.h
+	"otsystem.h"
+	<boost/pool/pool.hpp>
+	<memory>
+	<cstdlib>
+	<fstream>
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\baseevents.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	"baseevents.h"
+	"tools.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\beds.cpp
+	"otpch.h"
+	"beds.h"
+	"house.h"
+	"player.h"
+	"iologindata.h"
+	"game.h"
+	"configmanager.h"
+
+1477603157 source:c:\users\home\desktop\serviço\source do pda\chat.cpp
+	"otpch.h"
+	"chat.h"
+	"player.h"
+	"iologindata.h"
+	"configmanager.h"
+	"game.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\chat.h
+	"otsystem.h"
+	<fstream>
+	"const.h"
+	"party.h"
+
+1477611380 source:c:\users\home\desktop\serviço\source do pda\combat.cpp
+	"otpch.h"
+	"const.h"
+	"combat.h"
+	"tools.h"
+	"game.h"
+	"configmanager.h"
+	"creature.h"
+	"player.h"
+	"weapons.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\weapons.h
+	"otsystem.h"
+	"const.h"
+	"combat.h"
+	"baseevents.h"
+	"luascript.h"
+	"player.h"
+	"item.h"
+
+1295889288 source:c:\users\home\desktop\serviço\source do pda\condition.cpp
+	"otpch.h"
+	"condition.h"
+	"tools.h"
+	"game.h"
+	"creature.h"
+	"combat.h"
+
+1477531100 source:c:\users\home\desktop\serviço\source do pda\configmanager.cpp
+	"otpch.h"
+	<iostream>
+	"configmanager.h"
+	"tools.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\connection.cpp
+	"otpch.h"
+	"connection.h"
+	"protocol.h"
+	"protocolgame.h"
+	"protocolold.h"
+	"admin.h"
+	"status.h"
+	"outputmessage.h"
+	"scheduler.h"
+	"server.h"
+	"configmanager.h"
+	"tools.h"
+	"textlogger.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\protocolold.h
+	"protocol.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\status.h
+	"otsystem.h"
+	"protocol.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\server.h
+	"otsystem.h"
+	<boost/enable_shared_from_this.hpp>
+
+1362350386 source:c:\users\home\desktop\serviço\source do pda\container.cpp
+	"otpch.h"
+	"container.h"
+	"game.h"
+	"iomap.h"
+	"player.h"
+
+1477609924 c:\users\home\desktop\serviço\source do pda\iomap.h
+	"status.h"
+	"map.h"
+	"house.h"
+	"spawn.h"
+	"item.h"
+
+1518349918 source:c:\users\home\desktop\serviço\source do pda\creature.cpp
+	"otpch.h"
+	"creature.h"
+	"player.h"
+	"npc.h"
+	"monster.h"
+	"condition.h"
+	"combat.h"
+	"container.h"
+	"exception.h"
+	"configmanager.h"
+	"game.h"
+
+1477527117 source:c:\users\home\desktop\serviço\source do pda\creatureevent.cpp
+	"otpch.h"
+	<sstream>
+	"creatureevent.h"
+	"player.h"
+	"tools.h"
+
+1249599676 source:c:\users\home\desktop\serviço\source do pda\cylinder.cpp
+	"otpch.h"
+	"cylinder.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\database.cpp
+	"otpch.h"
+	<string>
+	"database.h"
+	"databasemysql.h"
+	"databasesqlite.h"
+	"databaseodbc.h"
+	"databasepgsql.h"
+	"configmanager.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\databasemanager.cpp
+	"otpch.h"
+	"enums.h"
+	<iostream>
+	"databasemanager.h"
+	"tools.h"
+	"configmanager.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\databasemanager.h
+	"database.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\databasemysql.cpp
+	"otpch.h"
+	"scheduler.h"
+	"database.h"
+	"databasemysql.h"
+	"errmsg.h"
+	<mysql/errmsg.h>
+	<iostream>
+	"configmanager.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\databasesqlite.cpp
+	"otpch.h"
+	<iostream>
+	<boost/regex.hpp>
+	"database.h"
+	"databasesqlite.h"
+	"tools.h"
+	"configmanager.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\depot.cpp
+	"otpch.h"
+	"depot.h"
+	"tools.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\exception.cpp
+	"otpch.h"
+	"exception.h"
+	<iostream>
+	<iomanip>
+	<fstream>
+	<excpt.h>
+	<tlhelp32.h>
+	<boost/config.hpp>
+	"tools.h"
+	"configmanager.h"
+
+1249599676 source:c:\users\home\desktop\serviço\source do pda\fileloader.cpp
+	"otpch.h"
+	"fileloader.h"
+
+1481821264 source:c:\users\home\desktop\serviço\source do pda\game.cpp
+	"otpch.h"
+	"game.h"
+	"configmanager.h"
+	"gameservers.h"
+	"server.h"
+	"chat.h"
+	"luascript.h"
+	"creature.h"
+	"combat.h"
+	"tile.h"
+	"database.h"
+	"iologindata.h"
+	"ioban.h"
+	"ioguild.h"
+	"items.h"
+	"container.h"
+	"monsters.h"
+	"house.h"
+	"quests.h"
+	"actions.h"
+	"globalevent.h"
+	"movement.h"
+	"raids.h"
+	"scriptmanager.h"
+	"spells.h"
+	"talkaction.h"
+	"weapons.h"
+	"vocation.h"
+	"group.h"
+	"textlogger.h"
+	"exception.h"
+
+1249599676 c:\users\home\desktop\serviço\source do pda\ioban.h
+	"otsystem.h"
+	"enums.h"
+
+1261690280 c:\users\home\desktop\serviço\source do pda\quests.h
+	"otsystem.h"
+	"networkmessage.h"
+	"player.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\globalevent.h
+	"baseevents.h"
+	"const.h"
+	"scheduler.h"
+
+1261690280 c:\users\home\desktop\serviço\source do pda\movement.h
+	"baseevents.h"
+	"creature.h"
+
+1249599676 c:\users\home\desktop\serviço\source do pda\scriptmanager.h
+	"otsystem.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\gameservers.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"gameservers.h"
+	"tools.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\globalevent.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"globalevent.h"
+	"tools.h"
+	"player.h"
+
+1249599676 source:c:\users\home\desktop\serviço\source do pda\group.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"group.h"
+	"tools.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\gui.cpp
+	"gui.h"
+	<tchar.h>
+
+1260658712 c:\users\home\desktop\serviço\source do pda\gui.h
+	"definitions.h"
+	"resources.h"
+	"playerbox.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\playerbox.h
+	"otsystem.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\gui_resources.rc
+	"resources.h"
+	<windows.h>
+
+1477602716 source:c:\users\home\desktop\serviço\source do pda\house.cpp
+	"otpch.h"
+	"house.h"
+	"tools.h"
+	"database.h"
+	"beds.h"
+	"town.h"
+	"iologindata.h"
+	"ioguild.h"
+	"iomapserialize.h"
+	"configmanager.h"
+	"game.h"
+
+1249599676 c:\users\home\desktop\serviço\source do pda\iomapserialize.h
+	"otsystem.h"
+	"database.h"
+	"map.h"
+
+1295926174 source:c:\users\home\desktop\serviço\source do pda\housetile.cpp
+	"otpch.h"
+	"housetile.h"
+	"house.h"
+	"game.h"
+	"configmanager.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\inputbox.cpp
+	"inputbox.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\inputbox.h
+	"otsystem.h"
+	<tchar.h>
+
+1249599676 source:c:\users\home\desktop\serviço\source do pda\ioban.cpp
+	"otpch.h"
+	"ioban.h"
+	"tools.h"
+	"database.h"
+	"iologindata.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\ioguild.cpp
+	"otpch.h"
+	"ioguild.h"
+	"database.h"
+	"configmanager.h"
+	"game.h"
+
+1295494110 source:c:\users\home\desktop\serviço\source do pda\iologindata.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"iologindata.h"
+	"tools.h"
+	"gameservers.h"
+	"town.h"
+	"house.h"
+	"item.h"
+	"vocation.h"
+	"configmanager.h"
+	"game.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\iomap.cpp
+	"otpch.h"
+	"iomap.h"
+	"fileloader.h"
+	"map.h"
+	"town.h"
+	"tile.h"
+	"item.h"
+	"container.h"
+	"depot.h"
+	"teleport.h"
+	"beds.h"
+	"game.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\teleport.h
+	"tile.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\iomapserialize.cpp
+	"otpch.h"
+	"iomapserialize.h"
+	"house.h"
+	"iologindata.h"
+	"configmanager.h"
+	"game.h"
+
+1295922598 source:c:\users\home\desktop\serviço\source do pda\item.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"item.h"
+	"container.h"
+	"depot.h"
+	"teleport.h"
+	"trashholder.h"
+	"mailbox.h"
+	"luascript.h"
+	"combat.h"
+	"house.h"
+	"beds.h"
+	"actions.h"
+	"configmanager.h"
+	"game.h"
+	"movement.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\trashholder.h
+	"tile.h"
+	"const.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\mailbox.h
+	"const.h"
+	"cylinder.h"
+	"item.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\itemattributes.cpp
+	"otpch.h"
+	"itemattributes.h"
+	"fileloader.h"
+
+1477527900 source:c:\users\home\desktop\serviço\source do pda\items.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	"items.h"
+	"condition.h"
+	"weapons.h"
+	"configmanager.h"
+	"spells.h"
+
+1518376987 source:c:\users\home\desktop\serviço\source do pda\luascript.cpp
+	"otpch.h"
+	"scriptmanager.h"
+	<boost/filesystem.hpp>
+	<boost/any.hpp>
+	<iostream>
+	<iomanip>
+	"player.h"
+	"item.h"
+	"teleport.h"
+	"town.h"
+	"house.h"
+	"housetile.h"
+	"database.h"
+	"iologindata.h"
+	"ioban.h"
+	"iomapserialize.h"
+	"talkaction.h"
+	"spells.h"
+	"combat.h"
+	"condition.h"
+	"baseevents.h"
+	"monsters.h"
+	"raids.h"
+	"configmanager.h"
+	"vocation.h"
+	"status.h"
+	"game.h"
+	"chat.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\mailbox.cpp
+	"otpch.h"
+	"mailbox.h"
+	"player.h"
+	"iologindata.h"
+	"depot.h"
+	"town.h"
+	"configmanager.h"
+	"game.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\map.cpp
+	"otpch.h"
+	<iomanip>
+	<boost/config.hpp>
+	<boost/bind.hpp>
+	"iomap.h"
+	"map.h"
+	"tile.h"
+	"creature.h"
+	"player.h"
+	"combat.h"
+	"iomapserialize.h"
+	"items.h"
+	"game.h"
+
+1241039832 source:c:\users\home\desktop\serviço\source do pda\md5.cpp
+	"otpch.h"
+	"md5.h"
+
+1249599676 c:\users\home\desktop\serviço\source do pda\md5.h
+	"definitions.h"
+
+1478138474 source:c:\users\home\desktop\serviço\source do pda\monster.cpp
+	"otpch.h"
+	"monster.h"
+	"spawn.h"
+	"monsters.h"
+	"spells.h"
+	"combat.h"
+	"configmanager.h"
+	"game.h"
+
+1477526695 source:c:\users\home\desktop\serviço\source do pda\monsters.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"monsters.h"
+	"tools.h"
+	"monster.h"
+	"luascript.h"
+	"container.h"
+	"weapons.h"
+	"spells.h"
+	"combat.h"
+	"configmanager.h"
+	"game.h"
+
+1261690280 source:c:\users\home\desktop\serviço\source do pda\movement.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"movement.h"
+	"tools.h"
+	"creature.h"
+	"player.h"
+	"tile.h"
+	"vocation.h"
+	"combat.h"
+	"game.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\networkmessage.cpp
+	"otpch.h"
+	<iostream>
+	"networkmessage.h"
+	"position.h"
+	"rsa.h"
+	"container.h"
+	"creature.h"
+	"player.h"
+
+1362350640 source:c:\users\home\desktop\serviço\source do pda\npc.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<functional>
+	<iostream>
+	<fstream>
+	"npc.h"
+	"tools.h"
+	"luascript.h"
+	"position.h"
+	"spells.h"
+	"vocation.h"
+	"configmanager.h"
+	"game.h"
+
+1345402012 source:c:\users\home\desktop\serviço\sources do pda\actions.cpp
+	"otpch.h"
+	"const.h"
+	"actions.h"
+	"tools.h"
+	"player.h"
+	"monster.h"
+	"npc.h"
+	"item.h"
+	"container.h"
+	"game.h"
+	"configmanager.h"
+	"combat.h"
+	"spells.h"
+	"house.h"
+	"beds.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\otpch.h
+	<winerror.h>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<libxml/threads.h>
+	<boost/config.hpp>
+	<boost/function.hpp>
+	<boost/bind.hpp>
+	<boost/regex.hpp>
+	<boost/tokenizer.hpp>
+	"thing.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\thing.h
+	"position.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\position.h
+	<stdlib.h>
+	<cmath>
+	<iostream>
+	<vector>
+
+1518339922 c:\users\home\desktop\serviço\sources do pda\const.h
+	"definitions.h"
+
+1288737306 c:\users\home\desktop\serviço\sources do pda\definitions.h
+	"exception.h"
+	<cstring>
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\exception.h
+	"otsystem.h"
+
+1261686680 c:\users\home\desktop\serviço\sources do pda\otsystem.h
+	"definitions.h"
+	<string>
+	<algorithm>
+	<bitset>
+	<queue>
+	<set>
+	<vector>
+	<list>
+	<map>
+	<limits>
+	<boost/utility.hpp>
+	<boost/asio.hpp>
+	<boost/thread.hpp>
+	<boost/foreach.hpp>
+	<boost/shared_ptr.hpp>
+	<stddef.h>
+	<stdlib.h>
+	<stdint.h>
+	<time.h>
+	<assert.h>
+	<windows.h>
+	<sys/timeb.h>
+	<sys/timeb.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<unistd.h>
+	<time.h>
+	<netdb.h>
+	<errno.h>
+	<arpa/inet.h>
+	<netinet/in.h>
+
+1345402014 c:\users\home\desktop\serviço\sources do pda\actions.h
+	"baseevents.h"
+	"luascript.h"
+	"thing.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\baseevents.h
+	"otsystem.h"
+	"luascript.h"
+	<libxml/parser.h>
+
+1518339255 c:\users\home\desktop\serviço\sources do pda\luascript.h
+	"otsystem.h"
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+	"database.h"
+	"position.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\database.h
+	"otsystem.h"
+	"enums.h"
+	<sstream>
+	"databasemysql.h"
+	"databasesqlite.h"
+	"databaseodbc.h"
+	"databasepgsql.h"
+
+1518340022 c:\users\home\desktop\serviço\sources do pda\enums.h
+	<string>
+	<list>
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\databasemysql.h
+	<winsock2.h>
+	<mysql.h>
+	<mysql/mysql.h>
+	<sstream>
+	<map>
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\databasesqlite.h
+	<sqlite3.h>
+	<sstream>
+	<map>
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\databaseodbc.h
+	<windows.h>
+	<sqltypes.h>
+	<sql.h>
+	<sqlext.h>
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\databasepgsql.h
+	<postgresql/libpq-fe.h>
+
+1346006042 c:\users\home\desktop\serviço\sources do pda\tools.h
+	"otsystem.h"
+	"enums.h"
+	"const.h"
+	<libxml/parser.h>
+	<boost/tokenizer.hpp>
+	"position.h"
+
+1518339112 c:\users\home\desktop\serviço\sources do pda\player.h
+	"otsystem.h"
+	"enums.h"
+	"creature.h"
+	"cylinder.h"
+	"container.h"
+	"depot.h"
+	"outfit.h"
+	"vocation.h"
+	"group.h"
+	"protocolgame.h"
+	"ioguild.h"
+	"party.h"
+	"npc.h"
+
+1518339167 c:\users\home\desktop\serviço\sources do pda\creature.h
+	"otsystem.h"
+	"templates.h"
+	<boost/any.hpp>
+	"const.h"
+	"enums.h"
+	"map.h"
+	"condition.h"
+	"creatureevent.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\templates.h
+	"otsystem.h"
+
+1249596076 c:\users\home\desktop\serviço\sources do pda\map.h
+	"tools.h"
+	"fileloader.h"
+	"position.h"
+	"waypoints.h"
+	"tile.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\fileloader.h
+	"otsystem.h"
+
+1249596076 c:\users\home\desktop\serviço\sources do pda\waypoints.h
+	"otsystem.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\tile.h
+	<boost/shared_ptr.hpp>
+	"cylinder.h"
+	"item.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\cylinder.h
+	"otsystem.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\item.h
+	"otsystem.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"thing.h"
+	"itemattributes.h"
+	"items.h"
+	"raids.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\itemattributes.h
+	"otsystem.h"
+	<boost/any.hpp>
+
+1518339560 c:\users\home\desktop\serviço\sources do pda\items.h
+	"otsystem.h"
+	"itemloader.h"
+	"const.h"
+	"enums.h"
+	"position.h"
+	<libxml/parser.h>
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\itemloader.h
+	"fileloader.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\raids.h
+	"otsystem.h"
+	"const.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"baseevents.h"
+	"position.h"
+	"tools.h"
+
+1346005546 c:\users\home\desktop\serviço\sources do pda\condition.h
+	"otsystem.h"
+	"const.h"
+	"enums.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"fileloader.h"
+
+1344992792 c:\users\home\desktop\serviço\sources do pda\creatureevent.h
+	"enums.h"
+	"baseevents.h"
+	"tile.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\container.h
+	"otsystem.h"
+	"cylinder.h"
+	"item.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\depot.h
+	"container.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\outfit.h
+	"otsystem.h"
+	"enums.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\vocation.h
+	"otsystem.h"
+	"enums.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\group.h
+	"otsystem.h"
+
+1518339114 c:\users\home\desktop\serviço\sources do pda\protocolgame.h
+	"otsystem.h"
+	"enums.h"
+	"protocol.h"
+	"creature.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\protocol.h
+	"otsystem.h"
+	"rsa.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\rsa.h
+	"otsystem.h"
+	"gmp.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\ioguild.h
+	"otsystem.h"
+	"player.h"
+
+1331766522 c:\users\home\desktop\serviço\sources do pda\party.h
+	"player.h"
+	"globalevent.h"
+
+1331776700 c:\users\home\desktop\serviço\sources do pda\globalevent.h
+	"baseevents.h"
+	"const.h"
+	"scheduler.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\scheduler.h
+	"otsystem.h"
+	"tasks.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\tasks.h
+	"otsystem.h"
+	<boost/function.hpp>
+
+1345402602 c:\users\home\desktop\serviço\sources do pda\npc.h
+	"templates.h"
+	"const.h"
+	"creature.h"
+	"luascript.h"
+
+1345568282 c:\users\home\desktop\serviço\sources do pda\monster.h
+	"monsters.h"
+	"raids.h"
+	"tile.h"
+
+1345402026 c:\users\home\desktop\serviço\sources do pda\monsters.h
+	"otsystem.h"
+	"creature.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\game.h
+	"otsystem.h"
+	"enums.h"
+	"templates.h"
+	"scheduler.h"
+	"map.h"
+	"spawn.h"
+	"item.h"
+	"player.h"
+	"npc.h"
+	"monster.h"
+
+1249599676 c:\users\home\desktop\serviço\sources do pda\spawn.h
+	"otsystem.h"
+	"templates.h"
+	"position.h"
+	"tile.h"
+	"monster.h"
+
+1261686680 c:\users\home\desktop\serviço\sources do pda\configmanager.h
+	"luascript.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\combat.h
+	"otsystem.h"
+	"baseevents.h"
+	"condition.h"
+	"map.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\spells.h
+	"otsystem.h"
+	"enums.h"
+	"player.h"
+	"luascript.h"
+	"baseevents.h"
+	"actions.h"
+	"talkaction.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\talkaction.h
+	"otsystem.h"
+	"enums.h"
+	"player.h"
+	"tools.h"
+	"luascript.h"
+	"baseevents.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\house.h
+	"otsystem.h"
+	<boost/regex.hpp>
+	<boost/tr1/unordered_set.hpp>
+	"position.h"
+	"housetile.h"
+	"player.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\housetile.h
+	"tile.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\beds.h
+	"item.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\admin.cpp
+	"otpch.h"
+	<iostream>
+	"admin.h"
+	"rsa.h"
+	"tools.h"
+	"configmanager.h"
+	"game.h"
+	"connection.h"
+	"outputmessage.h"
+	"networkmessage.h"
+	"house.h"
+	"town.h"
+	"iologindata.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\admin.h
+	"otsystem.h"
+	"textlogger.h"
+	"player.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\textlogger.h
+	"otsystem.h"
+	<ostream>
+	<fstream>
+
+1326034046 c:\users\home\desktop\serviço\sources do pda\connection.h
+	"otsystem.h"
+	"networkmessage.h"
+	<boost/utility.hpp>
+	<boost/enable_shared_from_this.hpp>
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\networkmessage.h
+	"otsystem.h"
+	"const.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\outputmessage.h
+	"otsystem.h"
+	"tools.h"
+	"connection.h"
+	"networkmessage.h"
+	<iostream>
+	<sstream>
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\town.h
+	"otsystem.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\iologindata.h
+	"otsystem.h"
+	"database.h"
+	"creature.h"
+	"player.h"
+	"account.h"
+	"group.h"
+
+1249596076 c:\users\home\desktop\serviço\sources do pda\account.h
+	"otsystem.h"
+	"gameservers.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\gameservers.h
+	"otsystem.h"
+	"resources.h"
+	"const.h"
+
+1518341513 c:\users\home\desktop\serviço\sources do pda\resources.h
+	"definitions.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\allocator.cpp
+	"otpch.h"
+	"allocator.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\allocator.h
+	"otsystem.h"
+	<boost/pool/pool.hpp>
+	<memory>
+	<cstdlib>
+	<fstream>
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\baseevents.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	"baseevents.h"
+	"tools.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\beds.cpp
+	"otpch.h"
+	"beds.h"
+	"house.h"
+	"player.h"
+	"iologindata.h"
+	"game.h"
+	"configmanager.h"
+
+1331784106 source:c:\users\home\desktop\serviço\sources do pda\chat.cpp
+	"otpch.h"
+	"chat.h"
+	"player.h"
+	"iologindata.h"
+	"configmanager.h"
+	"game.h"
+
+1331194224 c:\users\home\desktop\serviço\sources do pda\chat.h
+	"otsystem.h"
+	<fstream>
+	"const.h"
+	"party.h"
+
+1345596844 source:c:\users\home\desktop\serviço\sources do pda\combat.cpp
+	"otpch.h"
+	"const.h"
+	"combat.h"
+	"tools.h"
+	"game.h"
+	"configmanager.h"
+	"creature.h"
+	"player.h"
+	"weapons.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\weapons.h
+	"otsystem.h"
+	"const.h"
+	"combat.h"
+	"baseevents.h"
+	"luascript.h"
+	"player.h"
+	"item.h"
+
+1295885688 source:c:\users\home\desktop\serviço\sources do pda\condition.cpp
+	"otpch.h"
+	"condition.h"
+	"tools.h"
+	"game.h"
+	"creature.h"
+	"combat.h"
+
+1324906974 source:c:\users\home\desktop\serviço\sources do pda\configmanager.cpp
+	"otpch.h"
+	<iostream>
+	"configmanager.h"
+	"tools.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\connection.cpp
+	"otpch.h"
+	"connection.h"
+	"protocol.h"
+	"protocolgame.h"
+	"protocolold.h"
+	"admin.h"
+	"status.h"
+	"outputmessage.h"
+	"scheduler.h"
+	"server.h"
+	"configmanager.h"
+	"tools.h"
+	"textlogger.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\protocolold.h
+	"protocol.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\status.h
+	"otsystem.h"
+	"protocol.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\server.h
+	"otsystem.h"
+	<boost/enable_shared_from_this.hpp>
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\container.cpp
+	"otpch.h"
+	"container.h"
+	"game.h"
+	"iomap.h"
+	"player.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\iomap.h
+	"status.h"
+	"map.h"
+	"house.h"
+	"spawn.h"
+	"item.h"
+
+1518339356 source:c:\users\home\desktop\serviço\sources do pda\creature.cpp
+	"otpch.h"
+	"creature.h"
+	"player.h"
+	"npc.h"
+	"monster.h"
+	"condition.h"
+	"combat.h"
+	"container.h"
+	"exception.h"
+	"configmanager.h"
+	"game.h"
+
+1349556066 source:c:\users\home\desktop\serviço\sources do pda\creatureevent.cpp
+	"otpch.h"
+	<sstream>
+	"creatureevent.h"
+	"player.h"
+	"tools.h"
+
+1249596076 source:c:\users\home\desktop\serviço\sources do pda\cylinder.cpp
+	"otpch.h"
+	"cylinder.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\database.cpp
+	"otpch.h"
+	<string>
+	"database.h"
+	"databasemysql.h"
+	"databasesqlite.h"
+	"databaseodbc.h"
+	"databasepgsql.h"
+	"configmanager.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\databasemanager.cpp
+	"otpch.h"
+	"enums.h"
+	<iostream>
+	"databasemanager.h"
+	"tools.h"
+	"configmanager.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\databasemanager.h
+	"database.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\databasemysql.cpp
+	"otpch.h"
+	"scheduler.h"
+	"database.h"
+	"databasemysql.h"
+	"errmsg.h"
+	<mysql/errmsg.h>
+	<iostream>
+	"configmanager.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\databasesqlite.cpp
+	"otpch.h"
+	<iostream>
+	<boost/regex.hpp>
+	"database.h"
+	"databasesqlite.h"
+	"tools.h"
+	"configmanager.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\depot.cpp
+	"otpch.h"
+	"depot.h"
+	"tools.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\exception.cpp
+	"otpch.h"
+	"exception.h"
+	<iostream>
+	<iomanip>
+	<fstream>
+	<excpt.h>
+	<tlhelp32.h>
+	<boost/config.hpp>
+	"tools.h"
+	"configmanager.h"
+
+1249596076 source:c:\users\home\desktop\serviço\sources do pda\fileloader.cpp
+	"otpch.h"
+	"fileloader.h"
+
+1518340107 source:c:\users\home\desktop\serviço\sources do pda\game.cpp
+	"otpch.h"
+	"game.h"
+	"configmanager.h"
+	"gameservers.h"
+	"server.h"
+	"chat.h"
+	"luascript.h"
+	"creature.h"
+	"combat.h"
+	"tile.h"
+	"database.h"
+	"iologindata.h"
+	"ioban.h"
+	"ioguild.h"
+	"items.h"
+	"container.h"
+	"monsters.h"
+	"house.h"
+	"quests.h"
+	"actions.h"
+	"globalevent.h"
+	"movement.h"
+	"raids.h"
+	"scriptmanager.h"
+	"spells.h"
+	"talkaction.h"
+	"weapons.h"
+	"vocation.h"
+	"group.h"
+	"exception.h"
+
+1249596076 c:\users\home\desktop\serviço\sources do pda\ioban.h
+	"otsystem.h"
+	"enums.h"
+
+1261686680 c:\users\home\desktop\serviço\sources do pda\quests.h
+	"otsystem.h"
+	"networkmessage.h"
+	"player.h"
+
+1261686680 c:\users\home\desktop\serviço\sources do pda\movement.h
+	"baseevents.h"
+	"creature.h"
+
+1249596076 c:\users\home\desktop\serviço\sources do pda\scriptmanager.h
+	"otsystem.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\gameservers.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"gameservers.h"
+	"tools.h"
+
+1331777104 source:c:\users\home\desktop\serviço\sources do pda\globalevent.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"globalevent.h"
+	"tools.h"
+	"player.h"
+
+1249596076 source:c:\users\home\desktop\serviço\sources do pda\group.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"group.h"
+	"tools.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\gui.cpp
+	"gui.h"
+	<tchar.h>
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\gui.h
+	"definitions.h"
+	"resources.h"
+	"playerbox.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\playerbox.h
+	"otsystem.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\gui_resources.rc
+	"resources.h"
+	<windows.h>
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\house.cpp
+	"otpch.h"
+	"house.h"
+	"tools.h"
+	"database.h"
+	"beds.h"
+	"town.h"
+	"iologindata.h"
+	"ioguild.h"
+	"iomapserialize.h"
+	"configmanager.h"
+	"game.h"
+
+1249596076 c:\users\home\desktop\serviço\sources do pda\iomapserialize.h
+	"otsystem.h"
+	"database.h"
+	"map.h"
+
+1295922574 source:c:\users\home\desktop\serviço\sources do pda\housetile.cpp
+	"otpch.h"
+	"housetile.h"
+	"house.h"
+	"game.h"
+	"configmanager.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\inputbox.cpp
+	"inputbox.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\inputbox.h
+	"otsystem.h"
+	<tchar.h>
+
+1249596076 source:c:\users\home\desktop\serviço\sources do pda\ioban.cpp
+	"otpch.h"
+	"ioban.h"
+	"tools.h"
+	"database.h"
+	"iologindata.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\ioguild.cpp
+	"otpch.h"
+	"ioguild.h"
+	"database.h"
+	"configmanager.h"
+	"game.h"
+
+1326220276 source:c:\users\home\desktop\serviço\sources do pda\iologindata.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"iologindata.h"
+	"tools.h"
+	"gameservers.h"
+	"town.h"
+	"house.h"
+	"item.h"
+	"vocation.h"
+	"configmanager.h"
+	"game.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\iomap.cpp
+	"otpch.h"
+	"iomap.h"
+	"fileloader.h"
+	"map.h"
+	"town.h"
+	"tile.h"
+	"item.h"
+	"container.h"
+	"depot.h"
+	"teleport.h"
+	"beds.h"
+	"game.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\teleport.h
+	"tile.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\iomapserialize.cpp
+	"otpch.h"
+	"iomapserialize.h"
+	"house.h"
+	"iologindata.h"
+	"configmanager.h"
+	"game.h"
+
+1295918998 source:c:\users\home\desktop\serviço\sources do pda\item.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"item.h"
+	"container.h"
+	"depot.h"
+	"teleport.h"
+	"trashholder.h"
+	"mailbox.h"
+	"luascript.h"
+	"combat.h"
+	"house.h"
+	"beds.h"
+	"actions.h"
+	"configmanager.h"
+	"game.h"
+	"movement.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\trashholder.h
+	"tile.h"
+	"const.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\mailbox.h
+	"const.h"
+	"cylinder.h"
+	"item.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\itemattributes.cpp
+	"otpch.h"
+	"itemattributes.h"
+	"fileloader.h"
+
+1518339548 source:c:\users\home\desktop\serviço\sources do pda\items.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	"items.h"
+	"condition.h"
+	"weapons.h"
+	"configmanager.h"
+	"spells.h"
+
+1518348261 source:c:\users\home\desktop\serviço\sources do pda\luascript.cpp
+	"otpch.h"
+	"luascript.h"
+	"scriptmanager.h"
+	<boost/filesystem.hpp>
+	<boost/any.hpp>
+	<iostream>
+	<iomanip>
+	"player.h"
+	"item.h"
+	"teleport.h"
+	"town.h"
+	"house.h"
+	"housetile.h"
+	"database.h"
+	"iologindata.h"
+	"ioban.h"
+	"iomapserialize.h"
+	"talkaction.h"
+	"spells.h"
+	"combat.h"
+	"condition.h"
+	"baseevents.h"
+	"monsters.h"
+	"raids.h"
+	"configmanager.h"
+	"vocation.h"
+	"status.h"
+	"game.h"
+	"chat.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\mailbox.cpp
+	"otpch.h"
+	"mailbox.h"
+	"player.h"
+	"iologindata.h"
+	"depot.h"
+	"town.h"
+	"configmanager.h"
+	"game.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\map.cpp
+	"otpch.h"
+	<iomanip>
+	<boost/config.hpp>
+	<boost/bind.hpp>
+	"iomap.h"
+	"map.h"
+	"tile.h"
+	"creature.h"
+	"player.h"
+	"combat.h"
+	"iomapserialize.h"
+	"items.h"
+	"game.h"
+
+1241036232 source:c:\users\home\desktop\serviço\sources do pda\md5.cpp
+	"otpch.h"
+	"md5.h"
+
+1249596076 c:\users\home\desktop\serviço\sources do pda\md5.h
+	"definitions.h"
+
+1518347598 source:c:\users\home\desktop\serviço\sources do pda\monster.cpp
+	"otpch.h"
+	"monster.h"
+	"spawn.h"
+	"monsters.h"
+	"spells.h"
+	"combat.h"
+	"configmanager.h"
+	"game.h"
+
+1518340054 source:c:\users\home\desktop\serviço\sources do pda\monsters.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"monsters.h"
+	"tools.h"
+	"monster.h"
+	"luascript.h"
+	"container.h"
+	"weapons.h"
+	"spells.h"
+	"combat.h"
+	"configmanager.h"
+	"game.h"
+
+1326456448 source:c:\users\home\desktop\serviço\sources do pda\movement.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"movement.h"
+	"tools.h"
+	"creature.h"
+	"player.h"
+	"tile.h"
+	"vocation.h"
+	"combat.h"
+	"game.h"
+
+1326741272 source:c:\users\home\desktop\serviço\sources do pda\networkmessage.cpp
+	"otpch.h"
+	<iostream>
+	"networkmessage.h"
+	"position.h"
+	"rsa.h"
+	"container.h"
+	"creature.h"
+	"player.h"
+
+1345402614 source:c:\users\home\desktop\serviço\sources do pda\npc.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<functional>
+	<iostream>
+	<fstream>
+	"npc.h"
+	"tools.h"
+	"luascript.h"
+	"position.h"
+	"spells.h"
+	"vocation.h"
+	"configmanager.h"
+	"game.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\outfit.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"outfit.h"
+	"tools.h"
+	"player.h"
+	"condition.h"
+	"game.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\outputmessage.cpp
+	"otpch.h"
+	"scheduler.h"
+	"outputmessage.h"
+	"protocol.h"
+
+1332797790 source:c:\users\home\desktop\serviço\sources do pda\party.cpp
+	"otpch.h"
+	"party.h"
+	"player.h"
+	"chat.h"
+	"game.h"
+	"configmanager.h"
+	"globalevent.h"
+
+1518339489 source:c:\users\home\desktop\serviço\sources do pda\player.cpp
+	"otpch.h"
+	<iostream>
+	"player.h"
+	"iologindata.h"
+	"ioban.h"
+	"town.h"
+	"house.h"
+	"beds.h"
+	"combat.h"
+	"gui.h"
+	"movement.h"
+	"weapons.h"
+	"creatureevent.h"
+	"configmanager.h"
+	"game.h"
+	"chat.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\playerbox.cpp
+	"otpch.h"
+	"playerbox.h"
+	"gui.h"
+	"player.h"
+	"ioban.h"
+	"game.h"
+
+1241036232 source:c:\users\home\desktop\serviço\sources do pda\position.cpp
+	"otpch.h"
+	<iomanip>
+	"position.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\protocol.cpp
+	"otpch.h"
+	<winerror.h>
+	"protocol.h"
+	"scheduler.h"
+	"connection.h"
+	"outputmessage.h"
+	"tools.h"
+	"rsa.h"
+
+1518339303 source:c:\users\home\desktop\serviço\sources do pda\protocolgame.cpp
+	"otpch.h"
+	"resources.h"
+	<boost/function.hpp>
+	<iostream>
+	"protocolgame.h"
+	"textlogger.h"
+	"waitlist.h"
+	"player.h"
+	"connection.h"
+	"networkmessage.h"
+	"outputmessage.h"
+	"iologindata.h"
+	"ioban.h"
+	"items.h"
+	"tile.h"
+	"house.h"
+	"actions.h"
+	"creatureevent.h"
+	"quests.h"
+	"chat.h"
+	"configmanager.h"
+	"game.h"
+	"gui.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\waitlist.h
+
+1325102984 source:c:\users\home\desktop\serviço\sources do pda\protocollogin.cpp
+	"otpch.h"
+	"resources.h"
+	<iomanip>
+	"protocollogin.h"
+	"tools.h"
+	"rsa.h"
+	"iologindata.h"
+	"ioban.h"
+	"gui.h"
+	"outputmessage.h"
+	"connection.h"
+	"configmanager.h"
+	"game.h"
+
+1260655112 c:\users\home\desktop\serviço\sources do pda\protocollogin.h
+	"protocol.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\protocolold.cpp
+	"otpch.h"
+	"resources.h"
+	"protocolold.h"
+	"rsa.h"
+	"outputmessage.h"
+	"connection.h"
+	"gui.h"
+	"game.h"
+
+1261686680 source:c:\users\home\desktop\serviço\sources do pda\quests.cpp
+	"otpch.h"
+	"quests.h"
+	"tools.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\raids.cpp
+	"otpch.h"
+	"raids.h"
+	"player.h"
+	"game.h"
+	"configmanager.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\rsa.cpp
+	"otpch.h"
+	"rsa.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\scheduler.cpp
+	"otpch.h"
+	"scheduler.h"
+	"exception.h"
+
+1518348269 source:c:\users\home\desktop\serviço\sources do pda\scriptmanager.cpp
+	"otpch.h"
+	"scriptmanager.h"
+	<boost/filesystem.hpp>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"actions.h"
+	"movement.h"
+	"spells.h"
+	"talkaction.h"
+	"creatureevent.h"
+	"globalevent.h"
+	"weapons.h"
+	"monsters.h"
+	"spawn.h"
+	"raids.h"
+	"group.h"
+	"vocation.h"
+	"outfit.h"
+	"quests.h"
+	"items.h"
+	"chat.h"
+	"configmanager.h"
+	"luascript.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\server.cpp
+	"otpch.h"
+	"server.h"
+	"connection.h"
+	"outputmessage.h"
+	"textlogger.h"
+	"game.h"
+	"configmanager.h"
+
+1241036232 source:c:\users\home\desktop\serviço\sources do pda\sha1.cpp
+	"otpch.h"
+	"sha1.h"
+
+1249596076 c:\users\home\desktop\serviço\sources do pda\sha1.h
+
+1477604427 source:c:\users\home\desktop\serviço\sources do pda\spawn.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"spawn.h"
+	"tools.h"
+	"player.h"
+	"npc.h"
+	"configmanager.h"
+	"game.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\spells.cpp
+	"otpch.h"
+	"const.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"spells.h"
+	"tools.h"
+	"house.h"
+	"housetile.h"
+	"combat.h"
+	"monsters.h"
+	"configmanager.h"
+	"game.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\status.cpp
+	"otpch.h"
+	"resources.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"status.h"
+	"tools.h"
+	"connection.h"
+	"networkmessage.h"
+	"outputmessage.h"
+	"configmanager.h"
+	"game.h"
+
+1326234116 source:c:\users\home\desktop\serviço\sources do pda\talkaction.cpp
+	"otpch.h"
+	"talkaction.h"
+	<boost/config.hpp>
+	<boost/version.hpp>
+	"iologindata.h"
+	"ioban.h"
+	"player.h"
+	"npc.h"
+	"house.h"
+	"town.h"
+	"teleport.h"
+	"status.h"
+	"textlogger.h"
+	"outputmessage.h"
+	"connection.h"
+	"admin.h"
+	"protocollogin.h"
+	"protocolold.h"
+	"configmanager.h"
+	"game.h"
+	"chat.h"
+	"tools.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\tasks.cpp
+	"otpch.h"
+	"tasks.h"
+	"outputmessage.h"
+	"exception.h"
+	"game.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\teleport.cpp
+	"otpch.h"
+	"teleport.h"
+	"game.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\textlogger.cpp
+	"otpch.h"
+	"textlogger.h"
+	"tools.h"
+	"gui.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\thing.cpp
+	"otpch.h"
+	"thing.h"
+	"cylinder.h"
+	"tile.h"
+	"item.h"
+	"creature.h"
+	"player.h"
+
+1295401540 source:c:\users\home\desktop\serviço\sources do pda\tile.cpp
+	"otpch.h"
+	<iostream>
+	"tile.h"
+	"housetile.h"
+	"player.h"
+	"creature.h"
+	"teleport.h"
+	"trashholder.h"
+	"mailbox.h"
+	"combat.h"
+	"movement.h"
+	"game.h"
+	"configmanager.h"
+
+1345596828 source:c:\users\home\desktop\serviço\sources do pda\tools.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"tools.h"
+	"md5.h"
+	"sha1.h"
+	"vocation.h"
+	"configmanager.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\trashholder.cpp
+	"otpch.h"
+	"trashholder.h"
+	"game.h"
+	"spells.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\vocation.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"vocation.h"
+	"tools.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\waitlist.cpp
+	"otpch.h"
+	"waitlist.h"
+	"player.h"
+	"configmanager.h"
+	"game.h"
+
+1260655112 source:c:\users\home\desktop\serviço\sources do pda\weapons.cpp
+	"otpch.h"
+	"weapons.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"game.h"
+	"configmanager.h"
+	"tools.h"
+
+1518342420 source:c:\users\home\desktop\serviço\sources do pda\otserv.cpp
+	"otpch.h"
+	"otsystem.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+	<unistd.h>
+	<boost/config.hpp>
+	"server.h"
+	"gameservers.h"
+	"networkmessage.h"
+	"game.h"
+	"chat.h"
+	"tools.h"
+	"rsa.h"
+	"textlogger.h"
+	"protocollogin.h"
+	"protocolgame.h"
+	"protocolold.h"
+	"status.h"
+	"admin.h"
+	"configmanager.h"
+	"scriptmanager.h"
+	"databasemanager.h"
+	"iologindata.h"
+	"ioban.h"
+	"outfit.h"
+	"vocation.h"
+	"group.h"
+	"monsters.h"
+	"allocator.h"
+	"exception.h"
+	"shellapi.h"
+	"gui.h"
+	"inputbox.h"
+	"commctrl.h"
+	"resources.h"
+	<exception>
+
+1260658712 source:c:\users\home\desktop\serviço\source\actions.cpp
+	"otpch.h"
+	"const.h"
+	"actions.h"
+	"tools.h"
+	"player.h"
+	"monster.h"
+	"npc.h"
+	"item.h"
+	"container.h"
+	"game.h"
+	"configmanager.h"
+	"combat.h"
+	"spells.h"
+	"house.h"
+	"beds.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+
+1260658712 c:\users\home\desktop\serviço\source\otpch.h
+	<winerror.h>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<libxml/threads.h>
+	<boost/config.hpp>
+	<boost/function.hpp>
+	<boost/bind.hpp>
+	<boost/regex.hpp>
+	<boost/tokenizer.hpp>
+	"thing.h"
+
+1477529080 c:\users\home\desktop\serviço\source\thing.h
+	"position.h"
+
+1260658712 c:\users\home\desktop\serviço\source\position.h
+	<stdlib.h>
+	<cmath>
+	<iostream>
+	<vector>
+
+1477526395 c:\users\home\desktop\serviço\source\const.h
+	"definitions.h"
+
+1288740906 c:\users\home\desktop\serviço\source\definitions.h
+	"exception.h"
+	<cstring>
+
+1260658712 c:\users\home\desktop\serviço\source\exception.h
+	"otsystem.h"
+
+1261690280 c:\users\home\desktop\serviço\source\otsystem.h
+	"definitions.h"
+	<string>
+	<algorithm>
+	<bitset>
+	<queue>
+	<set>
+	<vector>
+	<list>
+	<map>
+	<limits>
+	<boost/utility.hpp>
+	<boost/asio.hpp>
+	<boost/thread.hpp>
+	<boost/foreach.hpp>
+	<boost/shared_ptr.hpp>
+	<stddef.h>
+	<stdlib.h>
+	<stdint.h>
+	<time.h>
+	<assert.h>
+	<windows.h>
+	<sys/timeb.h>
+	<sys/timeb.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<unistd.h>
+	<time.h>
+	<netdb.h>
+	<errno.h>
+	<arpa/inet.h>
+	<netinet/in.h>
+
+1260658712 c:\users\home\desktop\serviço\source\actions.h
+	"baseevents.h"
+	"luascript.h"
+	"thing.h"
+
+1260658712 c:\users\home\desktop\serviço\source\baseevents.h
+	"otsystem.h"
+	"luascript.h"
+	<libxml/parser.h>
+
+1477611328 c:\users\home\desktop\serviço\source\luascript.h
+	"otsystem.h"
+	"lua.h"
+	"lualib.h"
+	"lauxlib.h"
+	"database.h"
+	"position.h"
+
+1260658712 c:\users\home\desktop\serviço\source\database.h
+	"otsystem.h"
+	"enums.h"
+	<sstream>
+	"databasemysql.h"
+	"databasesqlite.h"
+	"databaseodbc.h"
+	"databasepgsql.h"
+
+1477526437 c:\users\home\desktop\serviço\source\enums.h
+	<string>
+	<list>
+
+1260658712 c:\users\home\desktop\serviço\source\databasemysql.h
+	<winsock2.h>
+	<mysql.h>
+	<mysql/mysql.h>
+	<sstream>
+	<map>
+
+1260658712 c:\users\home\desktop\serviço\source\databasesqlite.h
+	<sqlite3.h>
+	<sstream>
+	<map>
+
+1260658712 c:\users\home\desktop\serviço\source\databaseodbc.h
+	<windows.h>
+	<sqltypes.h>
+	<sql.h>
+	<sqlext.h>
+
+1260658712 c:\users\home\desktop\serviço\source\databasepgsql.h
+	<postgresql/libpq-fe.h>
+
+1292956316 c:\users\home\desktop\serviço\source\tools.h
+	"otsystem.h"
+	"enums.h"
+	"const.h"
+	<libxml/parser.h>
+	<boost/tokenizer.hpp>
+	"position.h"
+
+1477534457 c:\users\home\desktop\serviço\source\player.h
+	"otsystem.h"
+	"enums.h"
+	"creature.h"
+	"cylinder.h"
+	"container.h"
+	"depot.h"
+	"outfit.h"
+	"vocation.h"
+	"group.h"
+	"protocolgame.h"
+	"ioguild.h"
+	"party.h"
+	"npc.h"
+
+1477611481 c:\users\home\desktop\serviço\source\creature.h
+	"otsystem.h"
+	"templates.h"
+	<boost/any.hpp>
+	"const.h"
+	"enums.h"
+	"map.h"
+	"condition.h"
+	"creatureevent.h"
+
+1260658712 c:\users\home\desktop\serviço\source\templates.h
+	"otsystem.h"
+
+1249599676 c:\users\home\desktop\serviço\source\map.h
+	"tools.h"
+	"fileloader.h"
+	"position.h"
+	"waypoints.h"
+	"tile.h"
+
+1260658712 c:\users\home\desktop\serviço\source\fileloader.h
+	"otsystem.h"
+
+1249599676 c:\users\home\desktop\serviço\source\waypoints.h
+	"otsystem.h"
+
+1477609745 c:\users\home\desktop\serviço\source\tile.h
+	<boost/shared_ptr.hpp>
+	"cylinder.h"
+	"item.h"
+
+1260658712 c:\users\home\desktop\serviço\source\cylinder.h
+	"otsystem.h"
+
+1260658712 c:\users\home\desktop\serviço\source\item.h
+	"otsystem.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"thing.h"
+	"itemattributes.h"
+	"items.h"
+	"raids.h"
+
+1260658712 c:\users\home\desktop\serviço\source\itemattributes.h
+	"otsystem.h"
+	<boost/any.hpp>
+
+1477527928 c:\users\home\desktop\serviço\source\items.h
+	"otsystem.h"
+	"itemloader.h"
+	"const.h"
+	"enums.h"
+	"position.h"
+	<libxml/parser.h>
+
+1260658712 c:\users\home\desktop\serviço\source\itemloader.h
+	"fileloader.h"
+
+1260658712 c:\users\home\desktop\serviço\source\raids.h
+	"otsystem.h"
+	"const.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"baseevents.h"
+	"position.h"
+	"tools.h"
+
+1293162680 c:\users\home\desktop\serviço\source\condition.h
+	"otsystem.h"
+	"const.h"
+	"enums.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"fileloader.h"
+
+1477527117 c:\users\home\desktop\serviço\source\creatureevent.h
+	"enums.h"
+	"baseevents.h"
+	"tile.h"
+
+1260658712 c:\users\home\desktop\serviço\source\container.h
+	"otsystem.h"
+	"cylinder.h"
+	"item.h"
+
+1260658712 c:\users\home\desktop\serviço\source\depot.h
+	"container.h"
+
+1260658712 c:\users\home\desktop\serviço\source\outfit.h
+	"otsystem.h"
+	"enums.h"
+
+1260658712 c:\users\home\desktop\serviço\source\vocation.h
+	"otsystem.h"
+	"enums.h"
+
+1260658712 c:\users\home\desktop\serviço\source\group.h
+	"otsystem.h"
+
+1477533782 c:\users\home\desktop\serviço\source\protocolgame.h
+	"otsystem.h"
+	"enums.h"
+	"protocol.h"
+	"creature.h"
+
+1260658712 c:\users\home\desktop\serviço\source\protocol.h
+	"otsystem.h"
+	"rsa.h"
+
+1260658712 c:\users\home\desktop\serviço\source\rsa.h
+	"otsystem.h"
+	"gmp.h"
+
+1260658712 c:\users\home\desktop\serviço\source\ioguild.h
+	"otsystem.h"
+	"player.h"
+
+1260658712 c:\users\home\desktop\serviço\source\party.h
+	"player.h"
+
+1260658712 c:\users\home\desktop\serviço\source\npc.h
+	"templates.h"
+	"const.h"
+	"creature.h"
+	"luascript.h"
+
+1295902058 c:\users\home\desktop\serviço\source\monster.h
+	"monsters.h"
+	"raids.h"
+	"tile.h"
+
+1260658712 c:\users\home\desktop\serviço\source\monsters.h
+	"otsystem.h"
+	"creature.h"
+
+1477608228 c:\users\home\desktop\serviço\source\game.h
+	"otsystem.h"
+	"enums.h"
+	"templates.h"
+	"scheduler.h"
+	"map.h"
+	"spawn.h"
+	"item.h"
+	"player.h"
+	"npc.h"
+	"monster.h"
+
+1477771766 c:\users\home\desktop\serviço\source\scheduler.h
+	"otsystem.h"
+	"tasks.h"
+
+1260658712 c:\users\home\desktop\serviço\source\tasks.h
+	"otsystem.h"
+	<boost/function.hpp>
+
+1249599676 c:\users\home\desktop\serviço\source\spawn.h
+	"otsystem.h"
+	"templates.h"
+	"position.h"
+	"tile.h"
+	"monster.h"
+
+1477531236 c:\users\home\desktop\serviço\source\configmanager.h
+	"luascript.h"
+
+1260658712 c:\users\home\desktop\serviço\source\combat.h
+	"otsystem.h"
+	"baseevents.h"
+	"condition.h"
+	"map.h"
+
+1260658712 c:\users\home\desktop\serviço\source\spells.h
+	"otsystem.h"
+	"enums.h"
+	"player.h"
+	"luascript.h"
+	"baseevents.h"
+	"actions.h"
+	"talkaction.h"
+
+1260658712 c:\users\home\desktop\serviço\source\talkaction.h
+	"otsystem.h"
+	"enums.h"
+	"player.h"
+	"tools.h"
+	"luascript.h"
+	"baseevents.h"
+
+1260658712 c:\users\home\desktop\serviço\source\house.h
+	"otsystem.h"
+	<boost/regex.hpp>
+	<boost/tr1/unordered_set.hpp>
+	"position.h"
+	"housetile.h"
+	"player.h"
+
+1260658712 c:\users\home\desktop\serviço\source\housetile.h
+	"tile.h"
+
+1260658712 c:\users\home\desktop\serviço\source\beds.h
+	"item.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\admin.cpp
+	"otpch.h"
+	<iostream>
+	"admin.h"
+	"rsa.h"
+	"tools.h"
+	"configmanager.h"
+	"game.h"
+	"connection.h"
+	"outputmessage.h"
+	"networkmessage.h"
+	"house.h"
+	"town.h"
+	"iologindata.h"
+
+1260658712 c:\users\home\desktop\serviço\source\admin.h
+	"otsystem.h"
+	"textlogger.h"
+	"player.h"
+
+1260658712 c:\users\home\desktop\serviço\source\textlogger.h
+	"otsystem.h"
+	<ostream>
+	<fstream>
+
+1260658712 c:\users\home\desktop\serviço\source\connection.h
+	"otsystem.h"
+	"networkmessage.h"
+	<boost/utility.hpp>
+	<boost/enable_shared_from_this.hpp>
+
+1260658712 c:\users\home\desktop\serviço\source\networkmessage.h
+	"otsystem.h"
+	"const.h"
+
+1260658712 c:\users\home\desktop\serviço\source\outputmessage.h
+	"otsystem.h"
+	"tools.h"
+	"connection.h"
+	"networkmessage.h"
+	<iostream>
+	<sstream>
+
+1260658712 c:\users\home\desktop\serviço\source\town.h
+	"otsystem.h"
+
+1260658712 c:\users\home\desktop\serviço\source\iologindata.h
+	"otsystem.h"
+	"database.h"
+	"creature.h"
+	"player.h"
+	"account.h"
+	"group.h"
+
+1249599676 c:\users\home\desktop\serviço\source\account.h
+	"otsystem.h"
+	"gameservers.h"
+
+1260658712 c:\users\home\desktop\serviço\source\gameservers.h
+	"otsystem.h"
+	"resources.h"
+	"const.h"
+
+1518349850 c:\users\home\desktop\serviço\source\resources.h
+	"definitions.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\allocator.cpp
+	"otpch.h"
+	"allocator.h"
+
+1260658712 c:\users\home\desktop\serviço\source\allocator.h
+	"otsystem.h"
+	<boost/pool/pool.hpp>
+	<memory>
+	<cstdlib>
+	<fstream>
+
+1260658712 source:c:\users\home\desktop\serviço\source\baseevents.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	"baseevents.h"
+	"tools.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\beds.cpp
+	"otpch.h"
+	"beds.h"
+	"house.h"
+	"player.h"
+	"iologindata.h"
+	"game.h"
+	"configmanager.h"
+
+1477603157 source:c:\users\home\desktop\serviço\source\chat.cpp
+	"otpch.h"
+	"chat.h"
+	"player.h"
+	"iologindata.h"
+	"configmanager.h"
+	"game.h"
+
+1260658712 c:\users\home\desktop\serviço\source\chat.h
+	"otsystem.h"
+	<fstream>
+	"const.h"
+	"party.h"
+
+1477611380 source:c:\users\home\desktop\serviço\source\combat.cpp
+	"otpch.h"
+	"const.h"
+	"combat.h"
+	"tools.h"
+	"game.h"
+	"configmanager.h"
+	"creature.h"
+	"player.h"
+	"weapons.h"
+
+1260658712 c:\users\home\desktop\serviço\source\weapons.h
+	"otsystem.h"
+	"const.h"
+	"combat.h"
+	"baseevents.h"
+	"luascript.h"
+	"player.h"
+	"item.h"
+
+1295889288 source:c:\users\home\desktop\serviço\source\condition.cpp
+	"otpch.h"
+	"condition.h"
+	"tools.h"
+	"game.h"
+	"creature.h"
+	"combat.h"
+
+1477531100 source:c:\users\home\desktop\serviço\source\configmanager.cpp
+	"otpch.h"
+	<iostream>
+	"configmanager.h"
+	"tools.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\connection.cpp
+	"otpch.h"
+	"connection.h"
+	"protocol.h"
+	"protocolgame.h"
+	"protocolold.h"
+	"admin.h"
+	"status.h"
+	"outputmessage.h"
+	"scheduler.h"
+	"server.h"
+	"configmanager.h"
+	"tools.h"
+	"textlogger.h"
+
+1260658712 c:\users\home\desktop\serviço\source\protocolold.h
+	"protocol.h"
+
+1260658712 c:\users\home\desktop\serviço\source\status.h
+	"otsystem.h"
+	"protocol.h"
+
+1260658712 c:\users\home\desktop\serviço\source\server.h
+	"otsystem.h"
+	<boost/enable_shared_from_this.hpp>
+
+1362350386 source:c:\users\home\desktop\serviço\source\container.cpp
+	"otpch.h"
+	"container.h"
+	"game.h"
+	"iomap.h"
+	"player.h"
+
+1477609924 c:\users\home\desktop\serviço\source\iomap.h
+	"status.h"
+	"map.h"
+	"house.h"
+	"spawn.h"
+	"item.h"
+
+1477527117 source:c:\users\home\desktop\serviço\source\creatureevent.cpp
+	"otpch.h"
+	<sstream>
+	"creatureevent.h"
+	"player.h"
+	"tools.h"
+
+1249599676 source:c:\users\home\desktop\serviço\source\cylinder.cpp
+	"otpch.h"
+	"cylinder.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\database.cpp
+	"otpch.h"
+	<string>
+	"database.h"
+	"databasemysql.h"
+	"databasesqlite.h"
+	"databaseodbc.h"
+	"databasepgsql.h"
+	"configmanager.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\databasemanager.cpp
+	"otpch.h"
+	"enums.h"
+	<iostream>
+	"databasemanager.h"
+	"tools.h"
+	"configmanager.h"
+
+1260658712 c:\users\home\desktop\serviço\source\databasemanager.h
+	"database.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\databasemysql.cpp
+	"otpch.h"
+	"scheduler.h"
+	"database.h"
+	"databasemysql.h"
+	"errmsg.h"
+	<mysql/errmsg.h>
+	<iostream>
+	"configmanager.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\databasesqlite.cpp
+	"otpch.h"
+	<iostream>
+	<boost/regex.hpp>
+	"database.h"
+	"databasesqlite.h"
+	"tools.h"
+	"configmanager.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\depot.cpp
+	"otpch.h"
+	"depot.h"
+	"tools.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\exception.cpp
+	"otpch.h"
+	"exception.h"
+	<iostream>
+	<iomanip>
+	<fstream>
+	<excpt.h>
+	<tlhelp32.h>
+	<boost/config.hpp>
+	"tools.h"
+	"configmanager.h"
+
+1249599676 source:c:\users\home\desktop\serviço\source\fileloader.cpp
+	"otpch.h"
+	"fileloader.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\gameservers.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"gameservers.h"
+	"tools.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\globalevent.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"globalevent.h"
+	"tools.h"
+	"player.h"
+
+1260658712 c:\users\home\desktop\serviço\source\globalevent.h
+	"baseevents.h"
+	"const.h"
+	"scheduler.h"
+
+1249599676 source:c:\users\home\desktop\serviço\source\group.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"group.h"
+	"tools.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\gui.cpp
+	"gui.h"
+	<tchar.h>
+
+1260658712 c:\users\home\desktop\serviço\source\gui.h
+	"definitions.h"
+	"resources.h"
+	"playerbox.h"
+
+1260658712 c:\users\home\desktop\serviço\source\playerbox.h
+	"otsystem.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\gui_resources.rc
+	"resources.h"
+	<windows.h>
+
+1477602716 source:c:\users\home\desktop\serviço\source\house.cpp
+	"otpch.h"
+	"house.h"
+	"tools.h"
+	"database.h"
+	"beds.h"
+	"town.h"
+	"iologindata.h"
+	"ioguild.h"
+	"iomapserialize.h"
+	"configmanager.h"
+	"game.h"
+
+1249599676 c:\users\home\desktop\serviço\source\iomapserialize.h
+	"otsystem.h"
+	"database.h"
+	"map.h"
+
+1295926174 source:c:\users\home\desktop\serviço\source\housetile.cpp
+	"otpch.h"
+	"housetile.h"
+	"house.h"
+	"game.h"
+	"configmanager.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\inputbox.cpp
+	"inputbox.h"
+
+1260658712 c:\users\home\desktop\serviço\source\inputbox.h
+	"otsystem.h"
+	<tchar.h>
+
+1249599676 source:c:\users\home\desktop\serviço\source\ioban.cpp
+	"otpch.h"
+	"ioban.h"
+	"tools.h"
+	"database.h"
+	"iologindata.h"
+
+1249599676 c:\users\home\desktop\serviço\source\ioban.h
+	"otsystem.h"
+	"enums.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\ioguild.cpp
+	"otpch.h"
+	"ioguild.h"
+	"database.h"
+	"configmanager.h"
+	"game.h"
+
+1295494110 source:c:\users\home\desktop\serviço\source\iologindata.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"iologindata.h"
+	"tools.h"
+	"gameservers.h"
+	"town.h"
+	"house.h"
+	"item.h"
+	"vocation.h"
+	"configmanager.h"
+	"game.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\iomap.cpp
+	"otpch.h"
+	"iomap.h"
+	"fileloader.h"
+	"map.h"
+	"town.h"
+	"tile.h"
+	"item.h"
+	"container.h"
+	"depot.h"
+	"teleport.h"
+	"beds.h"
+	"game.h"
+
+1260658712 c:\users\home\desktop\serviço\source\teleport.h
+	"tile.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\iomapserialize.cpp
+	"otpch.h"
+	"iomapserialize.h"
+	"house.h"
+	"iologindata.h"
+	"configmanager.h"
+	"game.h"
+
+1295922598 source:c:\users\home\desktop\serviço\source\item.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"item.h"
+	"container.h"
+	"depot.h"
+	"teleport.h"
+	"trashholder.h"
+	"mailbox.h"
+	"luascript.h"
+	"combat.h"
+	"house.h"
+	"beds.h"
+	"actions.h"
+	"configmanager.h"
+	"game.h"
+	"movement.h"
+
+1260658712 c:\users\home\desktop\serviço\source\trashholder.h
+	"tile.h"
+	"const.h"
+
+1260658712 c:\users\home\desktop\serviço\source\mailbox.h
+	"const.h"
+	"cylinder.h"
+	"item.h"
+
+1261690280 c:\users\home\desktop\serviço\source\movement.h
+	"baseevents.h"
+	"creature.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\itemattributes.cpp
+	"otpch.h"
+	"itemattributes.h"
+	"fileloader.h"
+
+1477527900 source:c:\users\home\desktop\serviço\source\items.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	"items.h"
+	"condition.h"
+	"weapons.h"
+	"configmanager.h"
+	"spells.h"
+
+1477611285 source:c:\users\home\desktop\serviço\source\luascript.cpp
+	"otpch.h"
+	"luascript.h"
+	"scriptmanager.h"
+	<boost/filesystem.hpp>
+	<boost/any.hpp>
+	<iostream>
+	<iomanip>
+	"player.h"
+	"item.h"
+	"teleport.h"
+	"town.h"
+	"house.h"
+	"housetile.h"
+	"database.h"
+	"iologindata.h"
+	"ioban.h"
+	"iomapserialize.h"
+	"talkaction.h"
+	"spells.h"
+	"combat.h"
+	"condition.h"
+	"baseevents.h"
+	"monsters.h"
+	"raids.h"
+	"configmanager.h"
+	"vocation.h"
+	"status.h"
+	"game.h"
+	"chat.h"
+
+1249599676 c:\users\home\desktop\serviço\source\scriptmanager.h
+	"otsystem.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\mailbox.cpp
+	"otpch.h"
+	"mailbox.h"
+	"player.h"
+	"iologindata.h"
+	"depot.h"
+	"town.h"
+	"configmanager.h"
+	"game.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\map.cpp
+	"otpch.h"
+	<iomanip>
+	<boost/config.hpp>
+	<boost/bind.hpp>
+	"iomap.h"
+	"map.h"
+	"tile.h"
+	"creature.h"
+	"player.h"
+	"combat.h"
+	"iomapserialize.h"
+	"items.h"
+	"game.h"
+
+1241039832 source:c:\users\home\desktop\serviço\source\md5.cpp
+	"otpch.h"
+	"md5.h"
+
+1249599676 c:\users\home\desktop\serviço\source\md5.h
+	"definitions.h"
+
+1478138474 source:c:\users\home\desktop\serviço\source\monster.cpp
+	"otpch.h"
+	"monster.h"
+	"spawn.h"
+	"monsters.h"
+	"spells.h"
+	"combat.h"
+	"configmanager.h"
+	"game.h"
+
+1477526695 source:c:\users\home\desktop\serviço\source\monsters.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"monsters.h"
+	"tools.h"
+	"monster.h"
+	"luascript.h"
+	"container.h"
+	"weapons.h"
+	"spells.h"
+	"combat.h"
+	"configmanager.h"
+	"game.h"
+
+1261690280 source:c:\users\home\desktop\serviço\source\movement.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"movement.h"
+	"tools.h"
+	"creature.h"
+	"player.h"
+	"tile.h"
+	"vocation.h"
+	"combat.h"
+	"game.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\networkmessage.cpp
+	"otpch.h"
+	<iostream>
+	"networkmessage.h"
+	"position.h"
+	"rsa.h"
+	"container.h"
+	"creature.h"
+	"player.h"
+
+1362350640 source:c:\users\home\desktop\serviço\source\npc.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	<functional>
+	<iostream>
+	<fstream>
+	"npc.h"
+	"tools.h"
+	"luascript.h"
+	"position.h"
+	"spells.h"
+	"vocation.h"
+	"configmanager.h"
+	"game.h"
+
+1362442944 source:c:\users\home\desktop\serviço\source\otserv.cpp
+	"otpch.h"
+	"otsystem.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+	<unistd.h>
+	<boost/config.hpp>
+	"server.h"
+	"gameservers.h"
+	"networkmessage.h"
+	"game.h"
+	"chat.h"
+	"tools.h"
+	"rsa.h"
+	"textlogger.h"
+	"protocollogin.h"
+	"protocolgame.h"
+	"protocolold.h"
+	"status.h"
+	"admin.h"
+	"configmanager.h"
+	"scriptmanager.h"
+	"databasemanager.h"
+	"iologindata.h"
+	"ioban.h"
+	"outfit.h"
+	"vocation.h"
+	"group.h"
+	"monsters.h"
+	"allocator.h"
+	"exception.h"
+	"shellapi.h"
+	"gui.h"
+	"inputbox.h"
+	"commctrl.h"
+	"resources.h"
+	<exception>
+
+1260658712 c:\users\home\desktop\serviço\source\protocollogin.h
+	"protocol.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\outfit.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"outfit.h"
+	"tools.h"
+	"player.h"
+	"condition.h"
+	"game.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\outputmessage.cpp
+	"otpch.h"
+	"scheduler.h"
+	"outputmessage.h"
+	"protocol.h"
+
+1261690280 source:c:\users\home\desktop\serviço\source\party.cpp
+	"otpch.h"
+	"party.h"
+	"player.h"
+	"chat.h"
+	"game.h"
+	"configmanager.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\playerbox.cpp
+	"otpch.h"
+	"playerbox.h"
+	"gui.h"
+	"player.h"
+	"ioban.h"
+	"game.h"
+
+1241039832 source:c:\users\home\desktop\serviço\source\position.cpp
+	"otpch.h"
+	<iomanip>
+	"position.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\protocol.cpp
+	"otpch.h"
+	<winerror.h>
+	"protocol.h"
+	"scheduler.h"
+	"connection.h"
+	"outputmessage.h"
+	"tools.h"
+	"rsa.h"
+
+1477534284 source:c:\users\home\desktop\serviço\source\protocolgame.cpp
+	"otpch.h"
+	"resources.h"
+	<boost/function.hpp>
+	<iostream>
+	"protocolgame.h"
+	"textlogger.h"
+	"waitlist.h"
+	"player.h"
+	"connection.h"
+	"networkmessage.h"
+	"outputmessage.h"
+	"iologindata.h"
+	"ioban.h"
+	"items.h"
+	"tile.h"
+	"house.h"
+	"actions.h"
+	"creatureevent.h"
+	"quests.h"
+	"chat.h"
+	"configmanager.h"
+	"game.h"
+	"gui.h"
+
+1260658712 c:\users\home\desktop\serviço\source\waitlist.h
+
+1261690280 c:\users\home\desktop\serviço\source\quests.h
+	"otsystem.h"
+	"networkmessage.h"
+	"player.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\protocollogin.cpp
+	"otpch.h"
+	"resources.h"
+	<iomanip>
+	"protocollogin.h"
+	"tools.h"
+	"rsa.h"
+	"iologindata.h"
+	"ioban.h"
+	"gui.h"
+	"outputmessage.h"
+	"connection.h"
+	"configmanager.h"
+	"game.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\protocolold.cpp
+	"otpch.h"
+	"resources.h"
+	"protocolold.h"
+	"rsa.h"
+	"outputmessage.h"
+	"connection.h"
+	"gui.h"
+	"game.h"
+
+1261690280 source:c:\users\home\desktop\serviço\source\quests.cpp
+	"otpch.h"
+	"quests.h"
+	"tools.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\raids.cpp
+	"otpch.h"
+	"raids.h"
+	"player.h"
+	"game.h"
+	"configmanager.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\rsa.cpp
+	"otpch.h"
+	"rsa.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\scheduler.cpp
+	"otpch.h"
+	"scheduler.h"
+	"exception.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\scriptmanager.cpp
+	"otpch.h"
+	"scriptmanager.h"
+	<boost/filesystem.hpp>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"actions.h"
+	"movement.h"
+	"spells.h"
+	"talkaction.h"
+	"creatureevent.h"
+	"globalevent.h"
+	"weapons.h"
+	"monsters.h"
+	"spawn.h"
+	"raids.h"
+	"group.h"
+	"vocation.h"
+	"outfit.h"
+	"quests.h"
+	"items.h"
+	"chat.h"
+	"configmanager.h"
+	"luascript.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\server.cpp
+	"otpch.h"
+	"server.h"
+	"connection.h"
+	"outputmessage.h"
+	"textlogger.h"
+	"game.h"
+	"configmanager.h"
+
+1241039832 source:c:\users\home\desktop\serviço\source\sha1.cpp
+	"otpch.h"
+	"sha1.h"
+
+1249599676 c:\users\home\desktop\serviço\source\sha1.h
+
+1477604427 source:c:\users\home\desktop\serviço\source\spawn.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"spawn.h"
+	"tools.h"
+	"player.h"
+	"npc.h"
+	"configmanager.h"
+	"game.h"
+
+1477601881 source:c:\users\home\desktop\serviço\source\spells.cpp
+	"otpch.h"
+	"const.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"spells.h"
+	"tools.h"
+	"house.h"
+	"housetile.h"
+	"combat.h"
+	"monsters.h"
+	"configmanager.h"
+	"game.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\status.cpp
+	"otpch.h"
+	"resources.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"status.h"
+	"tools.h"
+	"connection.h"
+	"networkmessage.h"
+	"outputmessage.h"
+	"configmanager.h"
+	"game.h"
+
+1477601881 source:c:\users\home\desktop\serviço\source\talkaction.cpp
+	"otpch.h"
+	"talkaction.h"
+	<boost/config.hpp>
+	<boost/version.hpp>
+	"iologindata.h"
+	"ioban.h"
+	"player.h"
+	"npc.h"
+	"house.h"
+	"town.h"
+	"teleport.h"
+	"status.h"
+	"textlogger.h"
+	"outputmessage.h"
+	"connection.h"
+	"admin.h"
+	"protocollogin.h"
+	"protocolold.h"
+	"configmanager.h"
+	"game.h"
+	"chat.h"
+	"tools.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\tasks.cpp
+	"otpch.h"
+	"tasks.h"
+	"outputmessage.h"
+	"exception.h"
+	"game.h"
+
+1477601881 source:c:\users\home\desktop\serviço\source\teleport.cpp
+	"otpch.h"
+	"teleport.h"
+	"game.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\textlogger.cpp
+	"otpch.h"
+	"textlogger.h"
+	"tools.h"
+	"gui.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\thing.cpp
+	"otpch.h"
+	"thing.h"
+	"cylinder.h"
+	"tile.h"
+	"item.h"
+	"creature.h"
+	"player.h"
+
+1477525898 source:c:\users\home\desktop\serviço\source\tile.cpp
+	"otpch.h"
+	<iostream>
+	"tile.h"
+	"housetile.h"
+	"player.h"
+	"creature.h"
+	"teleport.h"
+	"trashholder.h"
+	"mailbox.h"
+	"combat.h"
+	"movement.h"
+	"game.h"
+	"configmanager.h"
+
+1293949730 source:c:\users\home\desktop\serviço\source\tools.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"tools.h"
+	"md5.h"
+	"sha1.h"
+	"vocation.h"
+	"configmanager.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\trashholder.cpp
+	"otpch.h"
+	"trashholder.h"
+	"game.h"
+	"spells.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\vocation.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"vocation.h"
+	"tools.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\waitlist.cpp
+	"otpch.h"
+	"waitlist.h"
+	"player.h"
+	"configmanager.h"
+	"game.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source\weapons.cpp
+	"otpch.h"
+	"weapons.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"game.h"
+	"configmanager.h"
+	"tools.h"
+
+1362442944 source:c:\users\home\desktop\serviço\source do pda\otserv.cpp
+	"otpch.h"
+	"otsystem.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+	<unistd.h>
+	<boost/config.hpp>
+	"server.h"
+	"gameservers.h"
+	"networkmessage.h"
+	"game.h"
+	"chat.h"
+	"tools.h"
+	"rsa.h"
+	"textlogger.h"
+	"protocollogin.h"
+	"protocolgame.h"
+	"protocolold.h"
+	"status.h"
+	"admin.h"
+	"configmanager.h"
+	"scriptmanager.h"
+	"databasemanager.h"
+	"iologindata.h"
+	"ioban.h"
+	"outfit.h"
+	"vocation.h"
+	"group.h"
+	"monsters.h"
+	"allocator.h"
+	"exception.h"
+	"shellapi.h"
+	"gui.h"
+	"inputbox.h"
+	"commctrl.h"
+	"resources.h"
+	<exception>
+
+1260658712 c:\users\home\desktop\serviço\source do pda\protocollogin.h
+	"protocol.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\outfit.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"outfit.h"
+	"tools.h"
+	"player.h"
+	"condition.h"
+	"game.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\outputmessage.cpp
+	"otpch.h"
+	"scheduler.h"
+	"outputmessage.h"
+	"protocol.h"
+
+1261690280 source:c:\users\home\desktop\serviço\source do pda\party.cpp
+	"otpch.h"
+	"party.h"
+	"player.h"
+	"chat.h"
+	"game.h"
+	"configmanager.h"
+
+1518349906 source:c:\users\home\desktop\serviço\source do pda\player.cpp
+	"otpch.h"
+	<iostream>
+	"player.h"
+	"iologindata.h"
+	"ioban.h"
+	"town.h"
+	"house.h"
+	"beds.h"
+	"combat.h"
+	"gui.h"
+	"movement.h"
+	"weapons.h"
+	"creatureevent.h"
+	"configmanager.h"
+	"game.h"
+	"chat.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\playerbox.cpp
+	"otpch.h"
+	"playerbox.h"
+	"gui.h"
+	"player.h"
+	"ioban.h"
+	"game.h"
+
+1241039832 source:c:\users\home\desktop\serviço\source do pda\position.cpp
+	"otpch.h"
+	<iomanip>
+	"position.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\protocol.cpp
+	"otpch.h"
+	<winerror.h>
+	"protocol.h"
+	"scheduler.h"
+	"connection.h"
+	"outputmessage.h"
+	"tools.h"
+	"rsa.h"
+
+1477534284 source:c:\users\home\desktop\serviço\source do pda\protocolgame.cpp
+	"otpch.h"
+	"resources.h"
+	<boost/function.hpp>
+	<iostream>
+	"protocolgame.h"
+	"textlogger.h"
+	"waitlist.h"
+	"player.h"
+	"connection.h"
+	"networkmessage.h"
+	"outputmessage.h"
+	"iologindata.h"
+	"ioban.h"
+	"items.h"
+	"tile.h"
+	"house.h"
+	"actions.h"
+	"creatureevent.h"
+	"quests.h"
+	"chat.h"
+	"configmanager.h"
+	"game.h"
+	"gui.h"
+
+1260658712 c:\users\home\desktop\serviço\source do pda\waitlist.h
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\protocollogin.cpp
+	"otpch.h"
+	"resources.h"
+	<iomanip>
+	"protocollogin.h"
+	"tools.h"
+	"rsa.h"
+	"iologindata.h"
+	"ioban.h"
+	"gui.h"
+	"outputmessage.h"
+	"connection.h"
+	"configmanager.h"
+	"game.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\protocolold.cpp
+	"otpch.h"
+	"resources.h"
+	"protocolold.h"
+	"rsa.h"
+	"outputmessage.h"
+	"connection.h"
+	"gui.h"
+	"game.h"
+
+1261690280 source:c:\users\home\desktop\serviço\source do pda\quests.cpp
+	"otpch.h"
+	"quests.h"
+	"tools.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\raids.cpp
+	"otpch.h"
+	"raids.h"
+	"player.h"
+	"game.h"
+	"configmanager.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\rsa.cpp
+	"otpch.h"
+	"rsa.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\scheduler.cpp
+	"otpch.h"
+	"scheduler.h"
+	"exception.h"
+
+1518377871 source:c:\users\home\desktop\serviço\source do pda\scriptmanager.cpp
+	"otpch.h"
+	"scriptmanager.h"
+	<boost/filesystem.hpp>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"actions.h"
+	"movement.h"
+	"spells.h"
+	"talkaction.h"
+	"creatureevent.h"
+	"globalevent.h"
+	"weapons.h"
+	"monsters.h"
+	"spawn.h"
+	"raids.h"
+	"group.h"
+	"vocation.h"
+	"outfit.h"
+	"quests.h"
+	"items.h"
+	"chat.h"
+	"configmanager.h"
+	"luascript.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\server.cpp
+	"otpch.h"
+	"server.h"
+	"connection.h"
+	"outputmessage.h"
+	"textlogger.h"
+	"game.h"
+	"configmanager.h"
+
+1241039832 source:c:\users\home\desktop\serviço\source do pda\sha1.cpp
+	"otpch.h"
+	"sha1.h"
+
+1249599676 c:\users\home\desktop\serviço\source do pda\sha1.h
+
+1477604427 source:c:\users\home\desktop\serviço\source do pda\spawn.cpp
+	"otpch.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"spawn.h"
+	"tools.h"
+	"player.h"
+	"npc.h"
+	"configmanager.h"
+	"game.h"
+
+1477601881 source:c:\users\home\desktop\serviço\source do pda\spells.cpp
+	"otpch.h"
+	"const.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"spells.h"
+	"tools.h"
+	"house.h"
+	"housetile.h"
+	"combat.h"
+	"monsters.h"
+	"configmanager.h"
+	"game.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\status.cpp
+	"otpch.h"
+	"resources.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"status.h"
+	"tools.h"
+	"connection.h"
+	"networkmessage.h"
+	"outputmessage.h"
+	"configmanager.h"
+	"game.h"
+
+1477601881 source:c:\users\home\desktop\serviço\source do pda\talkaction.cpp
+	"otpch.h"
+	"talkaction.h"
+	<boost/config.hpp>
+	<boost/version.hpp>
+	"iologindata.h"
+	"ioban.h"
+	"player.h"
+	"npc.h"
+	"house.h"
+	"town.h"
+	"teleport.h"
+	"status.h"
+	"textlogger.h"
+	"outputmessage.h"
+	"connection.h"
+	"admin.h"
+	"protocollogin.h"
+	"protocolold.h"
+	"configmanager.h"
+	"game.h"
+	"chat.h"
+	"tools.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\tasks.cpp
+	"otpch.h"
+	"tasks.h"
+	"outputmessage.h"
+	"exception.h"
+	"game.h"
+
+1477601881 source:c:\users\home\desktop\serviço\source do pda\teleport.cpp
+	"otpch.h"
+	"teleport.h"
+	"game.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\textlogger.cpp
+	"otpch.h"
+	"textlogger.h"
+	"tools.h"
+	"gui.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\thing.cpp
+	"otpch.h"
+	"thing.h"
+	"cylinder.h"
+	"tile.h"
+	"item.h"
+	"creature.h"
+	"player.h"
+
+1477525898 source:c:\users\home\desktop\serviço\source do pda\tile.cpp
+	"otpch.h"
+	<iostream>
+	"tile.h"
+	"housetile.h"
+	"player.h"
+	"creature.h"
+	"teleport.h"
+	"trashholder.h"
+	"mailbox.h"
+	"combat.h"
+	"movement.h"
+	"game.h"
+	"configmanager.h"
+
+1293949730 source:c:\users\home\desktop\serviço\source do pda\tools.cpp
+	"otpch.h"
+	<iostream>
+	<iomanip>
+	"tools.h"
+	"md5.h"
+	"sha1.h"
+	"vocation.h"
+	"configmanager.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\trashholder.cpp
+	"otpch.h"
+	"trashholder.h"
+	"game.h"
+	"spells.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\vocation.cpp
+	"otpch.h"
+	<iostream>
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"vocation.h"
+	"tools.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\waitlist.cpp
+	"otpch.h"
+	"waitlist.h"
+	"player.h"
+	"configmanager.h"
+	"game.h"
+
+1260658712 source:c:\users\home\desktop\serviço\source do pda\weapons.cpp
+	"otpch.h"
+	"weapons.h"
+	<libxml/xmlmemory.h>
+	<libxml/parser.h>
+	"game.h"
+	"configmanager.h"
+	"tools.h"
+
